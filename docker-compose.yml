@@ -1,0 +1,10 @@
+services:
+  pattern-lab:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: frontendjoe-pattern-lab:local
+    container_name: frontendjoe-pattern-lab
+    ports:
+      - "43127:43127"
+    restart: unless-stopped

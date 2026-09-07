@@ -1,0 +1,11 @@
+node_modules
+dist
+dist-ssr
+.git
+.cursor
+agent-tools
+*.log
+.DS_Store
+.tmp
+.env
+.env.*

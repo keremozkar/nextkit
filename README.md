@@ -23,12 +23,24 @@ Toplam **~189** demo `public/` altında + `public/manifest.json`.
 
 ## Çalıştır
 
+### Docker (önerilen)
+
+```bash
+docker compose up --build -d
+```
+
+Aç: [http://127.0.0.1:43127](http://127.0.0.1:43127)
+
+Durdur: `docker compose down`
+
+### Lokal (Vite)
+
 ```bash
 npm install
 npm run dev
 ```
 
-Varsayılan: [http://127.0.0.1:43127](http://127.0.0.1:43127)
+Varsayılan port: **43127**
 
 ## Ne için?
 
