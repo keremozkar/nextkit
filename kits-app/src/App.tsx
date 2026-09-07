@@ -1,6 +1,7 @@
 import { Component, Suspense, lazy, useMemo, type ReactNode } from 'react'
 import { HashRouter, Routes, Route, Link, useParams, useSearchParams } from 'react-router-dom'
 import registry from './react-bits-registry.json'
+import { demoProps } from './previewDefaults'
 
 type RegItem = {
   id: string
@@ -98,35 +99,28 @@ function DemoStage({ item }: { item: RegItem }) {
 }
 
 function SmartPreview({ Comp, item }: { Comp: any; item: RegItem }) {
-  const commonClass = 'w-full h-full'
+  const props = demoProps(item)
 
   if (item.group === 'Backgrounds') {
     return (
       <div className="absolute inset-0">
-        <Comp className={commonClass} />
+        <Comp {...props} />
       </div>
     )
   }
 
   if (item.group === 'TextAnimations') {
-    // Many accept `text` and/or children
-    try {
-      return (
-        <div className="text-center px-4">
-          <Comp text="React Bits" words={['React', 'Bits', 'Motion']} className="text-4xl font-semibold">
-            React Bits
-          </Comp>
-        </div>
-      )
-    } catch {
-      return <Comp>React Bits</Comp>
-    }
+    return (
+      <div className="text-center px-4">
+        <Comp {...props} />
+      </div>
+    )
   }
 
   // Components + Animations — wrap with a simple stage
   return (
     <div className="p-6 grid place-items-center min-h-[280px]">
-      <Comp className="max-w-md">
+      <Comp {...props}>
         <div style={{ padding: 12 }}>
           <strong>{item.title}</strong>
           <p style={{ opacity: 0.65, marginTop: 8, fontSize: 14 }}>Yerel demo sahnesi</p>

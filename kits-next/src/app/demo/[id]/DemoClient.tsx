@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState, Component, type ReactNode, Suspense, lazy } from 'react'
 import Link from 'next/link'
 import registry from '../../../react-bits-registry.json'
+import { demoProps } from '../../../previewDefaults'
 
 type RegItem = {
   id: string
@@ -33,25 +34,25 @@ class ErrorBox extends Component<{ name: string; children: ReactNode }, { err?: 
 }
 
 function SmartPreview({ Comp, item }: { Comp: any; item: RegItem }) {
+  const props = demoProps(item)
+
   if (item.group === 'Backgrounds') {
     return (
       <div style={{ position: 'absolute', inset: 0 }}>
-        <Comp className="w-full h-full" />
+        <Comp {...props} />
       </div>
     )
   }
   if (item.group === 'TextAnimations') {
     return (
       <div style={{ textAlign: 'center', padding: 16 }}>
-        <Comp text="React Bits" className="text-4xl font-semibold">
-          React Bits
-        </Comp>
+        <Comp {...props} />
       </div>
     )
   }
   return (
     <div style={{ padding: 24, display: 'grid', placeItems: 'center', minHeight: 280 }}>
-      <Comp className="max-w-md">
+      <Comp {...props}>
         <div style={{ padding: 12 }}>
           <strong>{item.title}</strong>
           <p style={{ opacity: 0.65, marginTop: 8, fontSize: 14 }}>Next demo sahnesi</p>
