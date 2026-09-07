@@ -11,7 +11,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · ASCIIText",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-asciitext",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-asciitext",
@@ -20,14 +20,18 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/TextAnimations/ASCIIText/ASCIIText.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/TextAnimations/ASCIIText/ASCIIText.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/TextAnimations/ASCIIText/ASCIIText.jsx"
+        ]
       }
     },
     {
@@ -39,7 +43,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Blur Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-blur-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-blur-text",
@@ -48,14 +52,18 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/TextAnimations/BlurText/BlurText.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/TextAnimations/BlurText/BlurText.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/TextAnimations/BlurText/BlurText.jsx"
+        ]
       }
     },
     {
@@ -67,7 +75,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Circular Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-circular-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-circular-text",
@@ -76,14 +84,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/CircularText/CircularText.jsx",
+        "css": "/react-bits-src/TextAnimations/CircularText/CircularText.css",
+        "js": "/react-bits-src/TextAnimations/CircularText/CircularText.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/CircularText/CircularText.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/CircularText/CircularText.jsx"
+        ]
       }
     },
     {
@@ -95,7 +109,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Count Up",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-count-up",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-count-up",
@@ -104,14 +118,18 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/TextAnimations/CountUp/CountUp.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/TextAnimations/CountUp/CountUp.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/TextAnimations/CountUp/CountUp.jsx"
+        ]
       }
     },
     {
@@ -123,7 +141,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Curved Loop",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-curved-loop",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-curved-loop",
@@ -132,14 +150,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/CurvedLoop/CurvedLoop.jsx",
+        "css": "/react-bits-src/TextAnimations/CurvedLoop/CurvedLoop.css",
+        "js": "/react-bits-src/TextAnimations/CurvedLoop/CurvedLoop.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/CurvedLoop/CurvedLoop.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/CurvedLoop/CurvedLoop.jsx"
+        ]
       }
     },
     {
@@ -151,7 +175,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Decrypted Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-decrypted-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-decrypted-text",
@@ -160,14 +184,18 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/TextAnimations/DecryptedText/DecryptedText.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/TextAnimations/DecryptedText/DecryptedText.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/TextAnimations/DecryptedText/DecryptedText.jsx"
+        ]
       }
     },
     {
@@ -179,7 +207,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Depth Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-depth-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-depth-text",
@@ -188,14 +216,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/DepthText/DepthText.jsx",
+        "css": "/react-bits-src/TextAnimations/DepthText/DepthText.css",
+        "js": "/react-bits-src/TextAnimations/DepthText/DepthText.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/DepthText/DepthText.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/DepthText/DepthText.jsx"
+        ]
       }
     },
     {
@@ -207,7 +241,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Echo Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-echo-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-echo-text",
@@ -216,14 +250,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/EchoText/EchoText.jsx",
+        "css": "/react-bits-src/TextAnimations/EchoText/EchoText.css",
+        "js": "/react-bits-src/TextAnimations/EchoText/EchoText.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/EchoText/EchoText.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/EchoText/EchoText.jsx"
+        ]
       }
     },
     {
@@ -235,7 +275,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Falling Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-falling-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-falling-text",
@@ -244,14 +284,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/FallingText/FallingText.jsx",
+        "css": "/react-bits-src/TextAnimations/FallingText/FallingText.css",
+        "js": "/react-bits-src/TextAnimations/FallingText/FallingText.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/FallingText/FallingText.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/FallingText/FallingText.jsx"
+        ]
       }
     },
     {
@@ -263,7 +309,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Fold Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-fold-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-fold-text",
@@ -272,14 +318,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/FoldText/FoldText.jsx",
+        "css": "/react-bits-src/TextAnimations/FoldText/FoldText.css",
+        "js": "/react-bits-src/TextAnimations/FoldText/FoldText.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/FoldText/FoldText.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/FoldText/FoldText.jsx"
+        ]
       }
     },
     {
@@ -291,7 +343,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Fuzzy Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-fuzzy-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-fuzzy-text",
@@ -300,14 +352,18 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/TextAnimations/FuzzyText/FuzzyText.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/TextAnimations/FuzzyText/FuzzyText.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/TextAnimations/FuzzyText/FuzzyText.jsx"
+        ]
       }
     },
     {
@@ -319,7 +375,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Glitch Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-glitch-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-glitch-text",
@@ -328,14 +384,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/GlitchText/GlitchText.jsx",
+        "css": "/react-bits-src/TextAnimations/GlitchText/GlitchText.css",
+        "js": "/react-bits-src/TextAnimations/GlitchText/GlitchText.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/GlitchText/GlitchText.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/GlitchText/GlitchText.jsx"
+        ]
       }
     },
     {
@@ -347,7 +409,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Gradient Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-gradient-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-gradient-text",
@@ -356,14 +418,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/GradientText/GradientText.jsx",
+        "css": "/react-bits-src/TextAnimations/GradientText/GradientText.css",
+        "js": "/react-bits-src/TextAnimations/GradientText/GradientText.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/GradientText/GradientText.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/GradientText/GradientText.jsx"
+        ]
       }
     },
     {
@@ -375,7 +443,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Masked Heading",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-masked-heading",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-masked-heading",
@@ -384,14 +452,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/MaskedHeading/MaskedHeading.jsx",
+        "css": "/react-bits-src/TextAnimations/MaskedHeading/MaskedHeading.css",
+        "js": "/react-bits-src/TextAnimations/MaskedHeading/MaskedHeading.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/MaskedHeading/MaskedHeading.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/MaskedHeading/MaskedHeading.jsx"
+        ]
       }
     },
     {
@@ -403,7 +477,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Particle Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-particle-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-particle-text",
@@ -412,14 +486,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/ParticleText/ParticleText.jsx",
+        "css": "/react-bits-src/TextAnimations/ParticleText/ParticleText.css",
+        "js": "/react-bits-src/TextAnimations/ParticleText/ParticleText.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/ParticleText/ParticleText.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/ParticleText/ParticleText.jsx"
+        ]
       }
     },
     {
@@ -431,7 +511,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Rotating Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-rotating-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-rotating-text",
@@ -440,14 +520,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/RotatingText/RotatingText.jsx",
+        "css": "/react-bits-src/TextAnimations/RotatingText/RotatingText.css",
+        "js": "/react-bits-src/TextAnimations/RotatingText/RotatingText.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/RotatingText/RotatingText.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/RotatingText/RotatingText.jsx"
+        ]
       }
     },
     {
@@ -459,7 +545,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Scrambled Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-scrambled-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-scrambled-text",
@@ -468,14 +554,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/ScrambledText/ScrambledText.jsx",
+        "css": "/react-bits-src/TextAnimations/ScrambledText/ScrambledText.css",
+        "js": "/react-bits-src/TextAnimations/ScrambledText/ScrambledText.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/ScrambledText/ScrambledText.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/ScrambledText/ScrambledText.jsx"
+        ]
       }
     },
     {
@@ -487,7 +579,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Scroll Float",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-scroll-float",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-scroll-float",
@@ -496,14 +588,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/ScrollFloat/ScrollFloat.jsx",
+        "css": "/react-bits-src/TextAnimations/ScrollFloat/ScrollFloat.css",
+        "js": "/react-bits-src/TextAnimations/ScrollFloat/ScrollFloat.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/ScrollFloat/ScrollFloat.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/ScrollFloat/ScrollFloat.jsx"
+        ]
       }
     },
     {
@@ -515,7 +613,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Scroll Reveal",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-scroll-reveal",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-scroll-reveal",
@@ -524,14 +622,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/ScrollReveal/ScrollReveal.jsx",
+        "css": "/react-bits-src/TextAnimations/ScrollReveal/ScrollReveal.css",
+        "js": "/react-bits-src/TextAnimations/ScrollReveal/ScrollReveal.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/ScrollReveal/ScrollReveal.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/ScrollReveal/ScrollReveal.jsx"
+        ]
       }
     },
     {
@@ -543,7 +647,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Scroll Velocity",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-scroll-velocity",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-scroll-velocity",
@@ -552,14 +656,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/ScrollVelocity/ScrollVelocity.jsx",
+        "css": "/react-bits-src/TextAnimations/ScrollVelocity/ScrollVelocity.css",
+        "js": "/react-bits-src/TextAnimations/ScrollVelocity/ScrollVelocity.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/ScrollVelocity/ScrollVelocity.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/ScrollVelocity/ScrollVelocity.jsx"
+        ]
       }
     },
     {
@@ -571,7 +681,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Shiny Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-shiny-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-shiny-text",
@@ -580,14 +690,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/ShinyText/ShinyText.jsx",
+        "css": "/react-bits-src/TextAnimations/ShinyText/ShinyText.css",
+        "js": "/react-bits-src/TextAnimations/ShinyText/ShinyText.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/ShinyText/ShinyText.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/ShinyText/ShinyText.jsx"
+        ]
       }
     },
     {
@@ -599,7 +715,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Shuffle",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-shuffle",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-shuffle",
@@ -608,14 +724,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/Shuffle/Shuffle.jsx",
+        "css": "/react-bits-src/TextAnimations/Shuffle/Shuffle.css",
+        "js": "/react-bits-src/TextAnimations/Shuffle/Shuffle.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/Shuffle/Shuffle.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/Shuffle/Shuffle.jsx"
+        ]
       }
     },
     {
@@ -627,7 +749,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Split Flap Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-split-flap-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-split-flap-text",
@@ -636,14 +758,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/SplitFlapText/SplitFlapText.jsx",
+        "css": "/react-bits-src/TextAnimations/SplitFlapText/SplitFlapText.css",
+        "js": "/react-bits-src/TextAnimations/SplitFlapText/SplitFlapText.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/SplitFlapText/SplitFlapText.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/SplitFlapText/SplitFlapText.jsx"
+        ]
       }
     },
     {
@@ -655,7 +783,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Split Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-split-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-split-text",
@@ -664,14 +792,18 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/TextAnimations/SplitText/SplitText.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/TextAnimations/SplitText/SplitText.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/TextAnimations/SplitText/SplitText.jsx"
+        ]
       }
     },
     {
@@ -683,7 +815,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Stroke Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-stroke-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-stroke-text",
@@ -692,14 +824,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/StrokeText/StrokeText.jsx",
+        "css": "/react-bits-src/TextAnimations/StrokeText/StrokeText.css",
+        "js": "/react-bits-src/TextAnimations/StrokeText/StrokeText.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/StrokeText/StrokeText.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/StrokeText/StrokeText.jsx"
+        ]
       }
     },
     {
@@ -711,7 +849,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Text Cursor",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-text-cursor",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-text-cursor",
@@ -720,14 +858,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/TextCursor/TextCursor.jsx",
+        "css": "/react-bits-src/TextAnimations/TextCursor/TextCursor.css",
+        "js": "/react-bits-src/TextAnimations/TextCursor/TextCursor.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/TextCursor/TextCursor.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/TextCursor/TextCursor.jsx"
+        ]
       }
     },
     {
@@ -739,7 +883,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Text Loop",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-text-loop",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-text-loop",
@@ -748,14 +892,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/TextLoop/TextLoop.jsx",
+        "css": "/react-bits-src/TextAnimations/TextLoop/TextLoop.css",
+        "js": "/react-bits-src/TextAnimations/TextLoop/TextLoop.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/TextLoop/TextLoop.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/TextLoop/TextLoop.jsx"
+        ]
       }
     },
     {
@@ -767,7 +917,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Text Pressure",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-text-pressure",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-text-pressure",
@@ -776,14 +926,18 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/TextAnimations/TextPressure/TextPressure.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/TextAnimations/TextPressure/TextPressure.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/TextAnimations/TextPressure/TextPressure.jsx"
+        ]
       }
     },
     {
@@ -795,7 +949,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Text Type",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-text-type",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-text-type",
@@ -804,14 +958,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/TextType/TextType.jsx",
+        "css": "/react-bits-src/TextAnimations/TextType/TextType.css",
+        "js": "/react-bits-src/TextAnimations/TextType/TextType.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/TextType/TextType.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/TextType/TextType.jsx"
+        ]
       }
     },
     {
@@ -823,7 +983,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · True Focus",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-true-focus",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-true-focus",
@@ -832,14 +992,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/TrueFocus/TrueFocus.jsx",
+        "css": "/react-bits-src/TextAnimations/TrueFocus/TrueFocus.css",
+        "js": "/react-bits-src/TextAnimations/TrueFocus/TrueFocus.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/TrueFocus/TrueFocus.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/TrueFocus/TrueFocus.jsx"
+        ]
       }
     },
     {
@@ -851,7 +1017,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Variable Proximity",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-variable-proximity",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-variable-proximity",
@@ -860,14 +1026,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/VariableProximity/VariableProximity.jsx",
+        "css": "/react-bits-src/TextAnimations/VariableProximity/VariableProximity.css",
+        "js": "/react-bits-src/TextAnimations/VariableProximity/VariableProximity.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/VariableProximity/VariableProximity.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/VariableProximity/VariableProximity.jsx"
+        ]
       }
     },
     {
@@ -879,7 +1051,7 @@
       "stack": "react/next",
       "category": "Text Animations",
       "title": "React Bits · Warp Text",
-      "blurb": "Text Animations — yerel React + Next demoları",
+      "blurb": "Text Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/textanimations-warp-text",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/textanimations-warp-text",
@@ -888,14 +1060,20 @@
       "tags": [
         "react",
         "next",
-        "TextAnimations"
+        "TextAnimations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/TextAnimations/WarpText/WarpText.jsx",
+        "css": "/react-bits-src/TextAnimations/WarpText/WarpText.css",
+        "js": "/react-bits-src/TextAnimations/WarpText/WarpText.jsx",
+        "allCss": [
+          "/react-bits-src/TextAnimations/WarpText/WarpText.css"
+        ],
+        "allJs": [
+          "/react-bits-src/TextAnimations/WarpText/WarpText.jsx"
+        ]
       }
     },
     {
@@ -907,7 +1085,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Animated Content",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-animated-content",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-animated-content",
@@ -916,14 +1094,18 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/Animations/AnimatedContent/AnimatedContent.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/Animations/AnimatedContent/AnimatedContent.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/Animations/AnimatedContent/AnimatedContent.jsx"
+        ]
       }
     },
     {
@@ -935,7 +1117,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Antigravity",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-antigravity",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-antigravity",
@@ -944,14 +1126,18 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/Animations/Antigravity/Antigravity.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/Animations/Antigravity/Antigravity.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/Animations/Antigravity/Antigravity.jsx"
+        ]
       }
     },
     {
@@ -963,7 +1149,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Blob Cursor",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-blob-cursor",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-blob-cursor",
@@ -972,14 +1158,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/BlobCursor/BlobCursor.jsx",
+        "css": "/react-bits-src/Animations/BlobCursor/BlobCursor.css",
+        "js": "/react-bits-src/Animations/BlobCursor/BlobCursor.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/BlobCursor/BlobCursor.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/BlobCursor/BlobCursor.jsx"
+        ]
       }
     },
     {
@@ -991,7 +1183,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Click Spark",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-click-spark",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-click-spark",
@@ -1000,14 +1192,18 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/Animations/ClickSpark/ClickSpark.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/Animations/ClickSpark/ClickSpark.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/Animations/ClickSpark/ClickSpark.jsx"
+        ]
       }
     },
     {
@@ -1019,7 +1215,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Crosshair",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-crosshair",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-crosshair",
@@ -1028,14 +1224,18 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/Animations/Crosshair/Crosshair.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/Animations/Crosshair/Crosshair.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/Animations/Crosshair/Crosshair.jsx"
+        ]
       }
     },
     {
@@ -1047,7 +1247,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Cubes",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-cubes",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-cubes",
@@ -1056,14 +1256,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/Cubes/Cubes.jsx",
+        "css": "/react-bits-src/Animations/Cubes/Cubes.css",
+        "js": "/react-bits-src/Animations/Cubes/Cubes.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/Cubes/Cubes.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/Cubes/Cubes.jsx"
+        ]
       }
     },
     {
@@ -1075,7 +1281,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Cursor Grid",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-cursor-grid",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-cursor-grid",
@@ -1084,14 +1290,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/CursorGrid/CursorGrid.jsx",
+        "css": "/react-bits-src/Animations/CursorGrid/CursorGrid.css",
+        "js": "/react-bits-src/Animations/CursorGrid/CursorGrid.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/CursorGrid/CursorGrid.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/CursorGrid/CursorGrid.jsx"
+        ]
       }
     },
     {
@@ -1103,7 +1315,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Elastic Mesh",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-elastic-mesh",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-elastic-mesh",
@@ -1112,14 +1324,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/ElasticMesh/ElasticMesh.jsx",
+        "css": "/react-bits-src/Animations/ElasticMesh/ElasticMesh.css",
+        "js": "/react-bits-src/Animations/ElasticMesh/ElasticMesh.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/ElasticMesh/ElasticMesh.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/ElasticMesh/ElasticMesh.jsx"
+        ]
       }
     },
     {
@@ -1131,7 +1349,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Electric Border",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-electric-border",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-electric-border",
@@ -1140,14 +1358,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/ElectricBorder/ElectricBorder.jsx",
+        "css": "/react-bits-src/Animations/ElectricBorder/ElectricBorder.css",
+        "js": "/react-bits-src/Animations/ElectricBorder/ElectricBorder.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/ElectricBorder/ElectricBorder.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/ElectricBorder/ElectricBorder.jsx"
+        ]
       }
     },
     {
@@ -1159,7 +1383,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Fade Content",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-fade-content",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-fade-content",
@@ -1168,14 +1392,18 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/Animations/FadeContent/FadeContent.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/Animations/FadeContent/FadeContent.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/Animations/FadeContent/FadeContent.jsx"
+        ]
       }
     },
     {
@@ -1187,7 +1415,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Ghost Cursor",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-ghost-cursor",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-ghost-cursor",
@@ -1196,14 +1424,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/GhostCursor/GhostCursor.jsx",
+        "css": "/react-bits-src/Animations/GhostCursor/GhostCursor.css",
+        "js": "/react-bits-src/Animations/GhostCursor/GhostCursor.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/GhostCursor/GhostCursor.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/GhostCursor/GhostCursor.jsx"
+        ]
       }
     },
     {
@@ -1215,7 +1449,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Glare Hover",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-glare-hover",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-glare-hover",
@@ -1224,14 +1458,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/GlareHover/GlareHover.jsx",
+        "css": "/react-bits-src/Animations/GlareHover/GlareHover.css",
+        "js": "/react-bits-src/Animations/GlareHover/GlareHover.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/GlareHover/GlareHover.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/GlareHover/GlareHover.jsx"
+        ]
       }
     },
     {
@@ -1243,7 +1483,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Glow Cursor",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-glow-cursor",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-glow-cursor",
@@ -1252,14 +1492,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/GlowCursor/GlowCursor.jsx",
+        "css": "/react-bits-src/Animations/GlowCursor/GlowCursor.css",
+        "js": "/react-bits-src/Animations/GlowCursor/GlowCursor.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/GlowCursor/GlowCursor.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/GlowCursor/GlowCursor.jsx"
+        ]
       }
     },
     {
@@ -1271,7 +1517,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Gradual Blur",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-gradual-blur",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-gradual-blur",
@@ -1280,14 +1526,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/GradualBlur/GradualBlur.jsx",
+        "css": "/react-bits-src/Animations/GradualBlur/GradualBlur.css",
+        "js": "/react-bits-src/Animations/GradualBlur/GradualBlur.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/GradualBlur/GradualBlur.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/GradualBlur/GradualBlur.jsx"
+        ]
       }
     },
     {
@@ -1299,7 +1551,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Halftone Reveal",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-halftone-reveal",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-halftone-reveal",
@@ -1308,14 +1560,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/HalftoneReveal/HalftoneReveal.jsx",
+        "css": "/react-bits-src/Animations/HalftoneReveal/HalftoneReveal.css",
+        "js": "/react-bits-src/Animations/HalftoneReveal/HalftoneReveal.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/HalftoneReveal/HalftoneReveal.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/HalftoneReveal/HalftoneReveal.jsx"
+        ]
       }
     },
     {
@@ -1327,7 +1585,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Image Trail",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-image-trail",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-image-trail",
@@ -1336,14 +1594,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/ImageTrail/ImageTrail.jsx",
+        "css": "/react-bits-src/Animations/ImageTrail/ImageTrail.css",
+        "js": "/react-bits-src/Animations/ImageTrail/ImageTrail.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/ImageTrail/ImageTrail.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/ImageTrail/ImageTrail.jsx"
+        ]
       }
     },
     {
@@ -1355,7 +1619,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Laser Flow",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-laser-flow",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-laser-flow",
@@ -1364,14 +1628,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/LaserFlow/LaserFlow.jsx",
+        "css": "/react-bits-src/Animations/LaserFlow/LaserFlow.css",
+        "js": "/react-bits-src/Animations/LaserFlow/LaserFlow.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/LaserFlow/LaserFlow.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/LaserFlow/LaserFlow.jsx"
+        ]
       }
     },
     {
@@ -1383,7 +1653,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Logo Loop",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-logo-loop",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-logo-loop",
@@ -1392,14 +1662,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/LogoLoop/LogoLoop.jsx",
+        "css": "/react-bits-src/Animations/LogoLoop/LogoLoop.css",
+        "js": "/react-bits-src/Animations/LogoLoop/LogoLoop.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/LogoLoop/LogoLoop.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/LogoLoop/LogoLoop.jsx"
+        ]
       }
     },
     {
@@ -1411,7 +1687,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Magic Rings",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-magic-rings",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-magic-rings",
@@ -1420,14 +1696,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/MagicRings/MagicRings.jsx",
+        "css": "/react-bits-src/Animations/MagicRings/MagicRings.css",
+        "js": "/react-bits-src/Animations/MagicRings/MagicRings.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/MagicRings/MagicRings.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/MagicRings/MagicRings.jsx"
+        ]
       }
     },
     {
@@ -1439,7 +1721,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Magnet",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-magnet",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-magnet",
@@ -1448,14 +1730,18 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/Animations/Magnet/Magnet.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/Animations/Magnet/Magnet.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/Animations/Magnet/Magnet.jsx"
+        ]
       }
     },
     {
@@ -1467,7 +1753,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Magnet Lines",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-magnet-lines",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-magnet-lines",
@@ -1476,14 +1762,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/MagnetLines/MagnetLines.jsx",
+        "css": "/react-bits-src/Animations/MagnetLines/MagnetLines.css",
+        "js": "/react-bits-src/Animations/MagnetLines/MagnetLines.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/MagnetLines/MagnetLines.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/MagnetLines/MagnetLines.jsx"
+        ]
       }
     },
     {
@@ -1495,7 +1787,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Meta Balls",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-meta-balls",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-meta-balls",
@@ -1504,14 +1796,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/MetaBalls/MetaBalls.jsx",
+        "css": "/react-bits-src/Animations/MetaBalls/MetaBalls.css",
+        "js": "/react-bits-src/Animations/MetaBalls/MetaBalls.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/MetaBalls/MetaBalls.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/MetaBalls/MetaBalls.jsx"
+        ]
       }
     },
     {
@@ -1523,7 +1821,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Metallic Paint",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-metallic-paint",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-metallic-paint",
@@ -1532,14 +1830,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/MetallicPaint/MetallicPaint.jsx",
+        "css": "/react-bits-src/Animations/MetallicPaint/MetallicPaint.css",
+        "js": "/react-bits-src/Animations/MetallicPaint/MetallicPaint.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/MetallicPaint/MetallicPaint.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/MetallicPaint/MetallicPaint.jsx"
+        ]
       }
     },
     {
@@ -1551,7 +1855,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Noise",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-noise",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-noise",
@@ -1560,14 +1864,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/Noise/Noise.jsx",
+        "css": "/react-bits-src/Animations/Noise/Noise.css",
+        "js": "/react-bits-src/Animations/Noise/Noise.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/Noise/Noise.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/Noise/Noise.jsx"
+        ]
       }
     },
     {
@@ -1579,7 +1889,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Orbit Images",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-orbit-images",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-orbit-images",
@@ -1588,14 +1898,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/OrbitImages/OrbitImages.jsx",
+        "css": "/react-bits-src/Animations/OrbitImages/OrbitImages.css",
+        "js": "/react-bits-src/Animations/OrbitImages/OrbitImages.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/OrbitImages/OrbitImages.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/OrbitImages/OrbitImages.jsx"
+        ]
       }
     },
     {
@@ -1607,7 +1923,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Pixel Swap",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-pixel-swap",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-pixel-swap",
@@ -1616,14 +1932,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/PixelSwap/PixelSwap.jsx",
+        "css": "/react-bits-src/Animations/PixelSwap/PixelSwap.css",
+        "js": "/react-bits-src/Animations/PixelSwap/PixelSwap.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/PixelSwap/PixelSwap.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/PixelSwap/PixelSwap.jsx"
+        ]
       }
     },
     {
@@ -1635,7 +1957,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Pixel Trail",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-pixel-trail",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-pixel-trail",
@@ -1644,14 +1966,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/PixelTrail/PixelTrail.jsx",
+        "css": "/react-bits-src/Animations/PixelTrail/PixelTrail.css",
+        "js": "/react-bits-src/Animations/PixelTrail/PixelTrail.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/PixelTrail/PixelTrail.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/PixelTrail/PixelTrail.jsx"
+        ]
       }
     },
     {
@@ -1663,7 +1991,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Pixel Transition",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-pixel-transition",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-pixel-transition",
@@ -1672,14 +2000,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/PixelTransition/PixelTransition.jsx",
+        "css": "/react-bits-src/Animations/PixelTransition/PixelTransition.css",
+        "js": "/react-bits-src/Animations/PixelTransition/PixelTransition.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/PixelTransition/PixelTransition.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/PixelTransition/PixelTransition.jsx"
+        ]
       }
     },
     {
@@ -1691,7 +2025,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Ribbons",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-ribbons",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-ribbons",
@@ -1700,14 +2034,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/Ribbons/Ribbons.jsx",
+        "css": "/react-bits-src/Animations/Ribbons/Ribbons.css",
+        "js": "/react-bits-src/Animations/Ribbons/Ribbons.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/Ribbons/Ribbons.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/Ribbons/Ribbons.jsx"
+        ]
       }
     },
     {
@@ -1719,7 +2059,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Ripple Distortion",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-ripple-distortion",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-ripple-distortion",
@@ -1728,14 +2068,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/RippleDistortion/RippleDistortion.jsx",
+        "css": "/react-bits-src/Animations/RippleDistortion/RippleDistortion.css",
+        "js": "/react-bits-src/Animations/RippleDistortion/RippleDistortion.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/RippleDistortion/RippleDistortion.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/RippleDistortion/RippleDistortion.jsx"
+        ]
       }
     },
     {
@@ -1747,7 +2093,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Scroll Expand",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-scroll-expand",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-scroll-expand",
@@ -1756,14 +2102,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/ScrollExpand/ScrollExpand.jsx",
+        "css": "/react-bits-src/Animations/ScrollExpand/ScrollExpand.css",
+        "js": "/react-bits-src/Animations/ScrollExpand/ScrollExpand.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/ScrollExpand/ScrollExpand.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/ScrollExpand/ScrollExpand.jsx"
+        ]
       }
     },
     {
@@ -1775,7 +2127,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Shape Blur",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-shape-blur",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-shape-blur",
@@ -1784,14 +2136,18 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/Animations/ShapeBlur/ShapeBlur.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/Animations/ShapeBlur/ShapeBlur.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/Animations/ShapeBlur/ShapeBlur.jsx"
+        ]
       }
     },
     {
@@ -1803,7 +2159,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Splash Cursor",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-splash-cursor",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-splash-cursor",
@@ -1812,14 +2168,18 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/Animations/SplashCursor/SplashCursor.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/Animations/SplashCursor/SplashCursor.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/Animations/SplashCursor/SplashCursor.jsx"
+        ]
       }
     },
     {
@@ -1831,7 +2191,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Star Border",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-star-border",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-star-border",
@@ -1840,14 +2200,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/StarBorder/StarBorder.jsx",
+        "css": "/react-bits-src/Animations/StarBorder/StarBorder.css",
+        "js": "/react-bits-src/Animations/StarBorder/StarBorder.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/StarBorder/StarBorder.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/StarBorder/StarBorder.jsx"
+        ]
       }
     },
     {
@@ -1859,7 +2225,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Sticker Peel",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-sticker-peel",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-sticker-peel",
@@ -1868,14 +2234,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/StickerPeel/StickerPeel.jsx",
+        "css": "/react-bits-src/Animations/StickerPeel/StickerPeel.css",
+        "js": "/react-bits-src/Animations/StickerPeel/StickerPeel.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/StickerPeel/StickerPeel.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/StickerPeel/StickerPeel.jsx"
+        ]
       }
     },
     {
@@ -1887,7 +2259,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Strands",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-strands",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-strands",
@@ -1896,14 +2268,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/Strands/Strands.jsx",
+        "css": "/react-bits-src/Animations/Strands/Strands.css",
+        "js": "/react-bits-src/Animations/Strands/Strands.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/Strands/Strands.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/Strands/Strands.jsx"
+        ]
       }
     },
     {
@@ -1915,7 +2293,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Swarm Cursor",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-swarm-cursor",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-swarm-cursor",
@@ -1924,14 +2302,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/SwarmCursor/SwarmCursor.jsx",
+        "css": "/react-bits-src/Animations/SwarmCursor/SwarmCursor.css",
+        "js": "/react-bits-src/Animations/SwarmCursor/SwarmCursor.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/SwarmCursor/SwarmCursor.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/SwarmCursor/SwarmCursor.jsx"
+        ]
       }
     },
     {
@@ -1943,7 +2327,7 @@
       "stack": "react/next",
       "category": "Animations",
       "title": "React Bits · Target Cursor",
-      "blurb": "Animations — yerel React + Next demoları",
+      "blurb": "Animations — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/animations-target-cursor",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/animations-target-cursor",
@@ -1952,14 +2336,20 @@
       "tags": [
         "react",
         "next",
-        "Animations"
+        "Animations",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Animations/TargetCursor/TargetCursor.jsx",
+        "css": "/react-bits-src/Animations/TargetCursor/TargetCursor.css",
+        "js": "/react-bits-src/Animations/TargetCursor/TargetCursor.jsx",
+        "allCss": [
+          "/react-bits-src/Animations/TargetCursor/TargetCursor.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Animations/TargetCursor/TargetCursor.jsx"
+        ]
       }
     },
     {
@@ -1971,7 +2361,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Accordion Gallery",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-accordion-gallery",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-accordion-gallery",
@@ -1980,14 +2370,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/AccordionGallery/AccordionGallery.jsx",
+        "css": "/react-bits-src/Components/AccordionGallery/AccordionGallery.css",
+        "js": "/react-bits-src/Components/AccordionGallery/AccordionGallery.jsx",
+        "allCss": [
+          "/react-bits-src/Components/AccordionGallery/AccordionGallery.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/AccordionGallery/AccordionGallery.jsx"
+        ]
       }
     },
     {
@@ -1999,7 +2395,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Animated List",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-animated-list",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-animated-list",
@@ -2008,14 +2404,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/AnimatedList/AnimatedList.jsx",
+        "css": "/react-bits-src/Components/AnimatedList/AnimatedList.css",
+        "js": "/react-bits-src/Components/AnimatedList/AnimatedList.jsx",
+        "allCss": [
+          "/react-bits-src/Components/AnimatedList/AnimatedList.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/AnimatedList/AnimatedList.jsx"
+        ]
       }
     },
     {
@@ -2027,7 +2429,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Border Glow",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-border-glow",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-border-glow",
@@ -2036,14 +2438,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/BorderGlow/BorderGlow.jsx",
+        "css": "/react-bits-src/Components/BorderGlow/BorderGlow.css",
+        "js": "/react-bits-src/Components/BorderGlow/BorderGlow.jsx",
+        "allCss": [
+          "/react-bits-src/Components/BorderGlow/BorderGlow.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/BorderGlow/BorderGlow.jsx"
+        ]
       }
     },
     {
@@ -2055,7 +2463,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Bounce Cards",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-bounce-cards",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-bounce-cards",
@@ -2064,14 +2472,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/BounceCards/BounceCards.jsx",
+        "css": "/react-bits-src/Components/BounceCards/BounceCards.css",
+        "js": "/react-bits-src/Components/BounceCards/BounceCards.jsx",
+        "allCss": [
+          "/react-bits-src/Components/BounceCards/BounceCards.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/BounceCards/BounceCards.jsx"
+        ]
       }
     },
     {
@@ -2083,7 +2497,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Bubble Menu",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-bubble-menu",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-bubble-menu",
@@ -2092,14 +2506,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/BubbleMenu/BubbleMenu.jsx",
+        "css": "/react-bits-src/Components/BubbleMenu/BubbleMenu.css",
+        "js": "/react-bits-src/Components/BubbleMenu/BubbleMenu.jsx",
+        "allCss": [
+          "/react-bits-src/Components/BubbleMenu/BubbleMenu.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/BubbleMenu/BubbleMenu.jsx"
+        ]
       }
     },
     {
@@ -2111,7 +2531,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Card Nav",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-card-nav",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-card-nav",
@@ -2120,14 +2540,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/CardNav/CardNav.jsx",
+        "css": "/react-bits-src/Components/CardNav/CardNav.css",
+        "js": "/react-bits-src/Components/CardNav/CardNav.jsx",
+        "allCss": [
+          "/react-bits-src/Components/CardNav/CardNav.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/CardNav/CardNav.jsx"
+        ]
       }
     },
     {
@@ -2139,7 +2565,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Card Swap",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-card-swap",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-card-swap",
@@ -2148,14 +2574,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/CardSwap/CardSwap.jsx",
+        "css": "/react-bits-src/Components/CardSwap/CardSwap.css",
+        "js": "/react-bits-src/Components/CardSwap/CardSwap.jsx",
+        "allCss": [
+          "/react-bits-src/Components/CardSwap/CardSwap.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/CardSwap/CardSwap.jsx"
+        ]
       }
     },
     {
@@ -2167,7 +2599,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Carousel",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-carousel",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-carousel",
@@ -2176,14 +2608,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/Carousel/Carousel.jsx",
+        "css": "/react-bits-src/Components/Carousel/Carousel.css",
+        "js": "/react-bits-src/Components/Carousel/Carousel.jsx",
+        "allCss": [
+          "/react-bits-src/Components/Carousel/Carousel.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/Carousel/Carousel.jsx"
+        ]
       }
     },
     {
@@ -2195,7 +2633,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Chroma Grid",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-chroma-grid",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-chroma-grid",
@@ -2204,14 +2642,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/ChromaGrid/ChromaGrid.jsx",
+        "css": "/react-bits-src/Components/ChromaGrid/ChromaGrid.css",
+        "js": "/react-bits-src/Components/ChromaGrid/ChromaGrid.jsx",
+        "allCss": [
+          "/react-bits-src/Components/ChromaGrid/ChromaGrid.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/ChromaGrid/ChromaGrid.jsx"
+        ]
       }
     },
     {
@@ -2223,7 +2667,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Circular Gallery",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-circular-gallery",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-circular-gallery",
@@ -2232,14 +2676,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/CircularGallery/CircularGallery.jsx",
+        "css": "/react-bits-src/Components/CircularGallery/CircularGallery.css",
+        "js": "/react-bits-src/Components/CircularGallery/CircularGallery.jsx",
+        "allCss": [
+          "/react-bits-src/Components/CircularGallery/CircularGallery.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/CircularGallery/CircularGallery.jsx"
+        ]
       }
     },
     {
@@ -2251,7 +2701,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Counter",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-counter",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-counter",
@@ -2260,14 +2710,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/Counter/Counter.jsx",
+        "css": "/react-bits-src/Components/Counter/Counter.css",
+        "js": "/react-bits-src/Components/Counter/Counter.jsx",
+        "allCss": [
+          "/react-bits-src/Components/Counter/Counter.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/Counter/Counter.jsx"
+        ]
       }
     },
     {
@@ -2279,7 +2735,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Curved Input",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-curved-input",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-curved-input",
@@ -2288,14 +2744,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/CurvedInput/CurvedInput.jsx",
+        "css": "/react-bits-src/Components/CurvedInput/CurvedInput.css",
+        "js": "/react-bits-src/Components/CurvedInput/CurvedInput.jsx",
+        "allCss": [
+          "/react-bits-src/Components/CurvedInput/CurvedInput.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/CurvedInput/CurvedInput.jsx"
+        ]
       }
     },
     {
@@ -2307,7 +2769,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Decay Card",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-decay-card",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-decay-card",
@@ -2316,14 +2778,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/DecayCard/DecayCard.jsx",
+        "css": "/react-bits-src/Components/DecayCard/DecayCard.css",
+        "js": "/react-bits-src/Components/DecayCard/DecayCard.jsx",
+        "allCss": [
+          "/react-bits-src/Components/DecayCard/DecayCard.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/DecayCard/DecayCard.jsx"
+        ]
       }
     },
     {
@@ -2335,7 +2803,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Depth Carousel",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-depth-carousel",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-depth-carousel",
@@ -2344,14 +2812,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/DepthCarousel/DepthCarousel.jsx",
+        "css": "/react-bits-src/Components/DepthCarousel/DepthCarousel.css",
+        "js": "/react-bits-src/Components/DepthCarousel/DepthCarousel.jsx",
+        "allCss": [
+          "/react-bits-src/Components/DepthCarousel/DepthCarousel.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/DepthCarousel/DepthCarousel.jsx"
+        ]
       }
     },
     {
@@ -2363,7 +2837,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Dock",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-dock",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-dock",
@@ -2372,14 +2846,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/Dock/Dock.jsx",
+        "css": "/react-bits-src/Components/Dock/Dock.css",
+        "js": "/react-bits-src/Components/Dock/Dock.jsx",
+        "allCss": [
+          "/react-bits-src/Components/Dock/Dock.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/Dock/Dock.jsx"
+        ]
       }
     },
     {
@@ -2391,7 +2871,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Dome Gallery",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-dome-gallery",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-dome-gallery",
@@ -2400,14 +2880,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/DomeGallery/DomeGallery.jsx",
+        "css": "/react-bits-src/Components/DomeGallery/DomeGallery.css",
+        "js": "/react-bits-src/Components/DomeGallery/DomeGallery.jsx",
+        "allCss": [
+          "/react-bits-src/Components/DomeGallery/DomeGallery.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/DomeGallery/DomeGallery.jsx"
+        ]
       }
     },
     {
@@ -2419,7 +2905,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Drift Wall",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-drift-wall",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-drift-wall",
@@ -2428,14 +2914,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/DriftWall/DriftWall.jsx",
+        "css": "/react-bits-src/Components/DriftWall/DriftWall.css",
+        "js": "/react-bits-src/Components/DriftWall/DriftWall.jsx",
+        "allCss": [
+          "/react-bits-src/Components/DriftWall/DriftWall.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/DriftWall/DriftWall.jsx"
+        ]
       }
     },
     {
@@ -2447,7 +2939,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Elastic Slider",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-elastic-slider",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-elastic-slider",
@@ -2456,14 +2948,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/ElasticSlider/ElasticSlider.jsx",
+        "css": "/react-bits-src/Components/ElasticSlider/ElasticSlider.css",
+        "js": "/react-bits-src/Components/ElasticSlider/ElasticSlider.jsx",
+        "allCss": [
+          "/react-bits-src/Components/ElasticSlider/ElasticSlider.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/ElasticSlider/ElasticSlider.jsx"
+        ]
       }
     },
     {
@@ -2475,7 +2973,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Flowing Menu",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-flowing-menu",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-flowing-menu",
@@ -2484,14 +2982,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/FlowingMenu/FlowingMenu.jsx",
+        "css": "/react-bits-src/Components/FlowingMenu/FlowingMenu.css",
+        "js": "/react-bits-src/Components/FlowingMenu/FlowingMenu.jsx",
+        "allCss": [
+          "/react-bits-src/Components/FlowingMenu/FlowingMenu.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/FlowingMenu/FlowingMenu.jsx"
+        ]
       }
     },
     {
@@ -2503,7 +3007,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Fluid Glass",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-fluid-glass",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-fluid-glass",
@@ -2512,14 +3016,18 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/Components/FluidGlass/FluidGlass.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/Components/FluidGlass/FluidGlass.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/Components/FluidGlass/FluidGlass.jsx"
+        ]
       }
     },
     {
@@ -2531,7 +3039,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Flying Posters",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-flying-posters",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-flying-posters",
@@ -2540,14 +3048,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/FlyingPosters/FlyingPosters.jsx",
+        "css": "/react-bits-src/Components/FlyingPosters/FlyingPosters.css",
+        "js": "/react-bits-src/Components/FlyingPosters/FlyingPosters.jsx",
+        "allCss": [
+          "/react-bits-src/Components/FlyingPosters/FlyingPosters.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/FlyingPosters/FlyingPosters.jsx"
+        ]
       }
     },
     {
@@ -2559,7 +3073,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Folder",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-folder",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-folder",
@@ -2568,14 +3082,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/Folder/Folder.jsx",
+        "css": "/react-bits-src/Components/Folder/Folder.css",
+        "js": "/react-bits-src/Components/Folder/Folder.jsx",
+        "allCss": [
+          "/react-bits-src/Components/Folder/Folder.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/Folder/Folder.jsx"
+        ]
       }
     },
     {
@@ -2587,7 +3107,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Glass Icons",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-glass-icons",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-glass-icons",
@@ -2596,14 +3116,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/GlassIcons/GlassIcons.jsx",
+        "css": "/react-bits-src/Components/GlassIcons/GlassIcons.css",
+        "js": "/react-bits-src/Components/GlassIcons/GlassIcons.jsx",
+        "allCss": [
+          "/react-bits-src/Components/GlassIcons/GlassIcons.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/GlassIcons/GlassIcons.jsx"
+        ]
       }
     },
     {
@@ -2615,7 +3141,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Glass Surface",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-glass-surface",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-glass-surface",
@@ -2624,14 +3150,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/GlassSurface/GlassSurface.jsx",
+        "css": "/react-bits-src/Components/GlassSurface/GlassSurface.css",
+        "js": "/react-bits-src/Components/GlassSurface/GlassSurface.jsx",
+        "allCss": [
+          "/react-bits-src/Components/GlassSurface/GlassSurface.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/GlassSurface/GlassSurface.jsx"
+        ]
       }
     },
     {
@@ -2643,7 +3175,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Gooey Nav",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-gooey-nav",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-gooey-nav",
@@ -2652,14 +3184,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/GooeyNav/GooeyNav.jsx",
+        "css": "/react-bits-src/Components/GooeyNav/GooeyNav.css",
+        "js": "/react-bits-src/Components/GooeyNav/GooeyNav.jsx",
+        "allCss": [
+          "/react-bits-src/Components/GooeyNav/GooeyNav.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/GooeyNav/GooeyNav.jsx"
+        ]
       }
     },
     {
@@ -2671,7 +3209,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Infinite Menu",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-infinite-menu",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-infinite-menu",
@@ -2680,14 +3218,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/InfiniteMenu/InfiniteMenu.jsx",
+        "css": "/react-bits-src/Components/InfiniteMenu/InfiniteMenu.css",
+        "js": "/react-bits-src/Components/InfiniteMenu/InfiniteMenu.jsx",
+        "allCss": [
+          "/react-bits-src/Components/InfiniteMenu/InfiniteMenu.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/InfiniteMenu/InfiniteMenu.jsx"
+        ]
       }
     },
     {
@@ -2699,7 +3243,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Infinite Spiral",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-infinite-spiral",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-infinite-spiral",
@@ -2708,14 +3252,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/InfiniteSpiral/InfiniteSpiral.jsx",
+        "css": "/react-bits-src/Components/InfiniteSpiral/InfiniteSpiral.css",
+        "js": "/react-bits-src/Components/InfiniteSpiral/InfiniteSpiral.jsx",
+        "allCss": [
+          "/react-bits-src/Components/InfiniteSpiral/InfiniteSpiral.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/InfiniteSpiral/InfiniteSpiral.jsx"
+        ]
       }
     },
     {
@@ -2727,7 +3277,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Lanyard",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-lanyard",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-lanyard",
@@ -2736,14 +3286,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/Lanyard/Lanyard.jsx",
+        "css": "/react-bits-src/Components/Lanyard/Lanyard.css",
+        "js": "/react-bits-src/Components/Lanyard/Lanyard.jsx",
+        "allCss": [
+          "/react-bits-src/Components/Lanyard/Lanyard.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/Lanyard/Lanyard.jsx"
+        ]
       }
     },
     {
@@ -2755,7 +3311,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Line Sidebar",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-line-sidebar",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-line-sidebar",
@@ -2764,14 +3320,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/LineSidebar/LineSidebar.jsx",
+        "css": "/react-bits-src/Components/LineSidebar/LineSidebar.css",
+        "js": "/react-bits-src/Components/LineSidebar/LineSidebar.jsx",
+        "allCss": [
+          "/react-bits-src/Components/LineSidebar/LineSidebar.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/LineSidebar/LineSidebar.jsx"
+        ]
       }
     },
     {
@@ -2783,7 +3345,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Magic Bento",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-magic-bento",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-magic-bento",
@@ -2792,14 +3354,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/MagicBento/MagicBento.jsx",
+        "css": "/react-bits-src/Components/MagicBento/MagicBento.css",
+        "js": "/react-bits-src/Components/MagicBento/MagicBento.jsx",
+        "allCss": [
+          "/react-bits-src/Components/MagicBento/MagicBento.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/MagicBento/MagicBento.jsx"
+        ]
       }
     },
     {
@@ -2811,7 +3379,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Masonry",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-masonry",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-masonry",
@@ -2820,14 +3388,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/Masonry/Masonry.jsx",
+        "css": "/react-bits-src/Components/Masonry/Masonry.css",
+        "js": "/react-bits-src/Components/Masonry/Masonry.jsx",
+        "allCss": [
+          "/react-bits-src/Components/Masonry/Masonry.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/Masonry/Masonry.jsx"
+        ]
       }
     },
     {
@@ -2839,7 +3413,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Model Viewer",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-model-viewer",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-model-viewer",
@@ -2848,14 +3422,18 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/Components/ModelViewer/ModelViewer.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/Components/ModelViewer/ModelViewer.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/Components/ModelViewer/ModelViewer.jsx"
+        ]
       }
     },
     {
@@ -2867,7 +3445,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Morph Slider",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-morph-slider",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-morph-slider",
@@ -2876,14 +3454,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/MorphSlider/MorphSlider.jsx",
+        "css": "/react-bits-src/Components/MorphSlider/MorphSlider.css",
+        "js": "/react-bits-src/Components/MorphSlider/MorphSlider.jsx",
+        "allCss": [
+          "/react-bits-src/Components/MorphSlider/MorphSlider.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/MorphSlider/MorphSlider.jsx"
+        ]
       }
     },
     {
@@ -2895,7 +3479,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Option Wheel",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-option-wheel",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-option-wheel",
@@ -2904,14 +3488,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/OptionWheel/OptionWheel.jsx",
+        "css": "/react-bits-src/Components/OptionWheel/OptionWheel.css",
+        "js": "/react-bits-src/Components/OptionWheel/OptionWheel.jsx",
+        "allCss": [
+          "/react-bits-src/Components/OptionWheel/OptionWheel.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/OptionWheel/OptionWheel.jsx"
+        ]
       }
     },
     {
@@ -2923,7 +3513,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Pill Nav",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-pill-nav",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-pill-nav",
@@ -2932,14 +3522,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/PillNav/PillNav.jsx",
+        "css": "/react-bits-src/Components/PillNav/PillNav.css",
+        "js": "/react-bits-src/Components/PillNav/PillNav.jsx",
+        "allCss": [
+          "/react-bits-src/Components/PillNav/PillNav.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/PillNav/PillNav.jsx"
+        ]
       }
     },
     {
@@ -2951,7 +3547,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Pixel Card",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-pixel-card",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-pixel-card",
@@ -2960,14 +3556,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/PixelCard/PixelCard.jsx",
+        "css": "/react-bits-src/Components/PixelCard/PixelCard.css",
+        "js": "/react-bits-src/Components/PixelCard/PixelCard.jsx",
+        "allCss": [
+          "/react-bits-src/Components/PixelCard/PixelCard.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/PixelCard/PixelCard.jsx"
+        ]
       }
     },
     {
@@ -2979,7 +3581,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Profile Card",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-profile-card",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-profile-card",
@@ -2988,14 +3590,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/ProfileCard/ProfileCard.jsx",
+        "css": "/react-bits-src/Components/ProfileCard/ProfileCard.css",
+        "js": "/react-bits-src/Components/ProfileCard/ProfileCard.jsx",
+        "allCss": [
+          "/react-bits-src/Components/ProfileCard/ProfileCard.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/ProfileCard/ProfileCard.jsx"
+        ]
       }
     },
     {
@@ -3007,7 +3615,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Reflective Card",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-reflective-card",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-reflective-card",
@@ -3016,14 +3624,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/ReflectiveCard/ReflectiveCard.jsx",
+        "css": "/react-bits-src/Components/ReflectiveCard/ReflectiveCard.css",
+        "js": "/react-bits-src/Components/ReflectiveCard/ReflectiveCard.jsx",
+        "allCss": [
+          "/react-bits-src/Components/ReflectiveCard/ReflectiveCard.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/ReflectiveCard/ReflectiveCard.jsx"
+        ]
       }
     },
     {
@@ -3035,7 +3649,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Scroll Stack",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-scroll-stack",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-scroll-stack",
@@ -3044,14 +3658,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/ScrollStack/ScrollStack.jsx",
+        "css": "/react-bits-src/Components/ScrollStack/ScrollStack.css",
+        "js": "/react-bits-src/Components/ScrollStack/ScrollStack.jsx",
+        "allCss": [
+          "/react-bits-src/Components/ScrollStack/ScrollStack.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/ScrollStack/ScrollStack.jsx"
+        ]
       }
     },
     {
@@ -3063,7 +3683,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Specular Button",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-specular-button",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-specular-button",
@@ -3072,14 +3692,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/SpecularButton/SpecularButton.jsx",
+        "css": "/react-bits-src/Components/SpecularButton/SpecularButton.css",
+        "js": "/react-bits-src/Components/SpecularButton/SpecularButton.jsx",
+        "allCss": [
+          "/react-bits-src/Components/SpecularButton/SpecularButton.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/SpecularButton/SpecularButton.jsx"
+        ]
       }
     },
     {
@@ -3091,7 +3717,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Spotlight Card",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-spotlight-card",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-spotlight-card",
@@ -3100,14 +3726,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/SpotlightCard/SpotlightCard.jsx",
+        "css": "/react-bits-src/Components/SpotlightCard/SpotlightCard.css",
+        "js": "/react-bits-src/Components/SpotlightCard/SpotlightCard.jsx",
+        "allCss": [
+          "/react-bits-src/Components/SpotlightCard/SpotlightCard.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/SpotlightCard/SpotlightCard.jsx"
+        ]
       }
     },
     {
@@ -3119,7 +3751,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Stack",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-stack",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-stack",
@@ -3128,14 +3760,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/Stack/Stack.jsx",
+        "css": "/react-bits-src/Components/Stack/Stack.css",
+        "js": "/react-bits-src/Components/Stack/Stack.jsx",
+        "allCss": [
+          "/react-bits-src/Components/Stack/Stack.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/Stack/Stack.jsx"
+        ]
       }
     },
     {
@@ -3147,7 +3785,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Staggered Menu",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-staggered-menu",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-staggered-menu",
@@ -3156,14 +3794,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/StaggeredMenu/StaggeredMenu.jsx",
+        "css": "/react-bits-src/Components/StaggeredMenu/StaggeredMenu.css",
+        "js": "/react-bits-src/Components/StaggeredMenu/StaggeredMenu.jsx",
+        "allCss": [
+          "/react-bits-src/Components/StaggeredMenu/StaggeredMenu.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/StaggeredMenu/StaggeredMenu.jsx"
+        ]
       }
     },
     {
@@ -3175,7 +3819,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Stepper",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-stepper",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-stepper",
@@ -3184,14 +3828,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/Stepper/Stepper.jsx",
+        "css": "/react-bits-src/Components/Stepper/Stepper.css",
+        "js": "/react-bits-src/Components/Stepper/Stepper.jsx",
+        "allCss": [
+          "/react-bits-src/Components/Stepper/Stepper.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/Stepper/Stepper.jsx"
+        ]
       }
     },
     {
@@ -3203,7 +3853,7 @@
       "stack": "react/next",
       "category": "Components",
       "title": "React Bits · Tilted Card",
-      "blurb": "Components — yerel React + Next demoları",
+      "blurb": "Components — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/components-tilted-card",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/components-tilted-card",
@@ -3212,14 +3862,20 @@
       "tags": [
         "react",
         "next",
-        "Components"
+        "Components",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Components/TiltedCard/TiltedCard.jsx",
+        "css": "/react-bits-src/Components/TiltedCard/TiltedCard.css",
+        "js": "/react-bits-src/Components/TiltedCard/TiltedCard.jsx",
+        "allCss": [
+          "/react-bits-src/Components/TiltedCard/TiltedCard.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Components/TiltedCard/TiltedCard.jsx"
+        ]
       }
     },
     {
@@ -3231,7 +3887,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Acid Squares",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-acid-squares",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-acid-squares",
@@ -3240,14 +3896,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/AcidSquares/AcidSquares.jsx",
+        "css": "/react-bits-src/Backgrounds/AcidSquares/AcidSquares.css",
+        "js": "/react-bits-src/Backgrounds/AcidSquares/AcidSquares.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/AcidSquares/AcidSquares.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/AcidSquares/AcidSquares.jsx"
+        ]
       }
     },
     {
@@ -3259,7 +3921,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Aero Shards",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-aero-shards",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-aero-shards",
@@ -3268,14 +3930,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/AeroShards/AeroShards.jsx",
+        "css": "/react-bits-src/Backgrounds/AeroShards/AeroShards.css",
+        "js": "/react-bits-src/Backgrounds/AeroShards/AeroShards.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/AeroShards/AeroShards.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/AeroShards/AeroShards.jsx"
+        ]
       }
     },
     {
@@ -3287,7 +3955,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Aurora",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-aurora",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-aurora",
@@ -3296,14 +3964,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Aurora/Aurora.jsx",
+        "css": "/react-bits-src/Backgrounds/Aurora/Aurora.css",
+        "js": "/react-bits-src/Backgrounds/Aurora/Aurora.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Aurora/Aurora.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Aurora/Aurora.jsx"
+        ]
       }
     },
     {
@@ -3315,7 +3989,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Balatro",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-balatro",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-balatro",
@@ -3324,14 +3998,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Balatro/Balatro.jsx",
+        "css": "/react-bits-src/Backgrounds/Balatro/Balatro.css",
+        "js": "/react-bits-src/Backgrounds/Balatro/Balatro.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Balatro/Balatro.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Balatro/Balatro.jsx"
+        ]
       }
     },
     {
@@ -3343,7 +4023,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Ballpit",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-ballpit",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-ballpit",
@@ -3352,14 +4032,18 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/Backgrounds/Ballpit/Ballpit.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/Backgrounds/Ballpit/Ballpit.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/Backgrounds/Ballpit/Ballpit.jsx"
+        ]
       }
     },
     {
@@ -3371,7 +4055,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Beams",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-beams",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-beams",
@@ -3380,14 +4064,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Beams/Beams.jsx",
+        "css": "/react-bits-src/Backgrounds/Beams/Beams.css",
+        "js": "/react-bits-src/Backgrounds/Beams/Beams.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Beams/Beams.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Beams/Beams.jsx"
+        ]
       }
     },
     {
@@ -3399,7 +4089,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · CRTWarp",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-crtwarp",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-crtwarp",
@@ -3408,14 +4098,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/CRTWarp/CRTWarp.jsx",
+        "css": "/react-bits-src/Backgrounds/CRTWarp/CRTWarp.css",
+        "js": "/react-bits-src/Backgrounds/CRTWarp/CRTWarp.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/CRTWarp/CRTWarp.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/CRTWarp/CRTWarp.jsx"
+        ]
       }
     },
     {
@@ -3427,7 +4123,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Color Bends",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-color-bends",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-color-bends",
@@ -3436,14 +4132,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/ColorBends/ColorBends.jsx",
+        "css": "/react-bits-src/Backgrounds/ColorBends/ColorBends.css",
+        "js": "/react-bits-src/Backgrounds/ColorBends/ColorBends.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/ColorBends/ColorBends.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/ColorBends/ColorBends.jsx"
+        ]
       }
     },
     {
@@ -3455,7 +4157,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Dark Veil",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-dark-veil",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-dark-veil",
@@ -3464,14 +4166,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/DarkVeil/DarkVeil.jsx",
+        "css": "/react-bits-src/Backgrounds/DarkVeil/DarkVeil.css",
+        "js": "/react-bits-src/Backgrounds/DarkVeil/DarkVeil.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/DarkVeil/DarkVeil.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/DarkVeil/DarkVeil.jsx"
+        ]
       }
     },
     {
@@ -3483,7 +4191,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Dither",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-dither",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-dither",
@@ -3492,14 +4200,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Dither/Dither.jsx",
+        "css": "/react-bits-src/Backgrounds/Dither/Dither.css",
+        "js": "/react-bits-src/Backgrounds/Dither/Dither.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Dither/Dither.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Dither/Dither.jsx"
+        ]
       }
     },
     {
@@ -3511,7 +4225,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Dot Field",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-dot-field",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-dot-field",
@@ -3520,14 +4234,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/DotField/DotField.jsx",
+        "css": "/react-bits-src/Backgrounds/DotField/DotField.css",
+        "js": "/react-bits-src/Backgrounds/DotField/DotField.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/DotField/DotField.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/DotField/DotField.jsx"
+        ]
       }
     },
     {
@@ -3539,7 +4259,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Dot Grid",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-dot-grid",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-dot-grid",
@@ -3548,14 +4268,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/DotGrid/DotGrid.jsx",
+        "css": "/react-bits-src/Backgrounds/DotGrid/DotGrid.css",
+        "js": "/react-bits-src/Backgrounds/DotGrid/DotGrid.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/DotGrid/DotGrid.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/DotGrid/DotGrid.jsx"
+        ]
       }
     },
     {
@@ -3567,7 +4293,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Evil Eye",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-evil-eye",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-evil-eye",
@@ -3576,14 +4302,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/EvilEye/EvilEye.jsx",
+        "css": "/react-bits-src/Backgrounds/EvilEye/EvilEye.css",
+        "js": "/react-bits-src/Backgrounds/EvilEye/EvilEye.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/EvilEye/EvilEye.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/EvilEye/EvilEye.jsx"
+        ]
       }
     },
     {
@@ -3595,7 +4327,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Faulty Terminal",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-faulty-terminal",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-faulty-terminal",
@@ -3604,14 +4336,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/FaultyTerminal/FaultyTerminal.jsx",
+        "css": "/react-bits-src/Backgrounds/FaultyTerminal/FaultyTerminal.css",
+        "js": "/react-bits-src/Backgrounds/FaultyTerminal/FaultyTerminal.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/FaultyTerminal/FaultyTerminal.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/FaultyTerminal/FaultyTerminal.jsx"
+        ]
       }
     },
     {
@@ -3623,7 +4361,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Ferrofluid",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-ferrofluid",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-ferrofluid",
@@ -3632,14 +4370,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Ferrofluid/Ferrofluid.jsx",
+        "css": "/react-bits-src/Backgrounds/Ferrofluid/Ferrofluid.css",
+        "js": "/react-bits-src/Backgrounds/Ferrofluid/Ferrofluid.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Ferrofluid/Ferrofluid.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Ferrofluid/Ferrofluid.jsx"
+        ]
       }
     },
     {
@@ -3651,7 +4395,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Floating Lines",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-floating-lines",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-floating-lines",
@@ -3660,14 +4404,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/FloatingLines/FloatingLines.jsx",
+        "css": "/react-bits-src/Backgrounds/FloatingLines/FloatingLines.css",
+        "js": "/react-bits-src/Backgrounds/FloatingLines/FloatingLines.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/FloatingLines/FloatingLines.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/FloatingLines/FloatingLines.jsx"
+        ]
       }
     },
     {
@@ -3679,7 +4429,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Galaxy",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-galaxy",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-galaxy",
@@ -3688,14 +4438,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Galaxy/Galaxy.jsx",
+        "css": "/react-bits-src/Backgrounds/Galaxy/Galaxy.css",
+        "js": "/react-bits-src/Backgrounds/Galaxy/Galaxy.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Galaxy/Galaxy.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Galaxy/Galaxy.jsx"
+        ]
       }
     },
     {
@@ -3707,7 +4463,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Ghost Fibers",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-ghost-fibers",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-ghost-fibers",
@@ -3716,14 +4472,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/GhostFibers/GhostFibers.jsx",
+        "css": "/react-bits-src/Backgrounds/GhostFibers/GhostFibers.css",
+        "js": "/react-bits-src/Backgrounds/GhostFibers/GhostFibers.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/GhostFibers/GhostFibers.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/GhostFibers/GhostFibers.jsx"
+        ]
       }
     },
     {
@@ -3735,7 +4497,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Gradient Blinds",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-gradient-blinds",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-gradient-blinds",
@@ -3744,14 +4506,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/GradientBlinds/GradientBlinds.jsx",
+        "css": "/react-bits-src/Backgrounds/GradientBlinds/GradientBlinds.css",
+        "js": "/react-bits-src/Backgrounds/GradientBlinds/GradientBlinds.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/GradientBlinds/GradientBlinds.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/GradientBlinds/GradientBlinds.jsx"
+        ]
       }
     },
     {
@@ -3763,7 +4531,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Gradient Waves",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-gradient-waves",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-gradient-waves",
@@ -3772,14 +4540,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/GradientWaves/GradientWaves.jsx",
+        "css": "/react-bits-src/Backgrounds/GradientWaves/GradientWaves.css",
+        "js": "/react-bits-src/Backgrounds/GradientWaves/GradientWaves.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/GradientWaves/GradientWaves.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/GradientWaves/GradientWaves.jsx"
+        ]
       }
     },
     {
@@ -3791,7 +4565,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Grainient",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-grainient",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-grainient",
@@ -3800,14 +4574,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Grainient/Grainient.jsx",
+        "css": "/react-bits-src/Backgrounds/Grainient/Grainient.css",
+        "js": "/react-bits-src/Backgrounds/Grainient/Grainient.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Grainient/Grainient.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Grainient/Grainient.jsx"
+        ]
       }
     },
     {
@@ -3819,7 +4599,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Grid Distortion",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-grid-distortion",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-grid-distortion",
@@ -3828,14 +4608,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/GridDistortion/GridDistortion.jsx",
+        "css": "/react-bits-src/Backgrounds/GridDistortion/GridDistortion.css",
+        "js": "/react-bits-src/Backgrounds/GridDistortion/GridDistortion.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/GridDistortion/GridDistortion.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/GridDistortion/GridDistortion.jsx"
+        ]
       }
     },
     {
@@ -3847,7 +4633,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Grid Motion",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-grid-motion",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-grid-motion",
@@ -3856,14 +4642,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/GridMotion/GridMotion.jsx",
+        "css": "/react-bits-src/Backgrounds/GridMotion/GridMotion.css",
+        "js": "/react-bits-src/Backgrounds/GridMotion/GridMotion.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/GridMotion/GridMotion.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/GridMotion/GridMotion.jsx"
+        ]
       }
     },
     {
@@ -3875,7 +4667,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Grid Scan",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-grid-scan",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-grid-scan",
@@ -3884,14 +4676,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/GridScan/GridScan.jsx",
+        "css": "/react-bits-src/Backgrounds/GridScan/GridScan.css",
+        "js": "/react-bits-src/Backgrounds/GridScan/GridScan.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/GridScan/GridScan.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/GridScan/GridScan.jsx"
+        ]
       }
     },
     {
@@ -3903,7 +4701,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Hyperspeed",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-hyperspeed",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-hyperspeed",
@@ -3912,14 +4710,21 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Hyperspeed/Hyperspeed.jsx",
+        "css": "/react-bits-src/Backgrounds/Hyperspeed/Hyperspeed.css",
+        "js": "/react-bits-src/Backgrounds/Hyperspeed/Hyperspeed.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Hyperspeed/Hyperspeed.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Hyperspeed/HyperSpeedPresets.js",
+          "/react-bits-src/Backgrounds/Hyperspeed/Hyperspeed.jsx"
+        ]
       }
     },
     {
@@ -3931,7 +4736,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Iridescence",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-iridescence",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-iridescence",
@@ -3940,14 +4745,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Iridescence/Iridescence.jsx",
+        "css": "/react-bits-src/Backgrounds/Iridescence/Iridescence.css",
+        "js": "/react-bits-src/Backgrounds/Iridescence/Iridescence.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Iridescence/Iridescence.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Iridescence/Iridescence.jsx"
+        ]
       }
     },
     {
@@ -3959,7 +4770,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Letter Glitch",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-letter-glitch",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-letter-glitch",
@@ -3968,14 +4779,18 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/Backgrounds/LetterGlitch/LetterGlitch.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/Backgrounds/LetterGlitch/LetterGlitch.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/Backgrounds/LetterGlitch/LetterGlitch.jsx"
+        ]
       }
     },
     {
@@ -3987,7 +4802,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Light Pillar",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-light-pillar",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-light-pillar",
@@ -3996,14 +4811,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/LightPillar/LightPillar.jsx",
+        "css": "/react-bits-src/Backgrounds/LightPillar/LightPillar.css",
+        "js": "/react-bits-src/Backgrounds/LightPillar/LightPillar.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/LightPillar/LightPillar.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/LightPillar/LightPillar.jsx"
+        ]
       }
     },
     {
@@ -4015,7 +4836,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Light Rays",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-light-rays",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-light-rays",
@@ -4024,14 +4845,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/LightRays/LightRays.jsx",
+        "css": "/react-bits-src/Backgrounds/LightRays/LightRays.css",
+        "js": "/react-bits-src/Backgrounds/LightRays/LightRays.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/LightRays/LightRays.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/LightRays/LightRays.jsx"
+        ]
       }
     },
     {
@@ -4043,7 +4870,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Light Tunnel",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-light-tunnel",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-light-tunnel",
@@ -4052,14 +4879,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/LightTunnel/LightTunnel.jsx",
+        "css": "/react-bits-src/Backgrounds/LightTunnel/LightTunnel.css",
+        "js": "/react-bits-src/Backgrounds/LightTunnel/LightTunnel.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/LightTunnel/LightTunnel.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/LightTunnel/LightTunnel.jsx"
+        ]
       }
     },
     {
@@ -4071,7 +4904,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Lightfall",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-lightfall",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-lightfall",
@@ -4080,14 +4913,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Lightfall/Lightfall.jsx",
+        "css": "/react-bits-src/Backgrounds/Lightfall/Lightfall.css",
+        "js": "/react-bits-src/Backgrounds/Lightfall/Lightfall.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Lightfall/Lightfall.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Lightfall/Lightfall.jsx"
+        ]
       }
     },
     {
@@ -4099,7 +4938,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Lightning",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-lightning",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-lightning",
@@ -4108,14 +4947,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Lightning/Lightning.jsx",
+        "css": "/react-bits-src/Backgrounds/Lightning/Lightning.css",
+        "js": "/react-bits-src/Backgrounds/Lightning/Lightning.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Lightning/Lightning.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Lightning/Lightning.jsx"
+        ]
       }
     },
     {
@@ -4127,7 +4972,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Line Waves",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-line-waves",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-line-waves",
@@ -4136,14 +4981,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/LineWaves/LineWaves.jsx",
+        "css": "/react-bits-src/Backgrounds/LineWaves/LineWaves.css",
+        "js": "/react-bits-src/Backgrounds/LineWaves/LineWaves.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/LineWaves/LineWaves.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/LineWaves/LineWaves.jsx"
+        ]
       }
     },
     {
@@ -4155,7 +5006,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Liquid Chrome",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-liquid-chrome",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-liquid-chrome",
@@ -4164,14 +5015,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/LiquidChrome/LiquidChrome.jsx",
+        "css": "/react-bits-src/Backgrounds/LiquidChrome/LiquidChrome.css",
+        "js": "/react-bits-src/Backgrounds/LiquidChrome/LiquidChrome.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/LiquidChrome/LiquidChrome.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/LiquidChrome/LiquidChrome.jsx"
+        ]
       }
     },
     {
@@ -4183,7 +5040,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Liquid Ether",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-liquid-ether",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-liquid-ether",
@@ -4192,14 +5049,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/LiquidEther/LiquidEther.jsx",
+        "css": "/react-bits-src/Backgrounds/LiquidEther/LiquidEther.css",
+        "js": "/react-bits-src/Backgrounds/LiquidEther/LiquidEther.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/LiquidEther/LiquidEther.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/LiquidEther/LiquidEther.jsx"
+        ]
       }
     },
     {
@@ -4211,7 +5074,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Molten Metal",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-molten-metal",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-molten-metal",
@@ -4220,14 +5083,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/MoltenMetal/MoltenMetal.jsx",
+        "css": "/react-bits-src/Backgrounds/MoltenMetal/MoltenMetal.css",
+        "js": "/react-bits-src/Backgrounds/MoltenMetal/MoltenMetal.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/MoltenMetal/MoltenMetal.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/MoltenMetal/MoltenMetal.jsx"
+        ]
       }
     },
     {
@@ -4239,7 +5108,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Orb",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-orb",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-orb",
@@ -4248,14 +5117,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Orb/Orb.jsx",
+        "css": "/react-bits-src/Backgrounds/Orb/Orb.css",
+        "js": "/react-bits-src/Backgrounds/Orb/Orb.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Orb/Orb.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Orb/Orb.jsx"
+        ]
       }
     },
     {
@@ -4267,7 +5142,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Particles",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-particles",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-particles",
@@ -4276,14 +5151,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Particles/Particles.jsx",
+        "css": "/react-bits-src/Backgrounds/Particles/Particles.css",
+        "js": "/react-bits-src/Backgrounds/Particles/Particles.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Particles/Particles.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Particles/Particles.jsx"
+        ]
       }
     },
     {
@@ -4295,7 +5176,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Pixel Blast",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-pixel-blast",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-pixel-blast",
@@ -4304,14 +5185,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/PixelBlast/PixelBlast.jsx",
+        "css": "/react-bits-src/Backgrounds/PixelBlast/PixelBlast.css",
+        "js": "/react-bits-src/Backgrounds/PixelBlast/PixelBlast.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/PixelBlast/PixelBlast.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/PixelBlast/PixelBlast.jsx"
+        ]
       }
     },
     {
@@ -4323,7 +5210,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Pixel Snow",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-pixel-snow",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-pixel-snow",
@@ -4332,14 +5219,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/PixelSnow/PixelSnow.jsx",
+        "css": "/react-bits-src/Backgrounds/PixelSnow/PixelSnow.css",
+        "js": "/react-bits-src/Backgrounds/PixelSnow/PixelSnow.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/PixelSnow/PixelSnow.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/PixelSnow/PixelSnow.jsx"
+        ]
       }
     },
     {
@@ -4351,7 +5244,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Plasma",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-plasma",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-plasma",
@@ -4360,14 +5253,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Plasma/Plasma.jsx",
+        "css": "/react-bits-src/Backgrounds/Plasma/Plasma.css",
+        "js": "/react-bits-src/Backgrounds/Plasma/Plasma.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Plasma/Plasma.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Plasma/Plasma.jsx"
+        ]
       }
     },
     {
@@ -4379,7 +5278,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Plasma Wave",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-plasma-wave",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-plasma-wave",
@@ -4388,14 +5287,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/PlasmaWave/PlasmaWave.jsx",
+        "css": "/react-bits-src/Backgrounds/PlasmaWave/PlasmaWave.css",
+        "js": "/react-bits-src/Backgrounds/PlasmaWave/PlasmaWave.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/PlasmaWave/PlasmaWave.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/PlasmaWave/PlasmaWave.jsx"
+        ]
       }
     },
     {
@@ -4407,7 +5312,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Prism",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-prism",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-prism",
@@ -4416,14 +5321,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Prism/Prism.jsx",
+        "css": "/react-bits-src/Backgrounds/Prism/Prism.css",
+        "js": "/react-bits-src/Backgrounds/Prism/Prism.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Prism/Prism.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Prism/Prism.jsx"
+        ]
       }
     },
     {
@@ -4435,7 +5346,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Prismatic Burst",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-prismatic-burst",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-prismatic-burst",
@@ -4444,14 +5355,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/PrismaticBurst/PrismaticBurst.jsx",
+        "css": "/react-bits-src/Backgrounds/PrismaticBurst/PrismaticBurst.css",
+        "js": "/react-bits-src/Backgrounds/PrismaticBurst/PrismaticBurst.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/PrismaticBurst/PrismaticBurst.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/PrismaticBurst/PrismaticBurst.jsx"
+        ]
       }
     },
     {
@@ -4463,7 +5380,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Radar",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-radar",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-radar",
@@ -4472,14 +5389,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Radar/Radar.jsx",
+        "css": "/react-bits-src/Backgrounds/Radar/Radar.css",
+        "js": "/react-bits-src/Backgrounds/Radar/Radar.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Radar/Radar.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Radar/Radar.jsx"
+        ]
       }
     },
     {
@@ -4491,7 +5414,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Ripple Grid",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-ripple-grid",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-ripple-grid",
@@ -4500,14 +5423,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/RippleGrid/RippleGrid.jsx",
+        "css": "/react-bits-src/Backgrounds/RippleGrid/RippleGrid.css",
+        "js": "/react-bits-src/Backgrounds/RippleGrid/RippleGrid.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/RippleGrid/RippleGrid.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/RippleGrid/RippleGrid.jsx"
+        ]
       }
     },
     {
@@ -4519,7 +5448,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Scanner",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-scanner",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-scanner",
@@ -4528,14 +5457,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Scanner/Scanner.jsx",
+        "css": "/react-bits-src/Backgrounds/Scanner/Scanner.css",
+        "js": "/react-bits-src/Backgrounds/Scanner/Scanner.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Scanner/Scanner.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Scanner/Scanner.jsx"
+        ]
       }
     },
     {
@@ -4547,7 +5482,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Shape Grid",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-shape-grid",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-shape-grid",
@@ -4556,14 +5491,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/ShapeGrid/ShapeGrid.jsx",
+        "css": "/react-bits-src/Backgrounds/ShapeGrid/ShapeGrid.css",
+        "js": "/react-bits-src/Backgrounds/ShapeGrid/ShapeGrid.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/ShapeGrid/ShapeGrid.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/ShapeGrid/ShapeGrid.jsx"
+        ]
       }
     },
     {
@@ -4575,7 +5516,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Side Rays",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-side-rays",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-side-rays",
@@ -4584,14 +5525,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/SideRays/SideRays.jsx",
+        "css": "/react-bits-src/Backgrounds/SideRays/SideRays.css",
+        "js": "/react-bits-src/Backgrounds/SideRays/SideRays.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/SideRays/SideRays.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/SideRays/SideRays.jsx"
+        ]
       }
     },
     {
@@ -4603,7 +5550,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Silk",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-silk",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-silk",
@@ -4612,14 +5559,18 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
+        "html": "/react-bits-src/Backgrounds/Silk/Silk.jsx",
         "css": null,
-        "js": null,
+        "js": "/react-bits-src/Backgrounds/Silk/Silk.jsx",
         "allCss": [],
-        "allJs": []
+        "allJs": [
+          "/react-bits-src/Backgrounds/Silk/Silk.jsx"
+        ]
       }
     },
     {
@@ -4631,7 +5582,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Sliced Waves",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-sliced-waves",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-sliced-waves",
@@ -4640,14 +5591,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/SlicedWaves/SlicedWaves.jsx",
+        "css": "/react-bits-src/Backgrounds/SlicedWaves/SlicedWaves.css",
+        "js": "/react-bits-src/Backgrounds/SlicedWaves/SlicedWaves.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/SlicedWaves/SlicedWaves.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/SlicedWaves/SlicedWaves.jsx"
+        ]
       }
     },
     {
@@ -4659,7 +5616,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Soft Aurora",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-soft-aurora",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-soft-aurora",
@@ -4668,14 +5625,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/SoftAurora/SoftAurora.jsx",
+        "css": "/react-bits-src/Backgrounds/SoftAurora/SoftAurora.css",
+        "js": "/react-bits-src/Backgrounds/SoftAurora/SoftAurora.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/SoftAurora/SoftAurora.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/SoftAurora/SoftAurora.jsx"
+        ]
       }
     },
     {
@@ -4687,7 +5650,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Threads",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-threads",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-threads",
@@ -4696,14 +5659,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Threads/Threads.jsx",
+        "css": "/react-bits-src/Backgrounds/Threads/Threads.css",
+        "js": "/react-bits-src/Backgrounds/Threads/Threads.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Threads/Threads.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Threads/Threads.jsx"
+        ]
       }
     },
     {
@@ -4715,7 +5684,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Topography",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-topography",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-topography",
@@ -4724,14 +5693,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Topography/Topography.jsx",
+        "css": "/react-bits-src/Backgrounds/Topography/Topography.css",
+        "js": "/react-bits-src/Backgrounds/Topography/Topography.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Topography/Topography.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Topography/Topography.jsx"
+        ]
       }
     },
     {
@@ -4743,7 +5718,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Waves",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-waves",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-waves",
@@ -4752,14 +5727,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/Waves/Waves.jsx",
+        "css": "/react-bits-src/Backgrounds/Waves/Waves.css",
+        "js": "/react-bits-src/Backgrounds/Waves/Waves.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/Waves/Waves.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/Waves/Waves.jsx"
+        ]
       }
     },
     {
@@ -4771,7 +5752,7 @@
       "stack": "react/next",
       "category": "Backgrounds",
       "title": "React Bits · Web Threads",
-      "blurb": "Backgrounds — yerel React + Next demoları",
+      "blurb": "Backgrounds — kaynak .jsx/.css kopyalanabilir · React + Next",
       "preview": "/kits/index.html#/demo/backgrounds-web-threads",
       "previewMode": "iframe",
       "liveUrl": "/kits-next/demo/backgrounds-web-threads",
@@ -4780,14 +5761,20 @@
       "tags": [
         "react",
         "next",
-        "Backgrounds"
+        "Backgrounds",
+        "copy-paste",
+        "source"
       ],
       "files": {
-        "html": "/kits/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
+        "html": "/react-bits-src/Backgrounds/WebThreads/WebThreads.jsx",
+        "css": "/react-bits-src/Backgrounds/WebThreads/WebThreads.css",
+        "js": "/react-bits-src/Backgrounds/WebThreads/WebThreads.jsx",
+        "allCss": [
+          "/react-bits-src/Backgrounds/WebThreads/WebThreads.css"
+        ],
+        "allJs": [
+          "/react-bits-src/Backgrounds/WebThreads/WebThreads.jsx"
+        ]
       }
     },
     {
@@ -5123,6 +6110,7 @@
       "Backgrounds"
     ],
     "premiumLogins": 10,
-    "premiumLoginsPath": "/premium-logins/"
+    "premiumLoginsPath": "/premium-logins/",
+    "reactBitsSource": "/react-bits-src/"
   }
 }

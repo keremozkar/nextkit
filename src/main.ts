@@ -53,12 +53,12 @@ let items: Item[] = []
 let groups: Group[] = []
 let activeId: string | null = null
 let activeTab: Tab = 'live'
-let activeGroup = 'copy-paste'
+let activeGroup = 'all'
 let activeCategory = 'all'
 let query = ''
 let favorites = new Set<string>()
 const codeCache = new Map<string, string>()
-const openGroups = new Set<string>(['favorites', 'copy-paste', 'premium-logins', 'mobile', 'flowbite', 'joe-reels'])
+const openGroups = new Set<string>(['all', 'favorites', 'copy-paste', 'premium-logins', 'mobile', 'flowbite', 'joe-reels'])
 
 function esc(s: string) {
   return s
@@ -99,29 +99,30 @@ function matchesQuery(it: Item, q: string) {
     .filter(Boolean)
     .join(' ')
     .toLowerCase()
-  return hay.includes(q)
+  // "login" → logins / login-3 vb. için token bazlı
+  const tokens = q.split(/\s+/).filter(Boolean)
+  return tokens.every((t) => hay.includes(t) || hay.includes(`${t}s`))
 }
 
 function filteredItems(): Item[] {
   const q = query.trim().toLowerCase()
-  // Arama varken tüm gruplarda ara (favoriler hariç özel filtre yok)
   const searching = q.length > 0
   return items.filter((it) => {
     if (searching) {
-      if (activeGroup === 'favorites' && !favorites.has(it.id)) return false
+      // Arama = her zaman tüm katalog (favoriler seçiliyse sadece favoriler)
+      if (activeGroup === 'favorites') return favorites.has(it.id) && matchesQuery(it, q)
       return matchesQuery(it, q)
     }
-    if (activeGroup === 'favorites') {
-      if (!favorites.has(it.id)) return false
-    } else if (it.group !== activeGroup) {
-      return false
-    }
+    if (activeGroup === 'all') return true
+    if (activeGroup === 'favorites') return favorites.has(it.id)
+    if (it.group !== activeGroup) return false
     if (activeCategory !== 'all' && it.category !== activeCategory) return false
     return true
   })
 }
 
 function categoriesForGroup(groupId: string): string[] {
+  if (groupId === 'all') return [...new Set(items.map((i) => i.category))].sort()
   const pool =
     groupId === 'favorites'
       ? items.filter((i) => favorites.has(i.id))
@@ -147,14 +148,21 @@ async function loadTabCode(item: Item, tab: 'html' | 'css' | 'js') {
   if (item.kind !== 'local' || !item.files) {
     return `// External kit — kaynak: ${item.source}\n// Canlı demo: ${item.preview}`
   }
-  if (tab === 'html') return loadText(item.files.html)
+  if (tab === 'html') {
+    // React Bits: html alanı aslında .jsx kaynağı olabilir
+    const url = item.files.html
+    if (/\.(jsx|tsx|js|ts)$/i.test(url)) {
+      return `/* Kaynak bileşen — kendi React/Next projeni uyarlamak için kopyala */\n${await loadText(url)}`
+    }
+    return loadText(url)
+  }
   if (tab === 'css') {
     const files = item.files.allCss?.length
       ? item.files.allCss
       : item.files.css
         ? [item.files.css]
         : []
-    if (!files.length) return '/* No CSS file */'
+    if (!files.length) return '/* Bu bileşende ayrı CSS yok — stiller JSX/Tailwind içinde olabilir */'
     return (await Promise.all(files.map(async (f) => `/* ${f} */\n${await loadText(f)}`))).join(
       '\n\n',
     )
@@ -170,6 +178,7 @@ async function loadTabCode(item: Item, tab: 'html' | 'css' | 'js') {
 
 function adaptPrompt(item: Item) {
   const how = howItWorksFor(item.category, item.collection)
+  const isRb = String(item.id).startsWith('rb-')
   return [
     `Referans: ${item.title}${item.stars ? ` (${starLabel(item.stars)})` : ''}`,
     `Grup: ${item.groupLabel} · kategori: ${item.category}`,
@@ -177,12 +186,17 @@ function adaptPrompt(item: Item) {
     `Demo: ${item.preview}`,
     item.blurb ? `Özet: ${item.blurb}` : '',
     '',
-    'İstediğim: Bu UI/motion fikrini kendi React/Next (veya Hono API + UI) / mobil projeme UYARLA — birebir dump yok.',
-    `Pattern özeti: ${how.summary}`,
+    isRb
+      ? 'İstediğim: Aşağıdaki React Bits bileşen kaynağını kendi React/Next (veya Hono UI) / mobil projeme UYARLA.'
+      : 'İstediğim: Bu UI/motion fikrini kendi React/Next (veya Hono API + UI) / mobil projeme UYARLA — birebir dump yok.',
+    isRb
+      ? 'Pattern Lab’de HTML/JS sekmelerinden kaynak .jsx/.css’i kopyalayıp buraya yapıştırıyorum (veya sen dosya yollarından oku).'
+      : `Pattern özeti: ${how.summary}`,
     'Teknikler:',
     ...how.techniques.map((t) => `- ${t}`),
     '',
-    'Kurallar: marka renk/font/spacing bizim; mobil-first; a11y + reduced-motion.',
+    'Kurallar: marka renk/font/spacing bizim; mobil-first; a11y + reduced-motion; TypeScript tercih.',
+    isRb ? 'Bağımlılıklar: framer-motion / gsap / ogl / three yalnızca gerçekten gerekiyorsa ekle.' : '',
   ]
     .filter(Boolean)
     .join('\n')
@@ -215,14 +229,17 @@ function flash(btn: HTMLElement | null, label: string) {
 }
 
 function countInGroup(groupId: string) {
+  if (groupId === 'all') return items.length
   if (groupId === 'favorites') return favorites.size
   return items.filter((i) => i.group === groupId).length
 }
 
 function render() {
-  const item = activeItem()
+  const searching = query.trim().length > 0
   const list = filteredItems()
-  const cats = categoriesForGroup(activeGroup)
+  const item = activeItem()
+  const cats = searching || activeGroup === 'all' ? [] : categoriesForGroup(activeGroup)
+  const highlightGroup = searching ? 'all' : activeGroup
 
   app.innerHTML = `
   <div class="app-shell">
@@ -240,19 +257,19 @@ function render() {
     </header>
 
     <aside class="sidebar">
-      <input class="search" type="search" placeholder="Tümünde ara… (login, dock…)" value="${esc(query)}" />
+      <input class="search" type="search" placeholder="Tümünde ara… örn. login" value="${esc(query)}" />
       ${
-        query.trim()
-          ? `<p class="meta-line search-hint">Tüm katalogda “${esc(query.trim())}” · ${list.length} sonuç</p>`
-          : ''
+        searching
+          ? `<p class="meta-line search-hint">Tüm katalog · “${esc(query.trim())}” · <strong>${list.length}</strong> sonuç</p>`
+          : `<p class="meta-line search-hint">Boş bırak = grup filtresi · yazınca her yerde ara</p>`
       }
 
       <div class="group-nav">
         ${groups
           .map((g) => {
-            const open = openGroups.has(g.id) || activeGroup === g.id
+            const open = openGroups.has(g.id) || highlightGroup === g.id
             const count = countInGroup(g.id)
-            const isActive = activeGroup === g.id
+            const isActive = highlightGroup === g.id
             return `
             <div class="group-block ${isActive ? 'active' : ''}">
               <button type="button" class="group-head" data-group="${esc(g.id)}" data-toggle-group="${esc(g.id)}">
@@ -260,7 +277,7 @@ function render() {
                 <span class="count">${count}</span>
               </button>
               ${
-                open && isActive
+                open && isActive && cats.length
                   ? `<div class="cat-list">
                       <button type="button" class="cat-btn ${activeCategory === 'all' ? 'active' : ''}" data-cat="all">Tümü</button>
                       ${cats
@@ -284,12 +301,15 @@ function render() {
             ? list
                 .map((it) => {
                   const fav = favorites.has(it.id)
+                  const sub = searching
+                    ? `${it.groupLabel} · ${it.category}`
+                    : `${it.category}${it.stars ? ` · ${starLabel(it.stars)}` : ''}${it.kind === 'external' ? ' · external' : ''}`
                   return `
               <div class="demo-row ${item?.id === it.id ? 'active' : ''}">
                 <button type="button" class="star-btn ${fav ? 'on' : ''}" data-star="${esc(it.id)}" title="Favorilere ekle/çıkar">${fav ? '★' : '☆'}</button>
                 <button type="button" class="demo-item" data-id="${esc(it.id)}">
                   <span class="title">${esc(it.title)}</span>
-                  <span class="sub">${esc(it.category)}${it.stars ? ` · ${esc(starLabel(it.stars))}` : ''}${it.kind === 'external' ? ' · external' : ''}</span>
+                  <span class="sub">${esc(sub)}</span>
                 </button>
               </div>`
                 })
@@ -382,6 +402,8 @@ function bind() {
       activeCategory = 'all'
       activeId = null
       activeTab = 'live'
+      // Grup seçince aramayı temizle — yoksa sonuçlar yine tüm katalogdan gelir
+      if (g !== 'all') query = ''
       render()
     })
   })
@@ -491,11 +513,16 @@ async function boot() {
     const manifest = (await mRes.json()) as Manifest
     const catalog = cRes.ok ? ((await cRes.json()) as Catalog) : { favoritesKey: FAV_KEY, items: [] }
 
-    groups = [...manifest.groups].sort((a, b) => a.order - b.order)
+    groups = [
+      { id: 'all', label: 'Tümü', order: -1 },
+      ...manifest.groups,
+    ].sort((a, b) => a.order - b.order)
     const local: Item[] = manifest.demos.map((d) => ({ ...d, kind: d.kind || 'local' }))
     items = [...catalog.items, ...local]
 
-    if (!items.some((i) => i.group === activeGroup)) activeGroup = 'copy-paste'
+    if (!items.some((i) => i.group === activeGroup) && activeGroup !== 'all' && activeGroup !== 'favorites') {
+      activeGroup = 'all'
+    }
     activeId = filteredItems()[0]?.id ?? null
     render()
   } catch (err) {
