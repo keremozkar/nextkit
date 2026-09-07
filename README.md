@@ -4,7 +4,8 @@ Instagram [@frontendjoe](https://www.instagram.com/frontendjoe) + yüksek yıld�
 
 - **Kategoriler:** Favoriler · Copy-paste Motion · Mobil · Flowbite · Joe Reels/CSS/Sidebar/ES6/JS
 - ★ **Favoriler** (localStorage)
-- canlı **HTML önizleme** (yerel demolar) + harici demo linkleri
+- canlı **HTML/React önizleme** — kit bileşenleri yerelde kopyalanıp `/kits` altında render
+- harici site proxy yok; kaynak koddan örnekler
 - **Copy kod** / **Copy uyarla prompt** / **Copy hepsi**
 - Cursor **MD skill**
 
@@ -16,7 +17,6 @@ Instagram [@frontendjoe](https://www.instagram.com/frontendjoe) + yüksek yıld�
 | --- | --- |
 | CSS Reels (Instagram) | https://github.com/frontend-joe/css-reels |
 | CSS Components | https://github.com/frontend-joe/css-components |
-| CSS Navbars | https://github.com/frontend-joe/css-navbars |
 | ES6 Components | https://github.com/frontend-joe/es6-components |
 | JS Components | https://github.com/frontend-joe/js-components |
 

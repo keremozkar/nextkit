@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 43127",
-    "build": "tsc && vite build",
+    "build:kits": "npm run build --prefix kits-app",
+    "build": "npm run build:kits && tsc && vite build",
     "preview": "vite preview --host 0.0.0.0 --port 43127",
     "docker:up": "docker compose up --build -d",
     "docker:down": "docker compose down",

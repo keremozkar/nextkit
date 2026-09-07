@@ -1,4 +1,5 @@
 node_modules
+kits-app/node_modules
 dist
 dist-ssr
 .git
@@ -9,3 +10,4 @@ agent-tools
 .tmp
 .env
 .env.*
+nginx-embeds

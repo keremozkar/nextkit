@@ -20,6 +20,7 @@ type Item = {
   blurb?: string
   preview: string
   previewMode: 'iframe' | 'external'
+  liveUrl?: string
   source: string
   stars?: number | null
   stack?: string
@@ -294,7 +295,7 @@ function render() {
           <div class="copy-row">
             <button type="button" class="primary-btn" id="copy-prompt-btn">Copy uyarla prompt</button>
             ${item.kind === 'local' ? `<button type="button" class="ghost-btn" id="copy-code-btn">Copy kod</button><button type="button" class="ghost-btn" id="copy-all-btn">Copy hepsi</button>` : ''}
-            <a class="ghost-btn" href="${esc(item.preview)}" target="_blank" rel="noreferrer">${item.previewMode === 'external' ? 'Demo sitesini aç' : 'Önizlemeyi aç'}</a>
+            <a class="ghost-btn" href="${esc(item.liveUrl || item.preview)}" target="_blank" rel="noreferrer">Yeni sekmede aç</a>
           </div>
         </div>
         <div class="tabs-bar">
@@ -307,17 +308,18 @@ function render() {
             )
             .join('')}
         </div>
-        <div class="preview-wrap">
-          ${
-            item.previewMode === 'iframe'
-              ? `<iframe title="${esc(item.title)}" src="${esc(item.preview)}" loading="lazy"></iframe>`
-              : `<div class="external-card">
-                  <h3>Harici demo</h3>
-                  <p>Bu kit tarayıcıda kendi sitesinde / RN ortamında çalışır. Aşağıdan prompt kopyala veya siteyi aç.</p>
-                  <a class="primary-btn" href="${esc(item.preview)}" target="_blank" rel="noreferrer">Canlı siteyi aç →</a>
-                  <p class="meta-line" style="margin-top:12px">${esc(item.source)}</p>
-                </div>`
-          }
+        <div class="preview-wrap ${item.kind === 'external' ? 'preview-external' : ''}">
+          <div class="preview-chrome">
+            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <span class="preview-url">${esc(item.liveUrl || item.preview)}</span>
+          </div>
+          <iframe
+            title="${esc(item.title)}"
+            src="${esc(item.preview)}"
+            loading="eager"
+            referrerpolicy="no-referrer-when-downgrade"
+            allow="fullscreen; clipboard-read; clipboard-write"
+          ></iframe>
         </div>
         <div class="panel">
           <div class="panel-toolbar">

@@ -287,13 +287,6 @@ export const collectionHowItWorks: Record<string, HowItWorks> = {
       'Mostly CSS; minimal JS.',
     ],
   },
-  'css-navbars': {
-    summary: 'Dedicated responsive navbar cookbook (15 patterns).',
-    techniques: [
-      'Desktop flex nav + mobile burger drawer variants.',
-      'Indicator/underline animations and sticky translucent bars.',
-    ],
-  },
   'es6-components': {
     summary: 'Interactive components with vanilla ES6 modules + occasional libraries.',
     techniques: [

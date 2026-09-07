@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-marquee: marquee var(--duration) linear infinite;
+  --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+  --animate-shiny-text: shiny-text 8s infinite;
+  --color-background: #0c0d10;
+  --color-foreground: #f4f6f8;
+  --color-primary: #8f44fd;
+  --color-primary-foreground: #ffffff;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-100% - var(--gap))); }
+}
+@keyframes marquee-vertical {
+  from { transform: translateY(0); }
+  to { transform: translateY(calc(-100% - var(--gap))); }
+}
+@keyframes shiny-text {
+  0%, 90%, 100% { background-position: calc(-100% - var(--shiny-width)) 0; }
+  30%, 60% { background-position: calc(100% + var(--shiny-width)) 0; }
+}
+
+html, body, #root {
+  margin: 0;
+  min-height: 100%;
+  background: #0c0d10;
+  color: #f4f6f8;
+  font-family: "DM Sans", system-ui, sans-serif;
+}
+
+.demo-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 32px 16px;
+  background:
+    radial-gradient(900px 400px at 20% 0%, rgb(143 68 253 / 22%), transparent 55%),
+    #0c0d10;
+}
+
+.demo-label {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 20;
+  font-size: 12px;
+  color: #9aa3b2;
+  background: rgb(0 0 0 / 45%);
+  border: 1px solid rgb(255 255 255 / 10%);
+  border-radius: 999px;
+  padding: 6px 10px;
+}

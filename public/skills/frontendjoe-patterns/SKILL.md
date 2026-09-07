@@ -9,7 +9,6 @@ Kaynaklar (Instagram’daki gönderilerin açık hali):
 
 - https://github.com/frontend-joe/css-reels — Instagram reels
 - https://github.com/frontend-joe/css-components
-- https://github.com/frontend-joe/css-navbars
 - https://github.com/frontend-joe/es6-components
 - https://github.com/frontend-joe/js-components
 - https://www.instagram.com/frontendjoe

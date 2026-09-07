@@ -432,14 +432,55 @@ a:hover {
   background: #000;
   min-height: 280px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.preview-wrap.preview-external {
+  min-height: 62vh;
+}
+
+.preview-chrome {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: #1a1d22;
+  border-bottom: 1px solid var(--line);
+  flex-shrink: 0;
+}
+
+.preview-chrome .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #3a3f48;
+}
+
+.preview-chrome .dot:nth-child(1) { background: #ff5f57; }
+.preview-chrome .dot:nth-child(2) { background: #febc2e; }
+.preview-chrome .dot:nth-child(3) { background: #28c840; }
+
+.preview-url {
+  margin-left: 8px;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .preview-wrap iframe {
   width: 100%;
-  height: 100%;
+  flex: 1;
   min-height: 280px;
   border: 0;
   background: #14171a;
+}
+
+.preview-wrap.preview-external iframe {
+  min-height: 58vh;
 }
 
 .preview-wrap .empty,
