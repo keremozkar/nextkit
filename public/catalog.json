@@ -1,0 +1,253 @@
+{
+  "version": 2,
+  "favoritesKey": "pattern-lab-favorites-v1",
+  "items": [
+    {
+      "id": "ext-react-bits",
+      "kind": "external",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste \u00b7 Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "motion",
+      "title": "React Bits",
+      "blurb": "Animated, interactive React components \u2014 copy & customize.",
+      "preview": "https://reactbits.dev",
+      "previewMode": "external",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "animation"
+      ]
+    },
+    {
+      "id": "ext-magicui",
+      "kind": "external",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste \u00b7 Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "motion",
+      "title": "Magic UI",
+      "blurb": "Design-engineer components & effects for Next + Tailwind.",
+      "preview": "https://magicui.design",
+      "previewMode": "external",
+      "source": "https://github.com/magicuidesign/magicui",
+      "stars": 22189,
+      "tags": [
+        "next",
+        "tailwind",
+        "framer-motion"
+      ]
+    },
+    {
+      "id": "ext-motion-primitives",
+      "kind": "external",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste \u00b7 Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "motion",
+      "title": "Motion Primitives",
+      "blurb": "UI kit for beautiful animated interfaces.",
+      "preview": "https://motion-primitives.com",
+      "previewMode": "external",
+      "source": "https://github.com/ibelick/motion-primitives",
+      "stars": 6222,
+      "tags": [
+        "react",
+        "motion"
+      ]
+    },
+    {
+      "id": "ext-cult-ui",
+      "kind": "external",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste \u00b7 Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "motion",
+      "title": "Cult UI",
+      "blurb": "shadcn-compatible components for design engineers.",
+      "preview": "https://cult-ui.com",
+      "previewMode": "external",
+      "source": "https://github.com/nolly-studio/cult-ui",
+      "stars": 6118,
+      "tags": [
+        "shadcn",
+        "tailwind"
+      ]
+    },
+    {
+      "id": "ext-animata",
+      "kind": "external",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste \u00b7 Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "motion",
+      "title": "Animata",
+      "blurb": "Copy. Paste. Animate. Interaction snippets.",
+      "preview": "https://animata.design",
+      "previewMode": "external",
+      "source": "https://github.com/codse/animata",
+      "stars": 2784,
+      "tags": [
+        "react",
+        "tailwind"
+      ]
+    },
+    {
+      "id": "ext-fj-react",
+      "kind": "external",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste \u00b7 Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "react",
+      "title": "Frontend Joe \u00b7 React Components",
+      "blurb": "Joe\u2019nun React component showcase (Vercel demo).",
+      "preview": "https://react-components-nu-lake.vercel.app",
+      "previewMode": "external",
+      "source": "https://github.com/frontend-joe/react-components",
+      "stars": 205,
+      "tags": [
+        "react",
+        "frontendjoe"
+      ]
+    },
+    {
+      "id": "ext-fj-react-sidebars",
+      "kind": "external",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste \u00b7 Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "sidebars",
+      "title": "Frontend Joe \u00b7 React Sidebars",
+      "blurb": "React sidebar navigation concepts \u2014 clone & adapt.",
+      "preview": "https://github.com/frontend-joe/react-sidebars",
+      "previewMode": "external",
+      "source": "https://github.com/frontend-joe/react-sidebars",
+      "stars": 107,
+      "tags": [
+        "react",
+        "sidebar"
+      ]
+    },
+    {
+      "id": "ext-rn-reusables",
+      "kind": "external",
+      "group": "mobile",
+      "groupLabel": "Mobil \u00b7 React Native",
+      "groupOrder": 2,
+      "stack": "mobile",
+      "category": "react-native",
+      "title": "React Native Reusables",
+      "blurb": "shadcn/ui yakla\u015f\u0131m\u0131 React Native + NativeWind.",
+      "preview": "https://reactnativereusables.com",
+      "previewMode": "external",
+      "source": "https://github.com/founded-labs/react-native-reusables",
+      "stars": 8641,
+      "tags": [
+        "react-native",
+        "nativewind",
+        "shadcn"
+      ]
+    },
+    {
+      "id": "ext-gluestack",
+      "kind": "external",
+      "group": "mobile",
+      "groupLabel": "Mobil \u00b7 React Native",
+      "groupOrder": 2,
+      "stack": "mobile",
+      "category": "react-native",
+      "title": "gluestack-ui",
+      "blurb": "RN + web copy-paste components (NativeWind).",
+      "preview": "https://gluestack.io/",
+      "previewMode": "external",
+      "source": "https://github.com/gluestack/gluestack-ui",
+      "stars": 5290,
+      "tags": [
+        "react-native",
+        "web"
+      ]
+    },
+    {
+      "id": "ext-heroui-native",
+      "kind": "external",
+      "group": "mobile",
+      "groupLabel": "Mobil \u00b7 React Native",
+      "groupOrder": 2,
+      "stack": "mobile",
+      "category": "react-native",
+      "title": "HeroUI Native",
+      "blurb": "Modern React Native UI (HeroUI ailesi).",
+      "preview": "https://heroui.com/docs/native/getting-started",
+      "previewMode": "external",
+      "source": "https://github.com/heroui-inc/heroui-native",
+      "stars": 3636,
+      "tags": [
+        "react-native"
+      ]
+    },
+    {
+      "id": "ext-nativebase",
+      "kind": "external",
+      "group": "mobile",
+      "groupLabel": "Mobil \u00b7 React Native",
+      "groupOrder": 2,
+      "stack": "mobile",
+      "category": "react-native",
+      "title": "NativeBase",
+      "blurb": "Mobile-first accessible components for RN & web.",
+      "preview": "https://nativebase.io/",
+      "previewMode": "external",
+      "source": "https://github.com/GeekyAnts/NativeBase",
+      "stars": 20379,
+      "tags": [
+        "react-native",
+        "web"
+      ]
+    },
+    {
+      "id": "ext-wix-rn",
+      "kind": "external",
+      "group": "mobile",
+      "groupLabel": "Mobil \u00b7 React Native",
+      "groupOrder": 2,
+      "stack": "mobile",
+      "category": "react-native",
+      "title": "React Native UI Lib (Wix)",
+      "blurb": "Production RN component library from Wix.",
+      "preview": "https://wix.github.io/react-native-ui-lib/",
+      "previewMode": "external",
+      "source": "https://github.com/wix/react-native-ui-lib",
+      "stars": 7153,
+      "tags": [
+        "react-native"
+      ]
+    },
+    {
+      "id": "ext-flowbite",
+      "kind": "external",
+      "group": "flowbite",
+      "groupLabel": "Flowbite \u00b7 Tailwind",
+      "groupOrder": 3,
+      "stack": "tailwind",
+      "category": "docs",
+      "title": "Flowbite Docs",
+      "blurb": "Resmi dok\u00fcmantasyon + t\u00fcm component\u2019ler.",
+      "preview": "https://flowbite.com",
+      "previewMode": "external",
+      "source": "https://github.com/themesberg/flowbite",
+      "stars": 9329,
+      "tags": [
+        "tailwind",
+        "html"
+      ]
+    }
+  ]
+}

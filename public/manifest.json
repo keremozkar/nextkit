@@ -1,45 +1,78 @@
 {
-  "attribution": "Joe Harrison (frontendjoe) \u2014 open-source HTML/CSS/JS collections from GitHub (same work featured on Instagram @frontendjoe).",
+  "version": 2,
+  "attribution": "Joe Harrison (frontendjoe) + curated high-star open-source UI kits. Use as reference \u2014 adapt to your brand.",
   "instagram": "https://www.instagram.com/frontendjoe",
   "website": "https://www.frontendjoe.com/",
-  "sources": [
+  "favoritesKey": "pattern-lab-favorites-v1",
+  "groups": [
     {
-      "id": "reels",
-      "label": "CSS Reels (Instagram)",
-      "url": "https://github.com/frontend-joe/css-reels"
+      "id": "favorites",
+      "label": "Favorilerim",
+      "order": 0
     },
     {
-      "id": "css-components",
-      "label": "CSS Components",
-      "url": "https://github.com/frontend-joe/css-components"
+      "id": "copy-paste",
+      "label": "Copy-paste \u00b7 Motion UI",
+      "order": 1
     },
     {
-      "id": "css-navbars",
-      "label": "CSS Navbars",
-      "url": "https://github.com/frontend-joe/css-navbars"
+      "id": "mobile",
+      "label": "Mobil \u00b7 React Native",
+      "order": 2
     },
     {
-      "id": "es6-components",
-      "label": "ES6 Components",
-      "url": "https://github.com/frontend-joe/es6-components"
+      "id": "flowbite",
+      "label": "Flowbite \u00b7 Tailwind",
+      "order": 3
     },
     {
-      "id": "js-components",
-      "label": "JS Components",
-      "url": "https://github.com/frontend-joe/js-components"
+      "id": "joe-reels",
+      "label": "Joe \u00b7 Instagram Reels",
+      "order": 10
+    },
+    {
+      "id": "joe-css",
+      "label": "Joe \u00b7 CSS Components",
+      "order": 20
+    },
+    {
+      "id": "joe-navbars",
+      "label": "Joe \u00b7 CSS Navbars",
+      "order": 30
+    },
+    {
+      "id": "joe-sidebars",
+      "label": "Joe \u00b7 CSS Sidebars",
+      "order": 40
+    },
+    {
+      "id": "joe-es6",
+      "label": "Joe \u00b7 ES6 Components",
+      "order": 50
+    },
+    {
+      "id": "joe-js",
+      "label": "Joe \u00b7 JS Components",
+      "order": 60
     }
   ],
-  "count": 189,
+  "count": 203,
   "demos": [
     {
       "id": "reels--burgers-part-1",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "burgers",
       "part": "part-1",
       "path": "burgers/part-1",
       "title": "Burgers \u00b7 Part 1",
       "preview": "/reels/burgers/part-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/burgers/part-1/index.html",
         "css": "/reels/burgers/part-1/index.css",
@@ -49,17 +82,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--burgers-part-2",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "burgers",
       "part": "part-2",
       "path": "burgers/part-2",
       "title": "Burgers \u00b7 Part 2",
       "preview": "/reels/burgers/part-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/burgers/part-2/index.html",
         "css": "/reels/burgers/part-2/index.css",
@@ -69,17 +109,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--burgers-part-3",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "burgers",
       "part": "part-3",
       "path": "burgers/part-3",
       "title": "Burgers \u00b7 Part 3",
       "preview": "/reels/burgers/part-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/burgers/part-3/index.html",
         "css": "/reels/burgers/part-3/index.css",
@@ -89,17 +136,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--buttons-part-1",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "buttons",
       "part": "part-1",
       "path": "buttons/part-1",
       "title": "Buttons \u00b7 Part 1",
       "preview": "/reels/buttons/part-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/buttons/part-1/index.html",
         "css": "/reels/buttons/part-1/index.css",
@@ -109,17 +163,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--buttons-part-2",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "buttons",
       "part": "part-2",
       "path": "buttons/part-2",
       "title": "Buttons \u00b7 Part 2",
       "preview": "/reels/buttons/part-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/buttons/part-2/index.html",
         "css": "/reels/buttons/part-2/index.css",
@@ -129,17 +190,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--buttons-part-3",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "buttons",
       "part": "part-3",
       "path": "buttons/part-3",
       "title": "Buttons \u00b7 Part 3",
       "preview": "/reels/buttons/part-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/buttons/part-3/index.html",
         "css": "/reels/buttons/part-3/index.css",
@@ -149,17 +217,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--buttons-part-4",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "buttons",
       "part": "part-4",
       "path": "buttons/part-4",
       "title": "Buttons \u00b7 Part 4",
       "preview": "/reels/buttons/part-4/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/buttons/part-4/index.html",
         "css": "/reels/buttons/part-4/index.css",
@@ -169,17 +244,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--checkboxes-part-1",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "checkboxes",
       "part": "part-1",
       "path": "checkboxes/part-1",
       "title": "Checkboxes \u00b7 Part 1",
       "preview": "/reels/checkboxes/part-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/checkboxes/part-1/index.html",
         "css": "/reels/checkboxes/part-1/index.css",
@@ -189,17 +271,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--checkboxes-part-2",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "checkboxes",
       "part": "part-2",
       "path": "checkboxes/part-2",
       "title": "Checkboxes \u00b7 Part 2",
       "preview": "/reels/checkboxes/part-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/checkboxes/part-2/index.html",
         "css": "/reels/checkboxes/part-2/index.css",
@@ -209,17 +298,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--checkboxes-part-3",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "checkboxes",
       "part": "part-3",
       "path": "checkboxes/part-3",
       "title": "Checkboxes \u00b7 Part 3",
       "preview": "/reels/checkboxes/part-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/checkboxes/part-3/index.html",
         "css": "/reels/checkboxes/part-3/index.css",
@@ -229,17 +325,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--checkboxes-part-4",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "checkboxes",
       "part": "part-4",
       "path": "checkboxes/part-4",
       "title": "Checkboxes \u00b7 Part 4",
       "preview": "/reels/checkboxes/part-4/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/checkboxes/part-4/index.html",
         "css": "/reels/checkboxes/part-4/index.css",
@@ -249,17 +352,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--dropdowns-part-1",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "dropdowns",
       "part": "part-1",
       "path": "dropdowns/part-1",
       "title": "Dropdowns \u00b7 Part 1",
       "preview": "/reels/dropdowns/part-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/dropdowns/part-1/index.html",
         "css": "/reels/dropdowns/part-1/index.css",
@@ -269,17 +379,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--examples-child-selectors",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "examples",
       "part": "child-selectors",
       "path": "examples/child-selectors",
       "title": "Examples \u00b7 Child Selectors",
       "preview": "/reels/examples/child-selectors/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/examples/child-selectors/index.html",
         "css": "/reels/examples/child-selectors/index.css",
@@ -289,17 +406,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--examples-filter-property",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "examples",
       "part": "filter-property",
       "path": "examples/filter-property",
       "title": "Examples \u00b7 Filter Property",
       "preview": "/reels/examples/filter-property/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/examples/filter-property/index.html",
         "css": "/reels/examples/filter-property/index.css",
@@ -309,17 +433,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--examples-timing-function",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "examples",
       "part": "timing-function",
       "path": "examples/timing-function",
       "title": "Examples \u00b7 Timing Function",
       "preview": "/reels/examples/timing-function/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/examples/timing-function/index.html",
         "css": "/reels/examples/timing-function/index.css",
@@ -329,17 +460,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--examples-timing-function-2",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "examples",
       "part": "timing-function-2",
       "path": "examples/timing-function-2",
       "title": "Examples \u00b7 Timing Function 2",
       "preview": "/reels/examples/timing-function-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/examples/timing-function-2/index.html",
         "css": "/reels/examples/timing-function-2/index.css",
@@ -349,17 +487,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--examples-transforms",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "examples",
       "part": "transforms",
       "path": "examples/transforms",
       "title": "Examples \u00b7 Transforms",
       "preview": "/reels/examples/transforms/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/examples/transforms/index.html",
         "css": "/reels/examples/transforms/index.css",
@@ -369,17 +514,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--inputs-part-1",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "inputs",
       "part": "part-1",
       "path": "inputs/part-1",
       "title": "Inputs \u00b7 Part 1",
       "preview": "/reels/inputs/part-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/inputs/part-1/index.html",
         "css": "/reels/inputs/part-1/index.css",
@@ -391,17 +543,24 @@
           "/reels/inputs/part-1/index.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--inputs-part-2",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "inputs",
       "part": "part-2",
       "path": "inputs/part-2",
       "title": "Inputs \u00b7 Part 2",
       "preview": "/reels/inputs/part-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/inputs/part-2/index.html",
         "css": "/reels/inputs/part-2/index.css",
@@ -413,17 +572,24 @@
           "/reels/inputs/part-2/index.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--loaders-part-3",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "loaders",
       "part": "part-3",
       "path": "loaders/part-3",
       "title": "Loaders \u00b7 Part 3",
       "preview": "/reels/loaders/part-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/loaders/part-3/index.html",
         "css": "/reels/loaders/part-3/index.css",
@@ -433,17 +599,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--loaders-part-4",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "loaders",
       "part": "part-4",
       "path": "loaders/part-4",
       "title": "Loaders \u00b7 Part 4",
       "preview": "/reels/loaders/part-4/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/loaders/part-4/index.html",
         "css": "/reels/loaders/part-4/index.css",
@@ -453,17 +626,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--loaders-part-5",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "loaders",
       "part": "part-5",
       "path": "loaders/part-5",
       "title": "Loaders \u00b7 Part 5",
       "preview": "/reels/loaders/part-5/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/loaders/part-5/index.html",
         "css": "/reels/loaders/part-5/index.css",
@@ -473,17 +653,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--loaders-part-6",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "loaders",
       "part": "part-6",
       "path": "loaders/part-6",
       "title": "Loaders \u00b7 Part 6",
       "preview": "/reels/loaders/part-6/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/loaders/part-6/index.html",
         "css": "/reels/loaders/part-6/index.css",
@@ -493,17 +680,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--loaders-part-7",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "loaders",
       "part": "part-7",
       "path": "loaders/part-7",
       "title": "Loaders \u00b7 Part 7",
       "preview": "/reels/loaders/part-7/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/loaders/part-7/index.html",
         "css": "/reels/loaders/part-7/index.css",
@@ -513,17 +707,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--loaders-part-8",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "loaders",
       "part": "part-8",
       "path": "loaders/part-8",
       "title": "Loaders \u00b7 Part 8",
       "preview": "/reels/loaders/part-8/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/loaders/part-8/index.html",
         "css": "/reels/loaders/part-8/index.css",
@@ -533,17 +734,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--loaders-part-9",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "loaders",
       "part": "part-9",
       "path": "loaders/part-9",
       "title": "Loaders \u00b7 Part 9",
       "preview": "/reels/loaders/part-9/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/loaders/part-9/index.html",
         "css": "/reels/loaders/part-9/index.css",
@@ -553,17 +761,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--menus-part-1",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "menus",
       "part": "part-1",
       "path": "menus/part-1",
       "title": "Menus \u00b7 Part 1",
       "preview": "/reels/menus/part-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/menus/part-1/index.html",
         "css": "/reels/menus/part-1/index.css",
@@ -573,17 +788,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--modals-part-1",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "modals",
       "part": "part-1",
       "path": "modals/part-1",
       "title": "Modals \u00b7 Part 1",
       "preview": "/reels/modals/part-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/modals/part-1/index.html",
         "css": "/reels/modals/part-1/index.css",
@@ -593,17 +815,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--svgs-part-3",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "svgs",
       "part": "part-3",
       "path": "svgs/part-3",
       "title": "Svgs \u00b7 Part 3",
       "preview": "/reels/svgs/part-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/svgs/part-3/index.html",
         "css": "/reels/svgs/part-3/index.css",
@@ -613,17 +842,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--switches-part-1",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "switches",
       "part": "part-1",
       "path": "switches/part-1",
       "title": "Switches \u00b7 Part 1",
       "preview": "/reels/switches/part-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/switches/part-1/index.html",
         "css": "/reels/switches/part-1/index.css",
@@ -633,17 +869,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--switches-part-2",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "switches",
       "part": "part-2",
       "path": "switches/part-2",
       "title": "Switches \u00b7 Part 2",
       "preview": "/reels/switches/part-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/switches/part-2/index.html",
         "css": "/reels/switches/part-2/index.css",
@@ -653,17 +896,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--switches-part-4",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "switches",
       "part": "part-4",
       "path": "switches/part-4",
       "title": "Switches \u00b7 Part 4",
       "preview": "/reels/switches/part-4/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/switches/part-4/index.html",
         "css": "/reels/switches/part-4/index.css",
@@ -673,17 +923,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "reels--tooltips-part-1",
+      "kind": "local",
       "collection": "reels",
-      "collectionLabel": "CSS Reels (Instagram)",
+      "collectionLabel": "Joe \u00b7 Instagram Reels",
+      "group": "joe-reels",
+      "groupLabel": "Joe \u00b7 Instagram Reels",
+      "groupOrder": 10,
+      "stack": "frontendjoe",
       "category": "tooltips",
       "part": "part-1",
       "path": "tooltips/part-1",
       "title": "Tooltips \u00b7 Part 1",
       "preview": "/reels/tooltips/part-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/reels/tooltips/part-1/index.html",
         "css": "/reels/tooltips/part-1/index.css",
@@ -693,17 +950,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-reels"
+      "source": "https://github.com/frontend-joe/css-reels",
+      "stars": null
     },
     {
       "id": "css-components--accordions-accordion-1",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "accordions",
       "part": "accordion-1",
       "path": "accordions/accordion-1",
       "title": "Accordions \u00b7 Accordion 1",
       "preview": "/css-components/accordions/accordion-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/accordions/accordion-1/index.html",
         "css": "/css-components/accordions/accordion-1/styles.css",
@@ -713,17 +977,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--accordions-accordion-2",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "accordions",
       "part": "accordion-2",
       "path": "accordions/accordion-2",
       "title": "Accordions \u00b7 Accordion 2",
       "preview": "/css-components/accordions/accordion-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/accordions/accordion-2/index.html",
         "css": "/css-components/accordions/accordion-2/styles.css",
@@ -733,17 +1004,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--cards-card-1",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "cards",
       "part": "card-1",
       "path": "cards/card-1",
       "title": "Cards \u00b7 Card 1",
       "preview": "/css-components/cards/card-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/cards/card-1/index.html",
         "css": "/css-components/cards/card-1/styles.css",
@@ -753,17 +1031,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--cards-card-10",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "cards",
       "part": "card-10",
       "path": "cards/card-10",
       "title": "Cards \u00b7 Card 10",
       "preview": "/css-components/cards/card-10/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/cards/card-10/index.html",
         "css": "/css-components/cards/card-10/styles.css",
@@ -773,17 +1058,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--cards-card-11",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "cards",
       "part": "card-11",
       "path": "cards/card-11",
       "title": "Cards \u00b7 Card 11",
       "preview": "/css-components/cards/card-11/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/cards/card-11/index.html",
         "css": "/css-components/cards/card-11/styles.css",
@@ -793,17 +1085,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--cards-card-13",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "cards",
       "part": "card-13",
       "path": "cards/card-13",
       "title": "Cards \u00b7 Card 13",
       "preview": "/css-components/cards/card-13/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/cards/card-13/index.html",
         "css": "/css-components/cards/card-13/styles.css",
@@ -813,17 +1112,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--cards-card-2",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "cards",
       "part": "card-2",
       "path": "cards/card-2",
       "title": "Cards \u00b7 Card 2",
       "preview": "/css-components/cards/card-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/cards/card-2/index.html",
         "css": "/css-components/cards/card-2/styles.css",
@@ -833,17 +1139,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--cards-card-3",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "cards",
       "part": "card-3",
       "path": "cards/card-3",
       "title": "Cards \u00b7 Card 3",
       "preview": "/css-components/cards/card-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/cards/card-3/index.html",
         "css": "/css-components/cards/card-3/styles.css",
@@ -853,17 +1166,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--cards-card-4",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "cards",
       "part": "card-4",
       "path": "cards/card-4",
       "title": "Cards \u00b7 Card 4",
       "preview": "/css-components/cards/card-4/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/cards/card-4/index.html",
         "css": "/css-components/cards/card-4/styles.css",
@@ -873,17 +1193,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--cards-card-7",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "cards",
       "part": "card-7",
       "path": "cards/card-7",
       "title": "Cards \u00b7 Card 7",
       "preview": "/css-components/cards/card-7/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/cards/card-7/index.html",
         "css": "/css-components/cards/card-7/styles.css",
@@ -893,17 +1220,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--cards-card-8",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "cards",
       "part": "card-8",
       "path": "cards/card-8",
       "title": "Cards \u00b7 Card 8",
       "preview": "/css-components/cards/card-8/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/cards/card-8/index.html",
         "css": "/css-components/cards/card-8/styles.css",
@@ -913,17 +1247,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--cards-card-9",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "cards",
       "part": "card-9",
       "path": "cards/card-9",
       "title": "Cards \u00b7 Card 9",
       "preview": "/css-components/cards/card-9/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/cards/card-9/index.html",
         "css": "/css-components/cards/card-9/styles.css",
@@ -933,17 +1274,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--carousels-carousel-2",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "carousels",
       "part": "carousel-2",
       "path": "carousels/carousel-2",
       "title": "Carousels \u00b7 Carousel 2",
       "preview": "/css-components/carousels/carousel-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/carousels/carousel-2/index.html",
         "css": "/css-components/carousels/carousel-2/styles.css",
@@ -953,17 +1301,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--dashboards-dashboard-1",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "dashboards",
       "part": "dashboard-1",
       "path": "dashboards/dashboard-1",
       "title": "Dashboards \u00b7 Dashboard 1",
       "preview": "/css-components/dashboards/dashboard-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/dashboards/dashboard-1/index.html",
         "css": "/css-components/dashboards/dashboard-1/styles.css",
@@ -973,17 +1328,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--dropdowns-dropdown-1",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "dropdowns",
       "part": "dropdown-1",
       "path": "dropdowns/dropdown-1",
       "title": "Dropdowns \u00b7 Dropdown 1",
       "preview": "/css-components/dropdowns/dropdown-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/dropdowns/dropdown-1/index.html",
         "css": "/css-components/dropdowns/dropdown-1/styles.css",
@@ -993,17 +1355,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--dropdowns-dropdown-2",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "dropdowns",
       "part": "dropdown-2",
       "path": "dropdowns/dropdown-2",
       "title": "Dropdowns \u00b7 Dropdown 2",
       "preview": "/css-components/dropdowns/dropdown-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/dropdowns/dropdown-2/index.html",
         "css": "/css-components/dropdowns/dropdown-2/styles.css",
@@ -1013,17 +1382,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--dropdowns-dropdown-3",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "dropdowns",
       "part": "dropdown-3",
       "path": "dropdowns/dropdown-3",
       "title": "Dropdowns \u00b7 Dropdown 3",
       "preview": "/css-components/dropdowns/dropdown-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/dropdowns/dropdown-3/index.html",
         "css": "/css-components/dropdowns/dropdown-3/styles copy.css",
@@ -1034,17 +1410,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--footers-footer-1",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "footers",
       "part": "footer-1",
       "path": "footers/footer-1",
       "title": "Footers \u00b7 Footer 1",
       "preview": "/css-components/footers/footer-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/footers/footer-1/index.html",
         "css": "/css-components/footers/footer-1/styles.css",
@@ -1054,17 +1437,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--footers-footer-10",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "footers",
       "part": "footer-10",
       "path": "footers/footer-10",
       "title": "Footers \u00b7 Footer 10",
       "preview": "/css-components/footers/footer-10/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/footers/footer-10/index.html",
         "css": "/css-components/footers/footer-10/styles.css",
@@ -1074,17 +1464,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--footers-footer-11",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "footers",
       "part": "footer-11",
       "path": "footers/footer-11",
       "title": "Footers \u00b7 Footer 11",
       "preview": "/css-components/footers/footer-11/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/footers/footer-11/index.html",
         "css": "/css-components/footers/footer-11/styles.css",
@@ -1094,17 +1491,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--footers-footer-12",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "footers",
       "part": "footer-12",
       "path": "footers/footer-12",
       "title": "Footers \u00b7 Footer 12",
       "preview": "/css-components/footers/footer-12/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/footers/footer-12/index.html",
         "css": "/css-components/footers/footer-12/styles.css",
@@ -1114,17 +1518,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--footers-footer-13",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "footers",
       "part": "footer-13",
       "path": "footers/footer-13",
       "title": "Footers \u00b7 Footer 13",
       "preview": "/css-components/footers/footer-13/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/footers/footer-13/index.html",
         "css": "/css-components/footers/footer-13/styles.css",
@@ -1134,17 +1545,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--footers-footer-14",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "footers",
       "part": "footer-14",
       "path": "footers/footer-14",
       "title": "Footers \u00b7 Footer 14",
       "preview": "/css-components/footers/footer-14/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/footers/footer-14/index.html",
         "css": "/css-components/footers/footer-14/styles.css",
@@ -1154,17 +1572,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--footers-footer-15",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "footers",
       "part": "footer-15",
       "path": "footers/footer-15",
       "title": "Footers \u00b7 Footer 15",
       "preview": "/css-components/footers/footer-15/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/footers/footer-15/index.html",
         "css": "/css-components/footers/footer-15/styles.css",
@@ -1174,17 +1599,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--footers-footer-2",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "footers",
       "part": "footer-2",
       "path": "footers/footer-2",
       "title": "Footers \u00b7 Footer 2",
       "preview": "/css-components/footers/footer-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/footers/footer-2/index.html",
         "css": "/css-components/footers/footer-2/styles.css",
@@ -1194,17 +1626,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--footers-footer-3",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "footers",
       "part": "footer-3",
       "path": "footers/footer-3",
       "title": "Footers \u00b7 Footer 3",
       "preview": "/css-components/footers/footer-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/footers/footer-3/index.html",
         "css": "/css-components/footers/footer-3/styles.css",
@@ -1214,17 +1653,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--footers-footer-4",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "footers",
       "part": "footer-4",
       "path": "footers/footer-4",
       "title": "Footers \u00b7 Footer 4",
       "preview": "/css-components/footers/footer-4/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/footers/footer-4/index.html",
         "css": "/css-components/footers/footer-4/styles.css",
@@ -1234,17 +1680,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--footers-footer-5",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "footers",
       "part": "footer-5",
       "path": "footers/footer-5",
       "title": "Footers \u00b7 Footer 5",
       "preview": "/css-components/footers/footer-5/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/footers/footer-5/index.html",
         "css": "/css-components/footers/footer-5/styles.css",
@@ -1254,17 +1707,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--footers-footer-6",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "footers",
       "part": "footer-6",
       "path": "footers/footer-6",
       "title": "Footers \u00b7 Footer 6",
       "preview": "/css-components/footers/footer-6/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/footers/footer-6/index.html",
         "css": "/css-components/footers/footer-6/styles.css",
@@ -1274,17 +1734,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--footers-footer-7",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "footers",
       "part": "footer-7",
       "path": "footers/footer-7",
       "title": "Footers \u00b7 Footer 7",
       "preview": "/css-components/footers/footer-7/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/footers/footer-7/index.html",
         "css": "/css-components/footers/footer-7/styles.css",
@@ -1294,17 +1761,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--footers-footer-8",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "footers",
       "part": "footer-8",
       "path": "footers/footer-8",
       "title": "Footers \u00b7 Footer 8",
       "preview": "/css-components/footers/footer-8/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/footers/footer-8/index.html",
         "css": "/css-components/footers/footer-8/styles.css",
@@ -1314,17 +1788,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--footers-footer-9",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "footers",
       "part": "footer-9",
       "path": "footers/footer-9",
       "title": "Footers \u00b7 Footer 9",
       "preview": "/css-components/footers/footer-9/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/footers/footer-9/index.html",
         "css": "/css-components/footers/footer-9/styles.css",
@@ -1334,17 +1815,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--logins-login-1",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-1",
       "path": "logins/login-1",
       "title": "Logins \u00b7 Login 1",
       "preview": "/css-components/logins/login-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/logins/login-1/index.html",
         "css": "/css-components/logins/login-1/styles.css",
@@ -1354,17 +1842,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--logins-login-10",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-10",
       "path": "logins/login-10",
       "title": "Logins \u00b7 Login 10",
       "preview": "/css-components/logins/login-10/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/logins/login-10/index.html",
         "css": "/css-components/logins/login-10/styles.css",
@@ -1374,17 +1869,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--logins-login-12",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-12",
       "path": "logins/login-12",
       "title": "Logins \u00b7 Login 12",
       "preview": "/css-components/logins/login-12/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/logins/login-12/index.html",
         "css": "/css-components/logins/login-12/styles.css",
@@ -1394,17 +1896,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--logins-login-15",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-15",
       "path": "logins/login-15",
       "title": "Logins \u00b7 Login 15",
       "preview": "/css-components/logins/login-15/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/logins/login-15/index.html",
         "css": "/css-components/logins/login-15/styles.css",
@@ -1416,17 +1925,24 @@
           "/css-components/logins/login-15/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--logins-login-16",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-16",
       "path": "logins/login-16",
       "title": "Logins \u00b7 Login 16",
       "preview": "/css-components/logins/login-16/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/logins/login-16/index.html",
         "css": "/css-components/logins/login-16/styles.css",
@@ -1436,17 +1952,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--logins-login-17",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-17",
       "path": "logins/login-17",
       "title": "Logins \u00b7 Login 17",
       "preview": "/css-components/logins/login-17/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/logins/login-17/index.html",
         "css": "/css-components/logins/login-17/styles.css",
@@ -1456,17 +1979,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--logins-login-18",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-18",
       "path": "logins/login-18",
       "title": "Logins \u00b7 Login 18",
       "preview": "/css-components/logins/login-18/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/logins/login-18/index.html",
         "css": "/css-components/logins/login-18/styles.css",
@@ -1476,17 +2006,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--logins-login-19",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-19",
       "path": "logins/login-19",
       "title": "Logins \u00b7 Login 19",
       "preview": "/css-components/logins/login-19/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/logins/login-19/index.html",
         "css": "/css-components/logins/login-19/styles.css",
@@ -1496,17 +2033,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--logins-login-2",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-2",
       "path": "logins/login-2",
       "title": "Logins \u00b7 Login 2",
       "preview": "/css-components/logins/login-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/logins/login-2/index.html",
         "css": "/css-components/logins/login-2/styles.css",
@@ -1516,17 +2060,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--logins-login-3",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-3",
       "path": "logins/login-3",
       "title": "Logins \u00b7 Login 3",
       "preview": "/css-components/logins/login-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/logins/login-3/index.html",
         "css": "/css-components/logins/login-3/styles.css",
@@ -1536,17 +2087,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--logins-login-4",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-4",
       "path": "logins/login-4",
       "title": "Logins \u00b7 Login 4",
       "preview": "/css-components/logins/login-4/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/logins/login-4/index.html",
         "css": "/css-components/logins/login-4/styles.css",
@@ -1556,17 +2114,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--logins-login-5",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-5",
       "path": "logins/login-5",
       "title": "Logins \u00b7 Login 5",
       "preview": "/css-components/logins/login-5/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/logins/login-5/index.html",
         "css": "/css-components/logins/login-5/styles.css",
@@ -1576,17 +2141,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--logins-login-6",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-6",
       "path": "logins/login-6",
       "title": "Logins \u00b7 Login 6",
       "preview": "/css-components/logins/login-6/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/logins/login-6/index.html",
         "css": "/css-components/logins/login-6/styles.css",
@@ -1596,17 +2168,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--logins-login-7",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-7",
       "path": "logins/login-7",
       "title": "Logins \u00b7 Login 7",
       "preview": "/css-components/logins/login-7/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/logins/login-7/index.html",
         "css": "/css-components/logins/login-7/styles.css",
@@ -1616,17 +2195,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--logins-login-8",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-8",
       "path": "logins/login-8",
       "title": "Logins \u00b7 Login 8",
       "preview": "/css-components/logins/login-8/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/logins/login-8/index.html",
         "css": "/css-components/logins/login-8/styles.css",
@@ -1636,17 +2222,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--logins-login-9",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-9",
       "path": "logins/login-9",
       "title": "Logins \u00b7 Login 9",
       "preview": "/css-components/logins/login-9/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/logins/login-9/index.html",
         "css": "/css-components/logins/login-9/styles.css",
@@ -1656,17 +2249,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--menus-menu-1",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "menus",
       "part": "menu-1",
       "path": "menus/menu-1",
       "title": "Menus \u00b7 Menu 1",
       "preview": "/css-components/menus/menu-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/menus/menu-1/index.html",
         "css": "/css-components/menus/menu-1/styles.css",
@@ -1676,17 +2276,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--menus-menu-2",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "menus",
       "part": "menu-2",
       "path": "menus/menu-2",
       "title": "Menus \u00b7 Menu 2",
       "preview": "/css-components/menus/menu-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/menus/menu-2/index.html",
         "css": "/css-components/menus/menu-2/styles.css",
@@ -1696,17 +2303,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--menus-menu-3",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "menus",
       "part": "menu-3",
       "path": "menus/menu-3",
       "title": "Menus \u00b7 Menu 3",
       "preview": "/css-components/menus/menu-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/menus/menu-3/index.html",
         "css": "/css-components/menus/menu-3/styles.css",
@@ -1716,17 +2330,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--navbars-navbar-1",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "navbars",
       "part": "navbar-1",
       "path": "navbars/navbar-1",
       "title": "Navbars \u00b7 Navbar 1",
       "preview": "/css-components/navbars/navbar-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/navbars/navbar-1/index.html",
         "css": "/css-components/navbars/navbar-1/styles.css",
@@ -1736,17 +2357,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--navbars-navbar-2",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "navbars",
       "part": "navbar-2",
       "path": "navbars/navbar-2",
       "title": "Navbars \u00b7 Navbar 2",
       "preview": "/css-components/navbars/navbar-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/navbars/navbar-2/index.html",
         "css": "/css-components/navbars/navbar-2/styles.css",
@@ -1756,17 +2384,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--navbars-navbar-3",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "navbars",
       "part": "navbar-3",
       "path": "navbars/navbar-3",
       "title": "Navbars \u00b7 Navbar 3",
       "preview": "/css-components/navbars/navbar-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/navbars/navbar-3/index.html",
         "css": "/css-components/navbars/navbar-3/styles.css",
@@ -1776,17 +2411,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--navbars-navbar-4",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "navbars",
       "part": "navbar-4",
       "path": "navbars/navbar-4",
       "title": "Navbars \u00b7 Navbar 4",
       "preview": "/css-components/navbars/navbar-4/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/navbars/navbar-4/index.html",
         "css": "/css-components/navbars/navbar-4/styles.css",
@@ -1796,17 +2438,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--navbars-navbar-5",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "navbars",
       "part": "navbar-5",
       "path": "navbars/navbar-5",
       "title": "Navbars \u00b7 Navbar 5",
       "preview": "/css-components/navbars/navbar-5/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/navbars/navbar-5/index.html",
         "css": "/css-components/navbars/navbar-5/styles.css",
@@ -1816,17 +2465,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--navbars-navbar-6",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "navbars",
       "part": "navbar-6",
       "path": "navbars/navbar-6",
       "title": "Navbars \u00b7 Navbar 6",
       "preview": "/css-components/navbars/navbar-6/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/navbars/navbar-6/index.html",
         "css": "/css-components/navbars/navbar-6/styles.css",
@@ -1836,17 +2492,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--navbars-navbar-7",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "navbars",
       "part": "navbar-7",
       "path": "navbars/navbar-7",
       "title": "Navbars \u00b7 Navbar 7",
       "preview": "/css-components/navbars/navbar-7/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/navbars/navbar-7/index.html",
         "css": "/css-components/navbars/navbar-7/styles.css",
@@ -1856,17 +2519,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--navbars-navbar-8",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "navbars",
       "part": "navbar-8",
       "path": "navbars/navbar-8",
       "title": "Navbars \u00b7 Navbar 8",
       "preview": "/css-components/navbars/navbar-8/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/navbars/navbar-8/index.html",
         "css": "/css-components/navbars/navbar-8/styles.css",
@@ -1876,17 +2546,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--navbars-navbar-9",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "navbars",
       "part": "navbar-9",
       "path": "navbars/navbar-9",
       "title": "Navbars \u00b7 Navbar 9",
       "preview": "/css-components/navbars/navbar-9/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/navbars/navbar-9/index.html",
         "css": "/css-components/navbars/navbar-9/styles.css",
@@ -1898,17 +2575,24 @@
           "/css-components/navbars/navbar-9/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--parallax-parallax-1",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "parallax",
       "part": "parallax-1",
       "path": "parallax/parallax-1",
       "title": "Parallax \u00b7 Parallax 1",
       "preview": "/css-components/parallax/parallax-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/parallax/parallax-1/index.html",
         "css": "/css-components/parallax/parallax-1/styles.css",
@@ -1918,17 +2602,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--parallax-parallax-2",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "parallax",
       "part": "parallax-2",
       "path": "parallax/parallax-2",
       "title": "Parallax \u00b7 Parallax 2",
       "preview": "/css-components/parallax/parallax-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/parallax/parallax-2/index.html",
         "css": "/css-components/parallax/parallax-2/styles.css",
@@ -1938,17 +2629,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--sidebars-sidebar-1",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-1",
       "path": "sidebars/sidebar-1",
       "title": "Sidebars \u00b7 Sidebar 1",
       "preview": "/css-components/sidebars/sidebar-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/sidebars/sidebar-1/index.html",
         "css": "/css-components/sidebars/sidebar-1/styles.css",
@@ -1958,17 +2656,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--sidebars-sidebar-2",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-2",
       "path": "sidebars/sidebar-2",
       "title": "Sidebars \u00b7 Sidebar 2",
       "preview": "/css-components/sidebars/sidebar-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/sidebars/sidebar-2/index.html",
         "css": "/css-components/sidebars/sidebar-2/styles.css",
@@ -1978,17 +2683,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--sidebars-sidebar-3",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-3",
       "path": "sidebars/sidebar-3",
       "title": "Sidebars \u00b7 Sidebar 3",
       "preview": "/css-components/sidebars/sidebar-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/sidebars/sidebar-3/index.html",
         "css": "/css-components/sidebars/sidebar-3/styles.css",
@@ -1998,17 +2710,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--sidebars-sidebar-4",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-4",
       "path": "sidebars/sidebar-4",
       "title": "Sidebars \u00b7 Sidebar 4",
       "preview": "/css-components/sidebars/sidebar-4/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/sidebars/sidebar-4/index.html",
         "css": "/css-components/sidebars/sidebar-4/styles.css",
@@ -2018,17 +2737,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--sidebars-sidebar-5",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-5",
       "path": "sidebars/sidebar-5",
       "title": "Sidebars \u00b7 Sidebar 5",
       "preview": "/css-components/sidebars/sidebar-5/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/sidebars/sidebar-5/index.html",
         "css": "/css-components/sidebars/sidebar-5/styles.css",
@@ -2038,17 +2764,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--sidebars-sidebar-6",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-6",
       "path": "sidebars/sidebar-6",
       "title": "Sidebars \u00b7 Sidebar 6",
       "preview": "/css-components/sidebars/sidebar-6/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/sidebars/sidebar-6/index.html",
         "css": "/css-components/sidebars/sidebar-6/styles.css",
@@ -2058,17 +2791,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--sidebars-sidebar-7",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-7",
       "path": "sidebars/sidebar-7",
       "title": "Sidebars \u00b7 Sidebar 7",
       "preview": "/css-components/sidebars/sidebar-7/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/sidebars/sidebar-7/index.html",
         "css": "/css-components/sidebars/sidebar-7/styles.css",
@@ -2078,17 +2818,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--sidebars-sidebar-8",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-8",
       "path": "sidebars/sidebar-8",
       "title": "Sidebars \u00b7 Sidebar 8",
       "preview": "/css-components/sidebars/sidebar-8/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/sidebars/sidebar-8/index.html",
         "css": "/css-components/sidebars/sidebar-8/styles.css",
@@ -2098,17 +2845,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--signups-signup-1",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "signups",
       "part": "signup-1",
       "path": "signups/signup-1",
       "title": "Signups \u00b7 Signup 1",
       "preview": "/css-components/signups/signup-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/signups/signup-1/index.html",
         "css": "/css-components/signups/signup-1/background.css",
@@ -2119,17 +2873,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--signups-signup-2",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "signups",
       "part": "signup-2",
       "path": "signups/signup-2",
       "title": "Signups \u00b7 Signup 2",
       "preview": "/css-components/signups/signup-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/signups/signup-2/index.html",
         "css": "/css-components/signups/signup-2/styles.css",
@@ -2139,17 +2900,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--signups-signup-3",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "signups",
       "part": "signup-3",
       "path": "signups/signup-3",
       "title": "Signups \u00b7 Signup 3",
       "preview": "/css-components/signups/signup-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/signups/signup-3/index.html",
         "css": "/css-components/signups/signup-3/styles.css",
@@ -2159,17 +2927,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--signups-signup-4",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "signups",
       "part": "signup-4",
       "path": "signups/signup-4",
       "title": "Signups \u00b7 Signup 4",
       "preview": "/css-components/signups/signup-4/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/signups/signup-4/index.html",
         "css": "/css-components/signups/signup-4/styles.css",
@@ -2179,17 +2954,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--tricks-sticky-sidebar",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "tricks",
       "part": "sticky-sidebar",
       "path": "tricks/sticky-sidebar",
       "title": "Tricks \u00b7 Sticky Sidebar",
       "preview": "/css-components/tricks/sticky-sidebar/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/tricks/sticky-sidebar/index.html",
         "css": "/css-components/tricks/sticky-sidebar/styles.css",
@@ -2199,17 +2981,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-components--widgets-widget-1",
+      "kind": "local",
       "collection": "css-components",
-      "collectionLabel": "CSS Components",
+      "collectionLabel": "Joe \u00b7 CSS Components",
+      "group": "joe-css",
+      "groupLabel": "Joe \u00b7 CSS Components",
+      "groupOrder": 20,
+      "stack": "frontendjoe",
       "category": "widgets",
       "part": "widget-1",
       "path": "widgets/widget-1",
       "title": "Widgets \u00b7 Widget 1",
       "preview": "/css-components/widgets/widget-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-components/widgets/widget-1/index.html",
         "css": "/css-components/widgets/widget-1/styles.css",
@@ -2219,17 +3008,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-components"
+      "source": "https://github.com/frontend-joe/css-components",
+      "stars": null
     },
     {
       "id": "css-navbars--navbar-1",
+      "kind": "local",
       "collection": "css-navbars",
-      "collectionLabel": "CSS Navbars",
-      "category": "navbar-1",
+      "collectionLabel": "Joe \u00b7 CSS Navbars",
+      "group": "joe-navbars",
+      "groupLabel": "Joe \u00b7 CSS Navbars",
+      "groupOrder": 30,
+      "stack": "frontendjoe",
+      "category": "navbars",
       "part": "navbar-1",
       "path": "navbar-1",
       "title": "Navbar 1",
       "preview": "/css-navbars/navbar-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-navbars/navbar-1/index.html",
         "css": "/css-navbars/navbar-1/styles.css",
@@ -2241,17 +3037,24 @@
           "/css-navbars/navbar-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/css-navbars"
+      "source": "https://github.com/frontend-joe/css-navbars",
+      "stars": null
     },
     {
       "id": "css-navbars--navbar-10",
+      "kind": "local",
       "collection": "css-navbars",
-      "collectionLabel": "CSS Navbars",
-      "category": "navbar-10",
+      "collectionLabel": "Joe \u00b7 CSS Navbars",
+      "group": "joe-navbars",
+      "groupLabel": "Joe \u00b7 CSS Navbars",
+      "groupOrder": 30,
+      "stack": "frontendjoe",
+      "category": "navbars",
       "part": "navbar-10",
       "path": "navbar-10",
       "title": "Navbar 10",
       "preview": "/css-navbars/navbar-10/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-navbars/navbar-10/index.html",
         "css": "/css-navbars/navbar-10/styles.css",
@@ -2261,17 +3064,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-navbars"
+      "source": "https://github.com/frontend-joe/css-navbars",
+      "stars": null
     },
     {
       "id": "css-navbars--navbar-11",
+      "kind": "local",
       "collection": "css-navbars",
-      "collectionLabel": "CSS Navbars",
-      "category": "navbar-11",
+      "collectionLabel": "Joe \u00b7 CSS Navbars",
+      "group": "joe-navbars",
+      "groupLabel": "Joe \u00b7 CSS Navbars",
+      "groupOrder": 30,
+      "stack": "frontendjoe",
+      "category": "navbars",
       "part": "navbar-11",
       "path": "navbar-11",
       "title": "Navbar 11",
       "preview": "/css-navbars/navbar-11/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-navbars/navbar-11/index.html",
         "css": "/css-navbars/navbar-11/styles.css",
@@ -2281,17 +3091,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-navbars"
+      "source": "https://github.com/frontend-joe/css-navbars",
+      "stars": null
     },
     {
       "id": "css-navbars--navbar-12",
+      "kind": "local",
       "collection": "css-navbars",
-      "collectionLabel": "CSS Navbars",
-      "category": "navbar-12",
+      "collectionLabel": "Joe \u00b7 CSS Navbars",
+      "group": "joe-navbars",
+      "groupLabel": "Joe \u00b7 CSS Navbars",
+      "groupOrder": 30,
+      "stack": "frontendjoe",
+      "category": "navbars",
       "part": "navbar-12",
       "path": "navbar-12",
       "title": "Navbar 12",
       "preview": "/css-navbars/navbar-12/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-navbars/navbar-12/index.html",
         "css": "/css-navbars/navbar-12/styles.css",
@@ -2301,17 +3118,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-navbars"
+      "source": "https://github.com/frontend-joe/css-navbars",
+      "stars": null
     },
     {
       "id": "css-navbars--navbar-13",
+      "kind": "local",
       "collection": "css-navbars",
-      "collectionLabel": "CSS Navbars",
-      "category": "navbar-13",
+      "collectionLabel": "Joe \u00b7 CSS Navbars",
+      "group": "joe-navbars",
+      "groupLabel": "Joe \u00b7 CSS Navbars",
+      "groupOrder": 30,
+      "stack": "frontendjoe",
+      "category": "navbars",
       "part": "navbar-13",
       "path": "navbar-13",
       "title": "Navbar 13",
       "preview": "/css-navbars/navbar-13/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-navbars/navbar-13/index.html",
         "css": "/css-navbars/navbar-13/styles.css",
@@ -2321,17 +3145,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-navbars"
+      "source": "https://github.com/frontend-joe/css-navbars",
+      "stars": null
     },
     {
       "id": "css-navbars--navbar-14",
+      "kind": "local",
       "collection": "css-navbars",
-      "collectionLabel": "CSS Navbars",
-      "category": "navbar-14",
+      "collectionLabel": "Joe \u00b7 CSS Navbars",
+      "group": "joe-navbars",
+      "groupLabel": "Joe \u00b7 CSS Navbars",
+      "groupOrder": 30,
+      "stack": "frontendjoe",
+      "category": "navbars",
       "part": "navbar-14",
       "path": "navbar-14",
       "title": "Navbar 14",
       "preview": "/css-navbars/navbar-14/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-navbars/navbar-14/index.html",
         "css": "/css-navbars/navbar-14/styles.css",
@@ -2341,17 +3172,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-navbars"
+      "source": "https://github.com/frontend-joe/css-navbars",
+      "stars": null
     },
     {
       "id": "css-navbars--navbar-15",
+      "kind": "local",
       "collection": "css-navbars",
-      "collectionLabel": "CSS Navbars",
-      "category": "navbar-15",
+      "collectionLabel": "Joe \u00b7 CSS Navbars",
+      "group": "joe-navbars",
+      "groupLabel": "Joe \u00b7 CSS Navbars",
+      "groupOrder": 30,
+      "stack": "frontendjoe",
+      "category": "navbars",
       "part": "navbar-15",
       "path": "navbar-15",
       "title": "Navbar 15",
       "preview": "/css-navbars/navbar-15/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-navbars/navbar-15/index.html",
         "css": "/css-navbars/navbar-15/styles.css",
@@ -2361,17 +3199,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-navbars"
+      "source": "https://github.com/frontend-joe/css-navbars",
+      "stars": null
     },
     {
       "id": "css-navbars--navbar-2",
+      "kind": "local",
       "collection": "css-navbars",
-      "collectionLabel": "CSS Navbars",
-      "category": "navbar-2",
+      "collectionLabel": "Joe \u00b7 CSS Navbars",
+      "group": "joe-navbars",
+      "groupLabel": "Joe \u00b7 CSS Navbars",
+      "groupOrder": 30,
+      "stack": "frontendjoe",
+      "category": "navbars",
       "part": "navbar-2",
       "path": "navbar-2",
       "title": "Navbar 2",
       "preview": "/css-navbars/navbar-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-navbars/navbar-2/index.html",
         "css": "/css-navbars/navbar-2/styles.css",
@@ -2381,17 +3226,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-navbars"
+      "source": "https://github.com/frontend-joe/css-navbars",
+      "stars": null
     },
     {
       "id": "css-navbars--navbar-3",
+      "kind": "local",
       "collection": "css-navbars",
-      "collectionLabel": "CSS Navbars",
-      "category": "navbar-3",
+      "collectionLabel": "Joe \u00b7 CSS Navbars",
+      "group": "joe-navbars",
+      "groupLabel": "Joe \u00b7 CSS Navbars",
+      "groupOrder": 30,
+      "stack": "frontendjoe",
+      "category": "navbars",
       "part": "navbar-3",
       "path": "navbar-3",
       "title": "Navbar 3",
       "preview": "/css-navbars/navbar-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-navbars/navbar-3/index.html",
         "css": "/css-navbars/navbar-3/styles.css",
@@ -2401,17 +3253,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-navbars"
+      "source": "https://github.com/frontend-joe/css-navbars",
+      "stars": null
     },
     {
       "id": "css-navbars--navbar-4",
+      "kind": "local",
       "collection": "css-navbars",
-      "collectionLabel": "CSS Navbars",
-      "category": "navbar-4",
+      "collectionLabel": "Joe \u00b7 CSS Navbars",
+      "group": "joe-navbars",
+      "groupLabel": "Joe \u00b7 CSS Navbars",
+      "groupOrder": 30,
+      "stack": "frontendjoe",
+      "category": "navbars",
       "part": "navbar-4",
       "path": "navbar-4",
       "title": "Navbar 4",
       "preview": "/css-navbars/navbar-4/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-navbars/navbar-4/index.html",
         "css": "/css-navbars/navbar-4/styles.css",
@@ -2421,17 +3280,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-navbars"
+      "source": "https://github.com/frontend-joe/css-navbars",
+      "stars": null
     },
     {
       "id": "css-navbars--navbar-5",
+      "kind": "local",
       "collection": "css-navbars",
-      "collectionLabel": "CSS Navbars",
-      "category": "navbar-5",
+      "collectionLabel": "Joe \u00b7 CSS Navbars",
+      "group": "joe-navbars",
+      "groupLabel": "Joe \u00b7 CSS Navbars",
+      "groupOrder": 30,
+      "stack": "frontendjoe",
+      "category": "navbars",
       "part": "navbar-5",
       "path": "navbar-5",
       "title": "Navbar 5",
       "preview": "/css-navbars/navbar-5/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-navbars/navbar-5/index.html",
         "css": "/css-navbars/navbar-5/styles.css",
@@ -2441,17 +3307,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-navbars"
+      "source": "https://github.com/frontend-joe/css-navbars",
+      "stars": null
     },
     {
       "id": "css-navbars--navbar-6",
+      "kind": "local",
       "collection": "css-navbars",
-      "collectionLabel": "CSS Navbars",
-      "category": "navbar-6",
+      "collectionLabel": "Joe \u00b7 CSS Navbars",
+      "group": "joe-navbars",
+      "groupLabel": "Joe \u00b7 CSS Navbars",
+      "groupOrder": 30,
+      "stack": "frontendjoe",
+      "category": "navbars",
       "part": "navbar-6",
       "path": "navbar-6",
       "title": "Navbar 6",
       "preview": "/css-navbars/navbar-6/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-navbars/navbar-6/index.html",
         "css": "/css-navbars/navbar-6/styles.css",
@@ -2461,17 +3334,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-navbars"
+      "source": "https://github.com/frontend-joe/css-navbars",
+      "stars": null
     },
     {
       "id": "css-navbars--navbar-7",
+      "kind": "local",
       "collection": "css-navbars",
-      "collectionLabel": "CSS Navbars",
-      "category": "navbar-7",
+      "collectionLabel": "Joe \u00b7 CSS Navbars",
+      "group": "joe-navbars",
+      "groupLabel": "Joe \u00b7 CSS Navbars",
+      "groupOrder": 30,
+      "stack": "frontendjoe",
+      "category": "navbars",
       "part": "navbar-7",
       "path": "navbar-7",
       "title": "Navbar 7",
       "preview": "/css-navbars/navbar-7/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-navbars/navbar-7/index.html",
         "css": "/css-navbars/navbar-7/styles.css",
@@ -2481,17 +3361,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-navbars"
+      "source": "https://github.com/frontend-joe/css-navbars",
+      "stars": null
     },
     {
       "id": "css-navbars--navbar-8",
+      "kind": "local",
       "collection": "css-navbars",
-      "collectionLabel": "CSS Navbars",
-      "category": "navbar-8",
+      "collectionLabel": "Joe \u00b7 CSS Navbars",
+      "group": "joe-navbars",
+      "groupLabel": "Joe \u00b7 CSS Navbars",
+      "groupOrder": 30,
+      "stack": "frontendjoe",
+      "category": "navbars",
       "part": "navbar-8",
       "path": "navbar-8",
       "title": "Navbar 8",
       "preview": "/css-navbars/navbar-8/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/css-navbars/navbar-8/index.html",
         "css": "/css-navbars/navbar-8/styles.css",
@@ -2501,17 +3388,240 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/css-navbars"
+      "source": "https://github.com/frontend-joe/css-navbars",
+      "stars": null
+    },
+    {
+      "id": "css-sidebars--sidebar-1",
+      "kind": "local",
+      "collection": "css-sidebars",
+      "collectionLabel": "Joe \u00b7 CSS Sidebars",
+      "group": "joe-sidebars",
+      "groupLabel": "Joe \u00b7 CSS Sidebars",
+      "groupOrder": 40,
+      "stack": "frontendjoe",
+      "category": "sidebars",
+      "part": "sidebar-1",
+      "path": "sidebar-1",
+      "title": "Sidebar 1",
+      "preview": "/css-sidebars/sidebar-1/index.html",
+      "previewMode": "iframe",
+      "files": {
+        "html": "/css-sidebars/sidebar-1/index.html",
+        "css": "/css-sidebars/sidebar-1/styles.css",
+        "js": null,
+        "allCss": [
+          "/css-sidebars/sidebar-1/styles.css"
+        ],
+        "allJs": []
+      },
+      "source": "https://github.com/frontend-joe/css-sidebars",
+      "stars": null
+    },
+    {
+      "id": "css-sidebars--sidebar-2",
+      "kind": "local",
+      "collection": "css-sidebars",
+      "collectionLabel": "Joe \u00b7 CSS Sidebars",
+      "group": "joe-sidebars",
+      "groupLabel": "Joe \u00b7 CSS Sidebars",
+      "groupOrder": 40,
+      "stack": "frontendjoe",
+      "category": "sidebars",
+      "part": "sidebar-2",
+      "path": "sidebar-2",
+      "title": "Sidebar 2",
+      "preview": "/css-sidebars/sidebar-2/index.html",
+      "previewMode": "iframe",
+      "files": {
+        "html": "/css-sidebars/sidebar-2/index.html",
+        "css": "/css-sidebars/sidebar-2/styles.css",
+        "js": null,
+        "allCss": [
+          "/css-sidebars/sidebar-2/styles.css"
+        ],
+        "allJs": []
+      },
+      "source": "https://github.com/frontend-joe/css-sidebars",
+      "stars": null
+    },
+    {
+      "id": "css-sidebars--sidebar-3",
+      "kind": "local",
+      "collection": "css-sidebars",
+      "collectionLabel": "Joe \u00b7 CSS Sidebars",
+      "group": "joe-sidebars",
+      "groupLabel": "Joe \u00b7 CSS Sidebars",
+      "groupOrder": 40,
+      "stack": "frontendjoe",
+      "category": "sidebars",
+      "part": "sidebar-3",
+      "path": "sidebar-3",
+      "title": "Sidebar 3",
+      "preview": "/css-sidebars/sidebar-3/index.html",
+      "previewMode": "iframe",
+      "files": {
+        "html": "/css-sidebars/sidebar-3/index.html",
+        "css": "/css-sidebars/sidebar-3/styles.css",
+        "js": null,
+        "allCss": [
+          "/css-sidebars/sidebar-3/styles.css"
+        ],
+        "allJs": []
+      },
+      "source": "https://github.com/frontend-joe/css-sidebars",
+      "stars": null
+    },
+    {
+      "id": "css-sidebars--sidebar-4",
+      "kind": "local",
+      "collection": "css-sidebars",
+      "collectionLabel": "Joe \u00b7 CSS Sidebars",
+      "group": "joe-sidebars",
+      "groupLabel": "Joe \u00b7 CSS Sidebars",
+      "groupOrder": 40,
+      "stack": "frontendjoe",
+      "category": "sidebars",
+      "part": "sidebar-4",
+      "path": "sidebar-4",
+      "title": "Sidebar 4",
+      "preview": "/css-sidebars/sidebar-4/index.html",
+      "previewMode": "iframe",
+      "files": {
+        "html": "/css-sidebars/sidebar-4/index.html",
+        "css": "/css-sidebars/sidebar-4/styles.css",
+        "js": null,
+        "allCss": [
+          "/css-sidebars/sidebar-4/styles.css"
+        ],
+        "allJs": []
+      },
+      "source": "https://github.com/frontend-joe/css-sidebars",
+      "stars": null
+    },
+    {
+      "id": "css-sidebars--sidebar-5",
+      "kind": "local",
+      "collection": "css-sidebars",
+      "collectionLabel": "Joe \u00b7 CSS Sidebars",
+      "group": "joe-sidebars",
+      "groupLabel": "Joe \u00b7 CSS Sidebars",
+      "groupOrder": 40,
+      "stack": "frontendjoe",
+      "category": "sidebars",
+      "part": "sidebar-5",
+      "path": "sidebar-5",
+      "title": "Sidebar 5",
+      "preview": "/css-sidebars/sidebar-5/index.html",
+      "previewMode": "iframe",
+      "files": {
+        "html": "/css-sidebars/sidebar-5/index.html",
+        "css": "/css-sidebars/sidebar-5/styles.css",
+        "js": null,
+        "allCss": [
+          "/css-sidebars/sidebar-5/styles.css"
+        ],
+        "allJs": []
+      },
+      "source": "https://github.com/frontend-joe/css-sidebars",
+      "stars": null
+    },
+    {
+      "id": "css-sidebars--sidebar-6",
+      "kind": "local",
+      "collection": "css-sidebars",
+      "collectionLabel": "Joe \u00b7 CSS Sidebars",
+      "group": "joe-sidebars",
+      "groupLabel": "Joe \u00b7 CSS Sidebars",
+      "groupOrder": 40,
+      "stack": "frontendjoe",
+      "category": "sidebars",
+      "part": "sidebar-6",
+      "path": "sidebar-6",
+      "title": "Sidebar 6",
+      "preview": "/css-sidebars/sidebar-6/index.html",
+      "previewMode": "iframe",
+      "files": {
+        "html": "/css-sidebars/sidebar-6/index.html",
+        "css": "/css-sidebars/sidebar-6/styles.css",
+        "js": null,
+        "allCss": [
+          "/css-sidebars/sidebar-6/styles.css"
+        ],
+        "allJs": []
+      },
+      "source": "https://github.com/frontend-joe/css-sidebars",
+      "stars": null
+    },
+    {
+      "id": "css-sidebars--sidebar-7",
+      "kind": "local",
+      "collection": "css-sidebars",
+      "collectionLabel": "Joe \u00b7 CSS Sidebars",
+      "group": "joe-sidebars",
+      "groupLabel": "Joe \u00b7 CSS Sidebars",
+      "groupOrder": 40,
+      "stack": "frontendjoe",
+      "category": "sidebars",
+      "part": "sidebar-7",
+      "path": "sidebar-7",
+      "title": "Sidebar 7",
+      "preview": "/css-sidebars/sidebar-7/index.html",
+      "previewMode": "iframe",
+      "files": {
+        "html": "/css-sidebars/sidebar-7/index.html",
+        "css": "/css-sidebars/sidebar-7/styles.css",
+        "js": null,
+        "allCss": [
+          "/css-sidebars/sidebar-7/styles.css"
+        ],
+        "allJs": []
+      },
+      "source": "https://github.com/frontend-joe/css-sidebars",
+      "stars": null
+    },
+    {
+      "id": "css-sidebars--sidebar-8",
+      "kind": "local",
+      "collection": "css-sidebars",
+      "collectionLabel": "Joe \u00b7 CSS Sidebars",
+      "group": "joe-sidebars",
+      "groupLabel": "Joe \u00b7 CSS Sidebars",
+      "groupOrder": 40,
+      "stack": "frontendjoe",
+      "category": "sidebars",
+      "part": "sidebar-8",
+      "path": "sidebar-8",
+      "title": "Sidebar 8",
+      "preview": "/css-sidebars/sidebar-8/index.html",
+      "previewMode": "iframe",
+      "files": {
+        "html": "/css-sidebars/sidebar-8/index.html",
+        "css": "/css-sidebars/sidebar-8/styles.css",
+        "js": null,
+        "allCss": [
+          "/css-sidebars/sidebar-8/styles.css"
+        ],
+        "allJs": []
+      },
+      "source": "https://github.com/frontend-joe/css-sidebars",
+      "stars": null
     },
     {
       "id": "es6-components--accordions-accordion-1",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "accordions",
       "part": "accordion-1",
       "path": "accordions/accordion-1",
       "title": "Accordions \u00b7 Accordion 1",
       "preview": "/es6-components/accordions/accordion-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/accordions/accordion-1/index.html",
         "css": "/es6-components/accordions/accordion-1/styles.css",
@@ -2523,17 +3633,24 @@
           "/es6-components/accordions/accordion-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--banners-banner-1",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "banners",
       "part": "banner-1",
       "path": "banners/banner-1",
       "title": "Banners \u00b7 Banner 1",
       "preview": "/es6-components/banners/banner-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/banners/banner-1/index.html",
         "css": "/es6-components/banners/banner-1/styles.css",
@@ -2545,17 +3662,24 @@
           "/es6-components/banners/banner-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--cards-card-1",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "cards",
       "part": "card-1",
       "path": "cards/card-1",
       "title": "Cards \u00b7 Card 1",
       "preview": "/es6-components/cards/card-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/cards/card-1/index.html",
         "css": "/es6-components/cards/card-1/styles.css",
@@ -2567,17 +3691,24 @@
           "/es6-components/cards/card-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--carousels-carousel-1",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "carousels",
       "part": "carousel-1",
       "path": "carousels/carousel-1",
       "title": "Carousels \u00b7 Carousel 1",
       "preview": "/es6-components/carousels/carousel-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/carousels/carousel-1/index.html",
         "css": "/es6-components/carousels/carousel-1/styles.css",
@@ -2589,17 +3720,24 @@
           "/es6-components/carousels/carousel-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--carousels-carousel-2",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "carousels",
       "part": "carousel-2",
       "path": "carousels/carousel-2",
       "title": "Carousels \u00b7 Carousel 2",
       "preview": "/es6-components/carousels/carousel-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/carousels/carousel-2/index.html",
         "css": "/es6-components/carousels/carousel-2/styles.css",
@@ -2611,17 +3749,24 @@
           "/es6-components/carousels/carousel-2/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--carousels-carousel-3",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "carousels",
       "part": "carousel-3",
       "path": "carousels/carousel-3",
       "title": "Carousels \u00b7 Carousel 3",
       "preview": "/es6-components/carousels/carousel-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/carousels/carousel-3/index.html",
         "css": "/es6-components/carousels/carousel-3/styles.css",
@@ -2633,17 +3778,24 @@
           "/es6-components/carousels/carousel-3/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--controls-control-1",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "controls",
       "part": "control-1",
       "path": "controls/control-1",
       "title": "Controls \u00b7 Control 1",
       "preview": "/es6-components/controls/control-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/controls/control-1/index.html",
         "css": "/es6-components/controls/control-1/styles.css",
@@ -2655,17 +3807,24 @@
           "/es6-components/controls/control-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--dropdowns-dropdown-1",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "dropdowns",
       "part": "dropdown-1",
       "path": "dropdowns/dropdown-1",
       "title": "Dropdowns \u00b7 Dropdown 1",
       "preview": "/es6-components/dropdowns/dropdown-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/dropdowns/dropdown-1/index.html",
         "css": "/es6-components/dropdowns/dropdown-1/styles.css",
@@ -2677,17 +3836,24 @@
           "/es6-components/dropdowns/dropdown-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--gsap-scroll-progress",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "gsap",
       "part": "scroll-progress",
       "path": "gsap/scroll-progress",
       "title": "Gsap \u00b7 Scroll Progress",
       "preview": "/es6-components/gsap/scroll-progress/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/gsap/scroll-progress/index.html",
         "css": "/es6-components/gsap/scroll-progress/styles.css",
@@ -2699,17 +3865,24 @@
           "/es6-components/gsap/scroll-progress/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--libraries-atropos-js",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "libraries",
       "part": "atropos-js",
       "path": "libraries/atropos-js",
       "title": "Libraries \u00b7 Atropos Js",
       "preview": "/es6-components/libraries/atropos-js/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/libraries/atropos-js/index.html",
         "css": "/es6-components/libraries/atropos-js/styles.css",
@@ -2721,17 +3894,24 @@
           "/es6-components/libraries/atropos-js/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--libraries-no-ui-slider-js",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "libraries",
       "part": "no-ui-slider-js",
       "path": "libraries/no-ui-slider-js",
       "title": "Libraries \u00b7 No Ui Slider Js",
       "preview": "/es6-components/libraries/no-ui-slider-js/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/libraries/no-ui-slider-js/index.html",
         "css": "/es6-components/libraries/no-ui-slider-js/styles.css",
@@ -2743,17 +3923,24 @@
           "/es6-components/libraries/no-ui-slider-js/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--libraries-paroller-js",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "libraries",
       "part": "paroller-js",
       "path": "libraries/paroller-js",
       "title": "Libraries \u00b7 Paroller Js",
       "preview": "/es6-components/libraries/paroller-js/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/libraries/paroller-js/index.html",
         "css": "/es6-components/libraries/paroller-js/styles.css",
@@ -2765,17 +3952,24 @@
           "/es6-components/libraries/paroller-js/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--libraries-ukiyo-lenis",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "libraries",
       "part": "ukiyo-lenis",
       "path": "libraries/ukiyo-lenis",
       "title": "Libraries \u00b7 Ukiyo Lenis",
       "preview": "/es6-components/libraries/ukiyo-lenis/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/libraries/ukiyo-lenis/index.html",
         "css": "/es6-components/libraries/ukiyo-lenis/styles.css",
@@ -2787,17 +3981,24 @@
           "/es6-components/libraries/ukiyo-lenis/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--menus-menu-1",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "menus",
       "part": "menu-1",
       "path": "menus/menu-1",
       "title": "Menus \u00b7 Menu 1",
       "preview": "/es6-components/menus/menu-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/menus/menu-1/index.html",
         "css": "/es6-components/menus/menu-1/styles.css",
@@ -2809,17 +4010,24 @@
           "/es6-components/menus/menu-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--navbars-navbar-1",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "navbars",
       "part": "navbar-1",
       "path": "navbars/navbar-1",
       "title": "Navbars \u00b7 Navbar 1",
       "preview": "/es6-components/navbars/navbar-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/navbars/navbar-1/index.html",
         "css": "/es6-components/navbars/navbar-1/styles.css",
@@ -2831,17 +4039,24 @@
           "/es6-components/navbars/navbar-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--navbars-navbar-2",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "navbars",
       "part": "navbar-2",
       "path": "navbars/navbar-2",
       "title": "Navbars \u00b7 Navbar 2",
       "preview": "/es6-components/navbars/navbar-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/navbars/navbar-2/index.html",
         "css": "/es6-components/navbars/navbar-2/styles.css",
@@ -2853,17 +4068,24 @@
           "/es6-components/navbars/navbar-2/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--parallax-parallax-1",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "parallax",
       "part": "parallax-1",
       "path": "parallax/parallax-1",
       "title": "Parallax \u00b7 Parallax 1",
       "preview": "/es6-components/parallax/parallax-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/parallax/parallax-1/index.html",
         "css": "/es6-components/parallax/parallax-1/styles.css",
@@ -2875,17 +4097,24 @@
           "/es6-components/parallax/parallax-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--parallax-parallax-2",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "parallax",
       "part": "parallax-2",
       "path": "parallax/parallax-2",
       "title": "Parallax \u00b7 Parallax 2",
       "preview": "/es6-components/parallax/parallax-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/parallax/parallax-2/index.html",
         "css": "/es6-components/parallax/parallax-2/styles.css",
@@ -2897,17 +4126,24 @@
           "/es6-components/parallax/parallax-2/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--scrolling-scrolling-1",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "scrolling",
       "part": "scrolling-1",
       "path": "scrolling/scrolling-1",
       "title": "Scrolling \u00b7 Scrolling 1",
       "preview": "/es6-components/scrolling/scrolling-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/scrolling/scrolling-1/index.html",
         "css": "/es6-components/scrolling/scrolling-1/styles.css",
@@ -2919,17 +4155,24 @@
           "/es6-components/scrolling/scrolling-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--sidebars-sidebar-1",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-1",
       "path": "sidebars/sidebar-1",
       "title": "Sidebars \u00b7 Sidebar 1",
       "preview": "/es6-components/sidebars/sidebar-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/sidebars/sidebar-1/index.html",
         "css": "/es6-components/sidebars/sidebar-1/styles.css",
@@ -2941,17 +4184,24 @@
           "/es6-components/sidebars/sidebar-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--sidebars-sidebar-2",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-2",
       "path": "sidebars/sidebar-2",
       "title": "Sidebars \u00b7 Sidebar 2",
       "preview": "/es6-components/sidebars/sidebar-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/sidebars/sidebar-2/index.html",
         "css": "/es6-components/sidebars/sidebar-2/styles.css",
@@ -2963,17 +4213,24 @@
           "/es6-components/sidebars/sidebar-2/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--signups-signup-1",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "signups",
       "part": "signup-1",
       "path": "signups/signup-1",
       "title": "Signups \u00b7 Signup 1",
       "preview": "/es6-components/signups/signup-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/signups/signup-1/index.html",
         "css": "/es6-components/signups/signup-1/styles.css",
@@ -2985,17 +4242,24 @@
           "/es6-components/signups/signup-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--tables-table-1",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "tables",
       "part": "table-1",
       "path": "tables/table-1",
       "title": "Tables \u00b7 Table 1",
       "preview": "/es6-components/tables/table-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/tables/table-1/index.html",
         "css": "/es6-components/tables/table-1/styles.css",
@@ -3007,17 +4271,24 @@
           "/es6-components/tables/table-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--tables-table-2",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "tables",
       "part": "table-2",
       "path": "tables/table-2",
       "title": "Tables \u00b7 Table 2",
       "preview": "/es6-components/tables/table-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/tables/table-2/index.html",
         "css": "/es6-components/tables/table-2/styles.css",
@@ -3029,17 +4300,24 @@
           "/es6-components/tables/table-2/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "es6-components--tables-table-3",
+      "kind": "local",
       "collection": "es6-components",
-      "collectionLabel": "ES6 Components",
+      "collectionLabel": "Joe \u00b7 ES6 Components",
+      "group": "joe-es6",
+      "groupLabel": "Joe \u00b7 ES6 Components",
+      "groupOrder": 50,
+      "stack": "frontendjoe",
       "category": "tables",
       "part": "table-3",
       "path": "tables/table-3",
       "title": "Tables \u00b7 Table 3",
       "preview": "/es6-components/tables/table-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/es6-components/tables/table-3/index.html",
         "css": "/es6-components/tables/table-3/styles.css",
@@ -3051,17 +4329,24 @@
           "/es6-components/tables/table-3/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/es6-components"
+      "source": "https://github.com/frontend-joe/es6-components",
+      "stars": null
     },
     {
       "id": "js-components--accordions-accordion-1",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "accordions",
       "part": "accordion-1",
       "path": "accordions/accordion-1",
       "title": "Accordions \u00b7 Accordion 1",
       "preview": "/js-components/accordions/accordion-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/accordions/accordion-1/index.html",
         "css": "/js-components/accordions/accordion-1/styles.css",
@@ -3073,17 +4358,24 @@
           "/js-components/accordions/accordion-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--banners-banner-1",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "banners",
       "part": "banner-1",
       "path": "banners/banner-1",
       "title": "Banners \u00b7 Banner 1",
       "preview": "/js-components/banners/banner-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/banners/banner-1/index.html",
         "css": "/js-components/banners/banner-1/styles.css",
@@ -3095,17 +4387,24 @@
           "/js-components/banners/banner-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--banners-banner-2",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "banners",
       "part": "banner-2",
       "path": "banners/banner-2",
       "title": "Banners \u00b7 Banner 2",
       "preview": "/js-components/banners/banner-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/banners/banner-2/index.html",
         "css": "/js-components/banners/banner-2/styles.css",
@@ -3117,17 +4416,24 @@
           "/js-components/banners/banner-2/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--carousels-carousel-1",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "carousels",
       "part": "carousel-1",
       "path": "carousels/carousel-1",
       "title": "Carousels \u00b7 Carousel 1",
       "preview": "/js-components/carousels/carousel-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/carousels/carousel-1/index.html",
         "css": "/js-components/carousels/carousel-1/styles.css",
@@ -3139,17 +4445,24 @@
           "/js-components/carousels/carousel-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--carousels-carousel-2",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "carousels",
       "part": "carousel-2",
       "path": "carousels/carousel-2",
       "title": "Carousels \u00b7 Carousel 2",
       "preview": "/js-components/carousels/carousel-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/carousels/carousel-2/index.html",
         "css": "/js-components/carousels/carousel-2/styles.css",
@@ -3161,17 +4474,24 @@
           "/js-components/carousels/carousel-2/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--controls-control-1",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "controls",
       "part": "control-1",
       "path": "controls/control-1",
       "title": "Controls \u00b7 Control 1",
       "preview": "/js-components/controls/control-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/controls/control-1/index.html",
         "css": "/js-components/controls/control-1/styles.css",
@@ -3183,17 +4503,24 @@
           "/js-components/controls/control-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--controls-control-2",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "controls",
       "part": "control-2",
       "path": "controls/control-2",
       "title": "Controls \u00b7 Control 2",
       "preview": "/js-components/controls/control-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/controls/control-2/index.html",
         "css": "/js-components/controls/control-2/styles.css",
@@ -3205,17 +4532,24 @@
           "/js-components/controls/control-2/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--controls-control-3",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "controls",
       "part": "control-3",
       "path": "controls/control-3",
       "title": "Controls \u00b7 Control 3",
       "preview": "/js-components/controls/control-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/controls/control-3/index.html",
         "css": "/js-components/controls/control-3/styles.css",
@@ -3227,17 +4561,24 @@
           "/js-components/controls/control-3/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--controls-control-4",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "controls",
       "part": "control-4",
       "path": "controls/control-4",
       "title": "Controls \u00b7 Control 4",
       "preview": "/js-components/controls/control-4/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/controls/control-4/index.html",
         "css": "/js-components/controls/control-4/styles.css",
@@ -3249,17 +4590,24 @@
           "/js-components/controls/control-4/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--footers-footer-1",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "footers",
       "part": "footer-1",
       "path": "footers/footer-1",
       "title": "Footers \u00b7 Footer 1",
       "preview": "/js-components/footers/footer-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/footers/footer-1/index.html",
         "css": "/js-components/footers/footer-1/styles.css",
@@ -3271,17 +4619,24 @@
           "/js-components/footers/footer-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--gsap-gsap-1",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "gsap",
       "part": "gsap-1",
       "path": "gsap/gsap-1",
       "title": "Gsap \u00b7 Gsap 1",
       "preview": "/js-components/gsap/gsap-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/gsap/gsap-1/index.html",
         "css": "/js-components/gsap/gsap-1/styles.css",
@@ -3293,17 +4648,24 @@
           "/js-components/gsap/gsap-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--gsap-gsap-2",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "gsap",
       "part": "gsap-2",
       "path": "gsap/gsap-2",
       "title": "Gsap \u00b7 Gsap 2",
       "preview": "/js-components/gsap/gsap-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/gsap/gsap-2/index.html",
         "css": "/js-components/gsap/gsap-2/style.css",
@@ -3315,17 +4677,24 @@
           "/js-components/gsap/gsap-2/script.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--logins-login-1",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-1",
       "path": "logins/login-1",
       "title": "Logins \u00b7 Login 1",
       "preview": "/js-components/logins/login-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/logins/login-1/index.html",
         "css": "/js-components/logins/login-1/styles.css",
@@ -3337,17 +4706,24 @@
           "/js-components/logins/login-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--logins-login-10",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-10",
       "path": "logins/login-10",
       "title": "Logins \u00b7 Login 10",
       "preview": "/js-components/logins/login-10/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/logins/login-10/index.html",
         "css": "/js-components/logins/login-10/styles.css",
@@ -3359,17 +4735,24 @@
           "/js-components/logins/login-10/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--logins-login-2",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-2",
       "path": "logins/login-2",
       "title": "Logins \u00b7 Login 2",
       "preview": "/js-components/logins/login-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/logins/login-2/index.html",
         "css": "/js-components/logins/login-2/styles.css",
@@ -3381,17 +4764,24 @@
           "/js-components/logins/login-2/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--logins-login-3",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-3",
       "path": "logins/login-3",
       "title": "Logins \u00b7 Login 3",
       "preview": "/js-components/logins/login-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/logins/login-3/index.html",
         "css": "/js-components/logins/login-3/styles.css",
@@ -3403,17 +4793,24 @@
           "/js-components/logins/login-3/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--logins-login-4",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-4",
       "path": "logins/login-4",
       "title": "Logins \u00b7 Login 4",
       "preview": "/js-components/logins/login-4/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/logins/login-4/index.html",
         "css": "/js-components/logins/login-4/styles.css",
@@ -3425,17 +4822,24 @@
           "/js-components/logins/login-4/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--logins-login-5",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-5",
       "path": "logins/login-5",
       "title": "Logins \u00b7 Login 5",
       "preview": "/js-components/logins/login-5/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/logins/login-5/index.html",
         "css": "/js-components/logins/login-5/styles.css",
@@ -3447,17 +4851,24 @@
           "/js-components/logins/login-5/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--logins-login-6",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-6",
       "path": "logins/login-6",
       "title": "Logins \u00b7 Login 6",
       "preview": "/js-components/logins/login-6/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/logins/login-6/index.html",
         "css": "/js-components/logins/login-6/styles.css",
@@ -3469,17 +4880,24 @@
           "/js-components/logins/login-6/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--logins-login-7",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-7",
       "path": "logins/login-7",
       "title": "Logins \u00b7 Login 7",
       "preview": "/js-components/logins/login-7/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/logins/login-7/index.html",
         "css": "/js-components/logins/login-7/styles.css",
@@ -3491,17 +4909,24 @@
           "/js-components/logins/login-7/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--logins-login-8",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-8",
       "path": "logins/login-8",
       "title": "Logins \u00b7 Login 8",
       "preview": "/js-components/logins/login-8/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/logins/login-8/index.html",
         "css": "/js-components/logins/login-8/styles.css",
@@ -3513,17 +4938,24 @@
           "/js-components/logins/login-8/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--logins-login-9",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "logins",
       "part": "login-9",
       "path": "logins/login-9",
       "title": "Logins \u00b7 Login 9",
       "preview": "/js-components/logins/login-9/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/logins/login-9/index.html",
         "css": "/js-components/logins/login-9/styles.css",
@@ -3535,17 +4967,24 @@
           "/js-components/logins/login-9/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--modals-modal-1",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "modals",
       "part": "modal-1",
       "path": "modals/modal-1",
       "title": "Modals \u00b7 Modal 1",
       "preview": "/js-components/modals/modal-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/modals/modal-1/index.html",
         "css": "/js-components/modals/modal-1/styles.css",
@@ -3557,17 +4996,24 @@
           "/js-components/modals/modal-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--navbars-navbar-1",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "navbars",
       "part": "navbar-1",
       "path": "navbars/navbar-1",
       "title": "Navbars \u00b7 Navbar 1",
       "preview": "/js-components/navbars/navbar-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/navbars/navbar-1/index.html",
         "css": "/js-components/navbars/navbar-1/styles.css",
@@ -3579,17 +5025,24 @@
           "/js-components/navbars/navbar-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--parallax-parallax-1",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "parallax",
       "part": "parallax-1",
       "path": "parallax/parallax-1",
       "title": "Parallax \u00b7 Parallax 1",
       "preview": "/js-components/parallax/parallax-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/parallax/parallax-1/index.html",
         "css": "/js-components/parallax/parallax-1/styles.css",
@@ -3601,17 +5054,24 @@
           "/js-components/parallax/parallax-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--sidebars-sidebar-1",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-1",
       "path": "sidebars/sidebar-1",
       "title": "Sidebars \u00b7 Sidebar 1",
       "preview": "/js-components/sidebars/sidebar-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/sidebars/sidebar-1/index.html",
         "css": "/js-components/sidebars/sidebar-1/styles.css",
@@ -3623,17 +5083,24 @@
           "/js-components/sidebars/sidebar-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--sidebars-sidebar-10",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-10",
       "path": "sidebars/sidebar-10",
       "title": "Sidebars \u00b7 Sidebar 10",
       "preview": "/js-components/sidebars/sidebar-10/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/sidebars/sidebar-10/index.html",
         "css": "/js-components/sidebars/sidebar-10/styles.css",
@@ -3645,17 +5112,24 @@
           "/js-components/sidebars/sidebar-10/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--sidebars-sidebar-11",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-11",
       "path": "sidebars/sidebar-11",
       "title": "Sidebars \u00b7 Sidebar 11",
       "preview": "/js-components/sidebars/sidebar-11/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/sidebars/sidebar-11/index.html",
         "css": "/js-components/sidebars/sidebar-11/styles.css",
@@ -3667,17 +5141,24 @@
           "/js-components/sidebars/sidebar-11/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--sidebars-sidebar-12",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-12",
       "path": "sidebars/sidebar-12",
       "title": "Sidebars \u00b7 Sidebar 12",
       "preview": "/js-components/sidebars/sidebar-12/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/sidebars/sidebar-12/index.html",
         "css": "/js-components/sidebars/sidebar-12/styles.css",
@@ -3689,17 +5170,24 @@
           "/js-components/sidebars/sidebar-12/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--sidebars-sidebar-13",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-13",
       "path": "sidebars/sidebar-13",
       "title": "Sidebars \u00b7 Sidebar 13",
       "preview": "/js-components/sidebars/sidebar-13/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/sidebars/sidebar-13/index.html",
         "css": "/js-components/sidebars/sidebar-13/styles.css",
@@ -3711,17 +5199,24 @@
           "/js-components/sidebars/sidebar-13/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--sidebars-sidebar-2",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-2",
       "path": "sidebars/sidebar-2",
       "title": "Sidebars \u00b7 Sidebar 2",
       "preview": "/js-components/sidebars/sidebar-2/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/sidebars/sidebar-2/index.html",
         "css": "/js-components/sidebars/sidebar-2/styles.css",
@@ -3733,17 +5228,24 @@
           "/js-components/sidebars/sidebar-2/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--sidebars-sidebar-3",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-3",
       "path": "sidebars/sidebar-3",
       "title": "Sidebars \u00b7 Sidebar 3",
       "preview": "/js-components/sidebars/sidebar-3/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/sidebars/sidebar-3/index.html",
         "css": "/js-components/sidebars/sidebar-3/styles.css",
@@ -3755,17 +5257,24 @@
           "/js-components/sidebars/sidebar-3/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--sidebars-sidebar-4",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-4",
       "path": "sidebars/sidebar-4",
       "title": "Sidebars \u00b7 Sidebar 4",
       "preview": "/js-components/sidebars/sidebar-4/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/sidebars/sidebar-4/index.html",
         "css": "/js-components/sidebars/sidebar-4/styles.css",
@@ -3775,17 +5284,24 @@
         ],
         "allJs": []
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--sidebars-sidebar-5",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-5",
       "path": "sidebars/sidebar-5",
       "title": "Sidebars \u00b7 Sidebar 5",
       "preview": "/js-components/sidebars/sidebar-5/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/sidebars/sidebar-5/index.html",
         "css": "/js-components/sidebars/sidebar-5/styles.css",
@@ -3797,17 +5313,24 @@
           "/js-components/sidebars/sidebar-5/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--sidebars-sidebar-6",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-6",
       "path": "sidebars/sidebar-6",
       "title": "Sidebars \u00b7 Sidebar 6",
       "preview": "/js-components/sidebars/sidebar-6/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/sidebars/sidebar-6/index.html",
         "css": "/js-components/sidebars/sidebar-6/styles.css",
@@ -3819,17 +5342,24 @@
           "/js-components/sidebars/sidebar-6/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--sidebars-sidebar-7",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-7",
       "path": "sidebars/sidebar-7",
       "title": "Sidebars \u00b7 Sidebar 7",
       "preview": "/js-components/sidebars/sidebar-7/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/sidebars/sidebar-7/index.html",
         "css": "/js-components/sidebars/sidebar-7/styles.css",
@@ -3841,17 +5371,24 @@
           "/js-components/sidebars/sidebar-7/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--sidebars-sidebar-8",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-8",
       "path": "sidebars/sidebar-8",
       "title": "Sidebars \u00b7 Sidebar 8",
       "preview": "/js-components/sidebars/sidebar-8/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/sidebars/sidebar-8/index.html",
         "css": "/js-components/sidebars/sidebar-8/styles.css",
@@ -3863,17 +5400,24 @@
           "/js-components/sidebars/sidebar-8/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--sidebars-sidebar-9",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "sidebars",
       "part": "sidebar-9",
       "path": "sidebars/sidebar-9",
       "title": "Sidebars \u00b7 Sidebar 9",
       "preview": "/js-components/sidebars/sidebar-9/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/sidebars/sidebar-9/index.html",
         "css": "/js-components/sidebars/sidebar-9/styles.css",
@@ -3885,17 +5429,24 @@
           "/js-components/sidebars/sidebar-9/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--sliders-slider-1",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "sliders",
       "part": "slider-1",
       "path": "sliders/slider-1",
       "title": "Sliders \u00b7 Slider 1",
       "preview": "/js-components/sliders/slider-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/sliders/slider-1/index.html",
         "css": "/js-components/sliders/slider-1/styles.css",
@@ -3907,17 +5458,24 @@
           "/js-components/sliders/slider-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--tables-table-1",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "tables",
       "part": "table-1",
       "path": "tables/table-1",
       "title": "Tables \u00b7 Table 1",
       "preview": "/js-components/tables/table-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/tables/table-1/index.html",
         "css": "/js-components/tables/table-1/styles.css",
@@ -3929,17 +5487,24 @@
           "/js-components/tables/table-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
     },
     {
       "id": "js-components--widgets-widget-1",
+      "kind": "local",
       "collection": "js-components",
-      "collectionLabel": "JS Components",
+      "collectionLabel": "Joe \u00b7 JS Components",
+      "group": "joe-js",
+      "groupLabel": "Joe \u00b7 JS Components",
+      "groupOrder": 60,
+      "stack": "frontendjoe",
       "category": "widgets",
       "part": "widget-1",
       "path": "widgets/widget-1",
       "title": "Widgets \u00b7 Widget 1",
       "preview": "/js-components/widgets/widget-1/index.html",
+      "previewMode": "iframe",
       "files": {
         "html": "/js-components/widgets/widget-1/index.html",
         "css": "/js-components/widgets/widget-1/styles.css",
@@ -3951,7 +5516,158 @@
           "/js-components/widgets/widget-1/main.js"
         ]
       },
-      "source": "https://github.com/frontend-joe/js-components"
+      "source": "https://github.com/frontend-joe/js-components",
+      "stars": null
+    },
+    {
+      "id": "flowbite-demos--buttons",
+      "kind": "local",
+      "collection": "flowbite-demos",
+      "collectionLabel": "Flowbite \u00b7 Tailwind",
+      "group": "flowbite",
+      "groupLabel": "Flowbite \u00b7 Tailwind",
+      "groupOrder": 3,
+      "stack": "tailwind",
+      "category": "buttons",
+      "part": "buttons",
+      "path": "buttons",
+      "title": "Flowbite \u00b7 Buttons",
+      "preview": "/flowbite-demos/buttons/index.html",
+      "previewMode": "iframe",
+      "files": {
+        "html": "/flowbite-demos/buttons/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      },
+      "source": "https://github.com/themesberg/flowbite",
+      "stars": 9329
+    },
+    {
+      "id": "flowbite-demos--navbar",
+      "kind": "local",
+      "collection": "flowbite-demos",
+      "collectionLabel": "Flowbite \u00b7 Tailwind",
+      "group": "flowbite",
+      "groupLabel": "Flowbite \u00b7 Tailwind",
+      "groupOrder": 3,
+      "stack": "tailwind",
+      "category": "navbar",
+      "part": "navbar",
+      "path": "navbar",
+      "title": "Flowbite \u00b7 Navbar",
+      "preview": "/flowbite-demos/navbar/index.html",
+      "previewMode": "iframe",
+      "files": {
+        "html": "/flowbite-demos/navbar/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      },
+      "source": "https://github.com/themesberg/flowbite",
+      "stars": 9329
+    },
+    {
+      "id": "flowbite-demos--modal",
+      "kind": "local",
+      "collection": "flowbite-demos",
+      "collectionLabel": "Flowbite \u00b7 Tailwind",
+      "group": "flowbite",
+      "groupLabel": "Flowbite \u00b7 Tailwind",
+      "groupOrder": 3,
+      "stack": "tailwind",
+      "category": "modal",
+      "part": "modal",
+      "path": "modal",
+      "title": "Flowbite \u00b7 Modal",
+      "preview": "/flowbite-demos/modal/index.html",
+      "previewMode": "iframe",
+      "files": {
+        "html": "/flowbite-demos/modal/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      },
+      "source": "https://github.com/themesberg/flowbite",
+      "stars": 9329
+    },
+    {
+      "id": "flowbite-demos--drawer",
+      "kind": "local",
+      "collection": "flowbite-demos",
+      "collectionLabel": "Flowbite \u00b7 Tailwind",
+      "group": "flowbite",
+      "groupLabel": "Flowbite \u00b7 Tailwind",
+      "groupOrder": 3,
+      "stack": "tailwind",
+      "category": "drawer",
+      "part": "drawer",
+      "path": "drawer",
+      "title": "Flowbite \u00b7 Drawer",
+      "preview": "/flowbite-demos/drawer/index.html",
+      "previewMode": "iframe",
+      "files": {
+        "html": "/flowbite-demos/drawer/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      },
+      "source": "https://github.com/themesberg/flowbite",
+      "stars": 9329
+    },
+    {
+      "id": "flowbite-demos--cards",
+      "kind": "local",
+      "collection": "flowbite-demos",
+      "collectionLabel": "Flowbite \u00b7 Tailwind",
+      "group": "flowbite",
+      "groupLabel": "Flowbite \u00b7 Tailwind",
+      "groupOrder": 3,
+      "stack": "tailwind",
+      "category": "cards",
+      "part": "cards",
+      "path": "cards",
+      "title": "Flowbite \u00b7 Cards",
+      "preview": "/flowbite-demos/cards/index.html",
+      "previewMode": "iframe",
+      "files": {
+        "html": "/flowbite-demos/cards/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      },
+      "source": "https://github.com/themesberg/flowbite",
+      "stars": 9329
+    },
+    {
+      "id": "flowbite-demos--forms",
+      "kind": "local",
+      "collection": "flowbite-demos",
+      "collectionLabel": "Flowbite \u00b7 Tailwind",
+      "group": "flowbite",
+      "groupLabel": "Flowbite \u00b7 Tailwind",
+      "groupOrder": 3,
+      "stack": "tailwind",
+      "category": "forms",
+      "part": "forms",
+      "path": "forms",
+      "title": "Flowbite \u00b7 Forms",
+      "preview": "/flowbite-demos/forms/index.html",
+      "previewMode": "iframe",
+      "files": {
+        "html": "/flowbite-demos/forms/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      },
+      "source": "https://github.com/themesberg/flowbite",
+      "stars": 9329
     }
   ]
 }

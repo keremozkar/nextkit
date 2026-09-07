@@ -1,11 +1,12 @@
 # Frontend Joe · Pattern Lab
 
-Instagram [@frontendjoe](https://www.instagram.com/frontendjoe) gönderilerindeki CSS/JS UI fikirlerinin **açık kaynak GitHub** hallerini tek yerde toplar:
+Instagram [@frontendjoe](https://www.instagram.com/frontendjoe) + yüksek yıldızlı UI kit’lerini tek yerde toplar:
 
-- canlı **HTML önizleme**
-- HTML / CSS / JS sekmeleri
+- **Kategoriler:** Favoriler · Copy-paste Motion · Mobil · Flowbite · Joe Reels/CSS/Nav/Sidebar/ES6/JS
+- ★ **Favoriler** (localStorage)
+- canlı **HTML önizleme** (yerel demolar) + harici demo linkleri
 - **Copy kod** / **Copy uyarla prompt** / **Copy hepsi**
-- Cursor **MD skill** (kendi projene uyarlama rehberi)
+- Cursor **MD skill**
 
 > Instagram scrape yok. Joe zaten aynı “part”ları GitHub’da yayınlıyor (`css-reels` vb.).
 

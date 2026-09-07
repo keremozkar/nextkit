@@ -9,38 +9,55 @@ type DemoFiles = {
   allJs?: string[]
 }
 
-type Demo = {
+type Item = {
   id: string
-  collection: string
-  collectionLabel: string
+  kind: 'local' | 'external'
+  group: string
+  groupLabel: string
+  groupOrder: number
   category: string
-  part: string
-  path: string
   title: string
+  blurb?: string
   preview: string
-  files: DemoFiles
+  previewMode: 'iframe' | 'external'
   source: string
+  stars?: number | null
+  stack?: string
+  collection?: string
+  collectionLabel?: string
+  path?: string
+  part?: string
+  files?: DemoFiles
+  tags?: string[]
 }
 
+type Group = { id: string; label: string; order: number }
+
 type Manifest = {
+  favoritesKey: string
+  groups: Group[]
+  demos: Item[]
   attribution: string
   instagram: string
-  website?: string
-  sources: { id: string; label: string; url: string }[]
-  count: number
-  demos: Demo[]
 }
+
+type Catalog = { favoritesKey: string; items: Item[] }
 
 type Tab = 'live' | 'html' | 'css' | 'js' | 'how'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
+const FAV_KEY = 'pattern-lab-favorites-v1'
 
-let manifest: Manifest | null = null
+let items: Item[] = []
+let groups: Group[] = []
 let activeId: string | null = null
 let activeTab: Tab = 'live'
-let collectionFilter = 'all'
+let activeGroup = 'copy-paste'
+let activeCategory = 'all'
 let query = ''
+let favorites = new Set<string>()
 const codeCache = new Map<string, string>()
+const openGroups = new Set<string>(['favorites', 'copy-paste', 'mobile', 'flowbite', 'joe-reels'])
 
 function esc(s: string) {
   return s
@@ -50,27 +67,63 @@ function esc(s: string) {
     .replaceAll('"', '&quot;')
 }
 
-function filteredDemos(): Demo[] {
-  if (!manifest) return []
+function loadFavorites() {
+  try {
+    const raw = localStorage.getItem(FAV_KEY)
+    favorites = new Set(raw ? (JSON.parse(raw) as string[]) : [])
+  } catch {
+    favorites = new Set()
+  }
+}
+
+function saveFavorites() {
+  localStorage.setItem(FAV_KEY, JSON.stringify([...favorites]))
+}
+
+function toggleFavorite(id: string) {
+  if (favorites.has(id)) favorites.delete(id)
+  else favorites.add(id)
+  saveFavorites()
+}
+
+function starLabel(n?: number | null) {
+  if (n == null) return ''
+  if (n >= 1000) return `${(n / 1000).toFixed(n >= 10000 ? 0 : 1).replace(/\.0$/, '')}k★`
+  return `${n}★`
+}
+
+function filteredItems(): Item[] {
   const q = query.trim().toLowerCase()
-  return manifest.demos.filter((d) => {
-    if (collectionFilter !== 'all' && d.collection !== collectionFilter) return false
+  return items.filter((it) => {
+    if (activeGroup === 'favorites') {
+      if (!favorites.has(it.id)) return false
+    } else if (it.group !== activeGroup) {
+      return false
+    }
+    if (activeCategory !== 'all' && it.category !== activeCategory) return false
     if (!q) return true
-    return (
-      d.title.toLowerCase().includes(q) ||
-      d.category.toLowerCase().includes(q) ||
-      d.collectionLabel.toLowerCase().includes(q) ||
-      d.path.toLowerCase().includes(q)
-    )
+    const hay = [it.title, it.category, it.groupLabel, it.blurb, it.source, ...(it.tags ?? [])]
+      .filter(Boolean)
+      .join(' ')
+      .toLowerCase()
+    return hay.includes(q)
   })
 }
 
-function activeDemo(): Demo | null {
-  const list = filteredDemos()
-  return list.find((d) => d.id === activeId) ?? list[0] ?? null
+function categoriesForGroup(groupId: string): string[] {
+  const pool =
+    groupId === 'favorites'
+      ? items.filter((i) => favorites.has(i.id))
+      : items.filter((i) => i.group === groupId)
+  return [...new Set(pool.map((i) => i.category))].sort()
 }
 
-async function loadText(url: string): Promise<string> {
+function activeItem(): Item | null {
+  const list = filteredItems()
+  return list.find((i) => i.id === activeId) ?? list[0] ?? null
+}
+
+async function loadText(url: string) {
   if (codeCache.has(url)) return codeCache.get(url)!
   const res = await fetch(url)
   if (!res.ok) throw new Error(`Could not load ${url}`)
@@ -79,309 +132,317 @@ async function loadText(url: string): Promise<string> {
   return text
 }
 
-async function loadTabCode(demo: Demo, tab: Exclude<Tab, 'live' | 'how'>): Promise<string> {
-  if (tab === 'html') return loadText(demo.files.html)
-  if (tab === 'css') {
-    const files = demo.files.allCss?.length
-      ? demo.files.allCss
-      : demo.files.css
-        ? [demo.files.css]
-        : []
-    if (!files.length) return '/* No CSS file in this demo */'
-    const parts = await Promise.all(
-      files.map(async (f) => `/* ===== ${f} ===== */\n${await loadText(f)}`),
-    )
-    return parts.join('\n\n')
+async function loadTabCode(item: Item, tab: 'html' | 'css' | 'js') {
+  if (item.kind !== 'local' || !item.files) {
+    return `// External kit — kaynak: ${item.source}\n// Canlı demo: ${item.preview}`
   }
-  const files = demo.files.allJs?.length
-    ? demo.files.allJs
-    : demo.files.js
-      ? [demo.files.js]
+  if (tab === 'html') return loadText(item.files.html)
+  if (tab === 'css') {
+    const files = item.files.allCss?.length
+      ? item.files.allCss
+      : item.files.css
+        ? [item.files.css]
+        : []
+    if (!files.length) return '/* No CSS file */'
+    return (await Promise.all(files.map(async (f) => `/* ${f} */\n${await loadText(f)}`))).join(
+      '\n\n',
+    )
+  }
+  const files = item.files.allJs?.length
+    ? item.files.allJs
+    : item.files.js
+      ? [item.files.js]
       : []
-  if (!files.length) return '// No JavaScript — this one is CSS-only'
-  const parts = await Promise.all(
-    files.map(async (f) => `// ===== ${f} =====\n${await loadText(f)}`),
-  )
-  return parts.join('\n\n')
+  if (!files.length) return '// No JavaScript — CSS/HTML only or external kit'
+  return (await Promise.all(files.map(async (f) => `// ${f}\n${await loadText(f)}`))).join('\n\n')
 }
 
-function adaptPrompt(demo: Demo): string {
-  const how = howItWorksFor(demo.category, demo.collection)
+function adaptPrompt(item: Item) {
+  const how = howItWorksFor(item.category, item.collection)
   return [
-    `Referans: frontendjoe "${demo.title}" (${demo.collectionLabel}).`,
-    `Kaynak: ${demo.source} → ${demo.path}`,
-    `Önizleme path: ${demo.preview}`,
+    `Referans: ${item.title}${item.stars ? ` (${starLabel(item.stars)})` : ''}`,
+    `Grup: ${item.groupLabel} · kategori: ${item.category}`,
+    `Kaynak: ${item.source}`,
+    `Demo: ${item.preview}`,
+    item.blurb ? `Özet: ${item.blurb}` : '',
     '',
-    'İstediğim: Bu tasarımı/motion fikrini kendi projeme UYARLA — birebir kopyalama.',
-    `Kategori özeti: ${how.summary}`,
+    'İstediğim: Bu UI/motion fikrini kendi React/Next (veya Hono API + UI) / mobil projeme UYARLA — birebir dump yok.',
+    `Pattern özeti: ${how.summary}`,
     'Teknikler:',
     ...how.techniques.map((t) => `- ${t}`),
     '',
-    'Kurallar:',
-    '- Marka renkleri, font ve spacing bizim tasarıma ait olsun',
-    '- Pattern/interaction aynı kalsın (hover, toggle, stagger, stroke animasyonu vb.)',
-    '- Gereksiz bağımlılık ekleme; mümkünse saf CSS + az JS',
-    '- Erişilebilirlik: focus states, reduced-motion’a saygı',
-  ].join('\n')
+    'Kurallar: marka renk/font/spacing bizim; mobil-first; a11y + reduced-motion.',
+  ]
+    .filter(Boolean)
+    .join('\n')
 }
 
-async function clipboardWrite(text: string): Promise<boolean> {
+async function clipboardWrite(text: string) {
   try {
     await navigator.clipboard.writeText(text)
     return true
   } catch {
-    try {
-      const ta = document.createElement('textarea')
-      ta.value = text
-      ta.style.position = 'fixed'
-      ta.style.left = '-9999px'
-      document.body.appendChild(ta)
-      ta.select()
-      const ok = document.execCommand('copy')
-      ta.remove()
-      return ok
-    } catch {
-      return false
-    }
+    const ta = document.createElement('textarea')
+    ta.value = text
+    ta.style.position = 'fixed'
+    ta.style.left = '-9999px'
+    document.body.appendChild(ta)
+    ta.select()
+    const ok = document.execCommand('copy')
+    ta.remove()
+    return ok
   }
 }
 
-function flashButton(btn: HTMLButtonElement | null, label = 'Kopyalandı') {
+function flash(btn: HTMLElement | null, label: string) {
   if (!btn) return
   const prev = btn.textContent
   btn.textContent = label
   setTimeout(() => {
     btn.textContent = prev
-  }, 1300)
+  }, 1200)
 }
 
-function renderShell() {
-  const demo = activeDemo()
-  const demos = filteredDemos()
-  const sources = manifest?.sources ?? []
+function countInGroup(groupId: string) {
+  if (groupId === 'favorites') return favorites.size
+  return items.filter((i) => i.group === groupId).length
+}
+
+function render() {
+  const item = activeItem()
+  const list = filteredItems()
+  const cats = categoriesForGroup(activeGroup)
 
   app.innerHTML = `
-    <div class="app-shell">
-      <header class="topbar">
-        <div class="brand">
-          <strong>Frontend Joe · Pattern Lab</strong>
-          <span>Canlı HTML önizleme + kod · beğendiğini kopyala, kendi projene uyarla</span>
-        </div>
-        <div class="topbar-actions">
-          <a class="ghost-btn" href="${manifest?.instagram ?? 'https://www.instagram.com/frontendjoe'}" target="_blank" rel="noreferrer">Instagram</a>
-          <a class="ghost-btn" href="https://github.com/frontend-joe" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="primary-btn" href="/skills/frontendjoe-patterns/SKILL.md" target="_blank" rel="noreferrer">MD Skill</a>
-        </div>
-      </header>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <strong>Pattern Lab</strong>
+        <span>Kategorili referanslar · yıldızla favorile · uyarla</span>
+      </div>
+      <div class="topbar-actions">
+        <span class="chip">${favorites.size} favori</span>
+        <a class="ghost-btn" href="/skills/frontendjoe-patterns/SKILL.md" target="_blank" rel="noreferrer">Skill</a>
+      </div>
+    </header>
 
-      <aside class="sidebar">
-        <input class="search" type="search" placeholder="Ara: button, login, sidebar…" value="${esc(query)}" />
-        <div class="filters">
-          <button type="button" class="filter-btn ${collectionFilter === 'all' ? 'active' : ''}" data-collection="all">Hepsi (${manifest?.count ?? 0})</button>
-          ${sources
-            .map((s) => {
-              const count = manifest?.demos.filter((d) => d.collection === s.id).length ?? 0
-              return `<button type="button" class="filter-btn ${collectionFilter === s.id ? 'active' : ''}" data-collection="${esc(s.id)}">${esc(s.label)} (${count})</button>`
-            })
+    <aside class="sidebar">
+      <input class="search" type="search" placeholder="Ara…" value="${esc(query)}" />
+
+      <div class="group-nav">
+        ${groups
+          .map((g) => {
+            const open = openGroups.has(g.id) || activeGroup === g.id
+            const count = countInGroup(g.id)
+            const isActive = activeGroup === g.id
+            return `
+            <div class="group-block ${isActive ? 'active' : ''}">
+              <button type="button" class="group-head" data-group="${esc(g.id)}" data-toggle-group="${esc(g.id)}">
+                <span>${esc(g.label)}</span>
+                <span class="count">${count}</span>
+              </button>
+              ${
+                open && isActive
+                  ? `<div class="cat-list">
+                      <button type="button" class="cat-btn ${activeCategory === 'all' ? 'active' : ''}" data-cat="all">Tümü</button>
+                      ${cats
+                        .map(
+                          (c) =>
+                            `<button type="button" class="cat-btn ${activeCategory === c ? 'active' : ''}" data-cat="${esc(c)}">${esc(c)}</button>`,
+                        )
+                        .join('')}
+                    </div>`
+                  : ''
+              }
+            </div>`
+          })
+          .join('')}
+      </div>
+
+      <p class="meta-line">${list.length} öğe</p>
+      <div class="demo-list">
+        ${
+          list.length
+            ? list
+                .map((it) => {
+                  const fav = favorites.has(it.id)
+                  return `
+              <div class="demo-row ${item?.id === it.id ? 'active' : ''}">
+                <button type="button" class="star-btn ${fav ? 'on' : ''}" data-star="${esc(it.id)}" title="Favorilere ekle/çıkar">${fav ? '★' : '☆'}</button>
+                <button type="button" class="demo-item" data-id="${esc(it.id)}">
+                  <span class="title">${esc(it.title)}</span>
+                  <span class="sub">${esc(it.category)}${it.stars ? ` · ${esc(starLabel(it.stars))}` : ''}${it.kind === 'external' ? ' · external' : ''}</span>
+                </button>
+              </div>`
+                })
+                .join('')
+            : `<p class="meta-line">${activeGroup === 'favorites' ? 'Henüz favori yok — ★ ile ekle.' : 'Bu filtrede sonuç yok.'}</p>`
+        }
+      </div>
+    </aside>
+
+    <section class="main">
+      ${
+        item
+          ? `
+        <div class="detail-head">
+          <div>
+            <h1>${esc(item.title)} <button type="button" class="star-inline ${favorites.has(item.id) ? 'on' : ''}" data-star="${esc(item.id)}" title="Favori">${favorites.has(item.id) ? '★' : '☆'}</button></h1>
+            <p>${esc(item.groupLabel)} · ${esc(item.category)}${item.stars ? ` · ${esc(starLabel(item.stars))} GitHub` : ''} · <a href="${esc(item.source)}" target="_blank" rel="noreferrer">kaynak</a></p>
+            ${item.blurb ? `<p class="blurb">${esc(item.blurb)}</p>` : ''}
+          </div>
+          <div class="copy-row">
+            <button type="button" class="primary-btn" id="copy-prompt-btn">Copy uyarla prompt</button>
+            ${item.kind === 'local' ? `<button type="button" class="ghost-btn" id="copy-code-btn">Copy kod</button><button type="button" class="ghost-btn" id="copy-all-btn">Copy hepsi</button>` : ''}
+            <a class="ghost-btn" href="${esc(item.preview)}" target="_blank" rel="noreferrer">${item.previewMode === 'external' ? 'Demo sitesini aç' : 'Önizlemeyi aç'}</a>
+          </div>
+        </div>
+        <div class="tabs-bar">
+          ${(['live', 'how', 'html', 'css', 'js'] as Tab[])
+            .map(
+              (t) =>
+                `<button type="button" class="tab ${activeTab === t ? 'active' : ''}" data-tab="${t}">${
+                  t === 'live' ? 'Canlı' : t === 'how' ? 'Nasıl / Uyarla' : t.toUpperCase()
+                }</button>`,
+            )
             .join('')}
         </div>
-        <p class="meta-line">${demos.length} demo · tıkla → canlı HTML</p>
-        <div class="demo-list">
+        <div class="preview-wrap">
           ${
-            demos.length
-              ? demos
-                  .map(
-                    (d) => `
-              <button type="button" class="demo-item ${demo?.id === d.id ? 'active' : ''}" data-id="${esc(d.id)}">
-                <span class="title">${esc(d.title)}</span>
-                <span class="sub">${esc(d.collectionLabel)} · ${esc(d.category)}</span>
-              </button>`,
-                  )
-                  .join('')
-              : `<p class="meta-line">Sonuç yok — filtreyi temizle.</p>`
+            item.previewMode === 'iframe'
+              ? `<iframe title="${esc(item.title)}" src="${esc(item.preview)}" loading="lazy"></iframe>`
+              : `<div class="external-card">
+                  <h3>Harici demo</h3>
+                  <p>Bu kit tarayıcıda kendi sitesinde / RN ortamında çalışır. Aşağıdan prompt kopyala veya siteyi aç.</p>
+                  <a class="primary-btn" href="${esc(item.preview)}" target="_blank" rel="noreferrer">Canlı siteyi aç →</a>
+                  <p class="meta-line" style="margin-top:12px">${esc(item.source)}</p>
+                </div>`
           }
         </div>
-      </aside>
+        <div class="panel">
+          <div class="panel-toolbar">
+            <span id="panel-label">${activeTab}</span>
+            <button type="button" class="ghost-btn" id="copy-panel-btn">Copy</button>
+          </div>
+          <div id="panel-body" class="how-view">Yükleniyor…</div>
+        </div>`
+          : `<div class="empty">Öğe seç veya favorilere ekle.</div>`
+      }
+    </section>
+  </div>`
 
-      <section class="main">
-        ${
-          demo
-            ? `
-          <div class="detail-head">
-            <div>
-              <h1>${esc(demo.title)}</h1>
-              <p>${esc(demo.collectionLabel)} · <a href="${esc(demo.source)}" target="_blank" rel="noreferrer">kaynak repo</a> · örnek al, markana uydur.</p>
-            </div>
-            <div class="copy-row">
-              <button type="button" class="primary-btn" id="copy-code-btn" title="Aktif sekmedeki kodu kopyala">Copy kod</button>
-              <button type="button" class="ghost-btn" id="copy-prompt-btn" title="Cursor'a yapıştırılacak uyarlama prompt'u">Copy uyarla prompt</button>
-              <button type="button" class="ghost-btn" id="copy-all-btn" title="HTML+CSS+JS birlikte">Copy hepsi</button>
-              <a class="ghost-btn" href="${esc(demo.preview)}" target="_blank" rel="noreferrer">Önizlemeyi aç</a>
-            </div>
-          </div>
-          <div class="tabs-bar">
-            ${(['live', 'how', 'html', 'css', 'js'] as Tab[])
-              .map(
-                (t) =>
-                  `<button type="button" class="tab ${activeTab === t ? 'active' : ''}" data-tab="${t}">${
-                    t === 'live' ? 'Canlı HTML' : t === 'how' ? 'Nasıl / Uyarla' : t.toUpperCase()
-                  }</button>`,
-              )
-              .join('')}
-          </div>
-          <div class="preview-wrap" id="preview-pane">
-            <iframe title="${esc(demo.title)}" src="${esc(demo.preview)}" loading="lazy"></iframe>
-          </div>
-          <div class="panel">
-            <div class="panel-toolbar">
-              <span id="panel-label">${activeTab === 'live' ? 'önizleme + özet' : activeTab}</span>
-              <button type="button" class="ghost-btn" id="copy-panel-btn">Copy</button>
-            </div>
-            <div id="panel-body" class="${activeTab === 'how' || activeTab === 'live' ? 'how-view' : 'code-view'}">Yükleniyor…</div>
-          </div>`
-            : `<div class="empty">Manifest yüklenemedi veya demo yok.</div>`
-        }
-      </section>
-    </div>
-  `
-
-  bindEvents()
+  bind()
   void fillPanel()
 }
 
-function bindEvents() {
+function bind() {
   app.querySelector<HTMLInputElement>('.search')?.addEventListener('input', (e) => {
     query = (e.target as HTMLInputElement).value
-    if (!filteredDemos().some((d) => d.id === activeId)) {
-      activeId = filteredDemos()[0]?.id ?? null
-    }
-    renderShell()
+    render()
   })
 
-  app.querySelectorAll<HTMLButtonElement>('.filter-btn').forEach((btn) => {
+  app.querySelectorAll<HTMLButtonElement>('[data-group]').forEach((btn) => {
     btn.addEventListener('click', () => {
-      collectionFilter = btn.dataset.collection || 'all'
-      activeId = filteredDemos()[0]?.id ?? null
+      const g = btn.dataset.group!
+      activeGroup = g
+      openGroups.add(g)
+      activeCategory = 'all'
+      activeId = null
       activeTab = 'live'
-      renderShell()
+      render()
     })
   })
 
-  app.querySelectorAll<HTMLButtonElement>('.demo-item').forEach((btn) => {
+  app.querySelectorAll<HTMLButtonElement>('[data-cat]').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation()
+      activeCategory = btn.dataset.cat || 'all'
+      activeId = null
+      render()
+    })
+  })
+
+  app.querySelectorAll<HTMLButtonElement>('[data-id]').forEach((btn) => {
     btn.addEventListener('click', () => {
       activeId = btn.dataset.id || null
       activeTab = 'live'
-      renderShell()
+      render()
+    })
+  })
+
+  app.querySelectorAll<HTMLButtonElement>('[data-star]').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation()
+      const id = btn.dataset.star!
+      toggleFavorite(id)
+      render()
     })
   })
 
   app.querySelectorAll<HTMLButtonElement>('.tab').forEach((btn) => {
     btn.addEventListener('click', () => {
       activeTab = (btn.dataset.tab as Tab) || 'live'
+      app.querySelectorAll('.tab').forEach((t) => t.classList.toggle('active', (t as HTMLElement).dataset.tab === activeTab))
       void fillPanel()
-      app.querySelectorAll<HTMLButtonElement>('.tab').forEach((t) => {
-        t.classList.toggle('active', t.dataset.tab === activeTab)
-      })
-      const label = app.querySelector('#panel-label')
-      if (label) label.textContent = activeTab === 'live' ? 'önizleme + özet' : activeTab
     })
   })
 
-  app.querySelector<HTMLButtonElement>('#copy-panel-btn')?.addEventListener('click', () => {
-    void copyActivePanel(app.querySelector('#copy-panel-btn'))
+  app.querySelector('#copy-prompt-btn')?.addEventListener('click', async () => {
+    const it = activeItem()
+    if (!it) return
+    flash(app.querySelector('#copy-prompt-btn'), (await clipboardWrite(adaptPrompt(it))) ? 'Kopyalandı' : 'Hata')
   })
-  app.querySelector<HTMLButtonElement>('#copy-code-btn')?.addEventListener('click', () => {
-    void copyCodeSmart(app.querySelector('#copy-code-btn'))
-  })
-  app.querySelector<HTMLButtonElement>('#copy-prompt-btn')?.addEventListener('click', async () => {
-    const demo = activeDemo()
-    if (!demo) return
-    const ok = await clipboardWrite(adaptPrompt(demo))
-    flashButton(app.querySelector('#copy-prompt-btn'), ok ? 'Prompt kopyalandı' : 'Kopyalanamadı')
-  })
-  app.querySelector<HTMLButtonElement>('#copy-all-btn')?.addEventListener('click', () => {
-    void copyAllSources(app.querySelector('#copy-all-btn'))
-  })
-}
 
-async function copyActivePanel(btn: HTMLButtonElement | null) {
-  const demo = activeDemo()
-  if (!demo) return
-  let text = ''
-  if (activeTab === 'how' || activeTab === 'live') {
-    text = adaptPrompt(demo)
-  } else {
-    text = await loadTabCode(demo, activeTab)
-  }
-  const ok = await clipboardWrite(text)
-  flashButton(btn, ok ? 'Kopyalandı' : 'Kopyalanamadı')
-}
+  app.querySelector('#copy-code-btn')?.addEventListener('click', async () => {
+    const it = activeItem()
+    if (!it) return
+    const tab = activeTab === 'live' || activeTab === 'how' ? 'css' : activeTab
+    flash(app.querySelector('#copy-code-btn'), (await clipboardWrite(await loadTabCode(it, tab))) ? 'Kopyalandı' : 'Hata')
+  })
 
-async function copyCodeSmart(btn: HTMLButtonElement | null) {
-  const demo = activeDemo()
-  if (!demo) return
-  const tab = activeTab === 'live' || activeTab === 'how' ? 'css' : activeTab
-  const text = await loadTabCode(demo, tab)
-  const ok = await clipboardWrite(text)
-  flashButton(btn, ok ? `${tab.toUpperCase()} kopyalandı` : 'Kopyalanamadı')
-}
+  app.querySelector('#copy-all-btn')?.addEventListener('click', async () => {
+    const it = activeItem()
+    if (!it) return
+    const [html, css, js] = await Promise.all([
+      loadTabCode(it, 'html'),
+      loadTabCode(it, 'css'),
+      loadTabCode(it, 'js'),
+    ])
+    const text = `<!-- ${it.title} -->\n${html}\n\n/* CSS */\n${css}\n\n// JS\n${js}\n\n---\n${adaptPrompt(it)}`
+    flash(app.querySelector('#copy-all-btn'), (await clipboardWrite(text)) ? 'Kopyalandı' : 'Hata')
+  })
 
-async function copyAllSources(btn: HTMLButtonElement | null) {
-  const demo = activeDemo()
-  if (!demo) return
-  const [html, css, js] = await Promise.all([
-    loadTabCode(demo, 'html'),
-    loadTabCode(demo, 'css'),
-    loadTabCode(demo, 'js'),
-  ])
-  const text = [
-    `/* ${demo.title} — ${demo.source} */`,
-    '',
-    '<!-- HTML -->',
-    html,
-    '',
-    '/* CSS */',
-    css,
-    '',
-    '// JS',
-    js,
-    '',
-    '---',
-    adaptPrompt(demo),
-  ].join('\n')
-  const ok = await clipboardWrite(text)
-  flashButton(btn, ok ? 'Hepsi kopyalandı' : 'Kopyalanamadı')
+  app.querySelector('#copy-panel-btn')?.addEventListener('click', async () => {
+    const body = app.querySelector('#panel-body')
+    flash(app.querySelector('#copy-panel-btn'), (await clipboardWrite(body?.textContent ?? '')) ? 'Kopyalandı' : 'Hata')
+  })
 }
 
 async function fillPanel() {
-  const demo = activeDemo()
+  const item = activeItem()
   const body = app.querySelector('#panel-body')
-  if (!demo || !body) return
+  const label = app.querySelector('#panel-label')
+  if (!item || !body) return
+  if (label) label.textContent = activeTab
 
   if (activeTab === 'live' || activeTab === 'how') {
-    const how = howItWorksFor(demo.category, demo.collection)
+    const how = howItWorksFor(item.category, item.collection)
     body.className = 'how-view'
     body.innerHTML = `
-      <h3>${activeTab === 'live' ? 'Canlı HTML yukarıda' : `${esc(demo.category)} — nasıl çalışıyor?`}</h3>
-      <p>${esc(how.summary)}</p>
+      <h3>${activeTab === 'live' ? 'Önizleme / referans' : 'Nasıl uyarlanır?'}</h3>
+      <p>${esc(item.blurb || how.summary)}</p>
       <ul>${how.techniques.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>
       <div class="adapt">
-        <strong>Copy komutları:</strong>
-        <code>Copy kod</code> aktif/CSS kaynağı ·
-        <code>Copy uyarla prompt</code> Cursor’a yapıştır ·
-        <code>Copy hepsi</code> HTML+CSS+JS+prompt
-      </div>
-      <div class="adapt" style="margin-top:10px">
-        <strong>Kendi projene:</strong>
-        Pattern’i al, marka renk/font/spacing’i değiştir. Birebir dump değil — “şu hover gibi” diye örnek göster.
-      </div>
-    `
+        <strong>★ Favori:</strong> yıldızla kaydet ·
+        <strong>Copy uyarla prompt:</strong> Cursor’a yapıştır ·
+        Stack: React / Next / Hono UI / mobil-first.
+      </div>`
     return
   }
 
   body.className = 'code-view'
   try {
-    body.textContent = await loadTabCode(demo, activeTab)
+    body.textContent = await loadTabCode(item, activeTab)
   } catch (err) {
     body.className = 'status-error'
     body.textContent = err instanceof Error ? err.message : 'Load failed'
@@ -389,13 +450,21 @@ async function fillPanel() {
 }
 
 async function boot() {
-  app.innerHTML = `<div class="empty">Demolar yükleniyor…</div>`
+  app.innerHTML = `<div class="empty">Katalog yükleniyor…</div>`
+  loadFavorites()
   try {
-    const res = await fetch('/manifest.json')
-    if (!res.ok) throw new Error('manifest.json okunamadı')
-    manifest = (await res.json()) as Manifest
-    activeId = manifest.demos[0]?.id ?? null
-    renderShell()
+    const [mRes, cRes] = await Promise.all([fetch('/manifest.json'), fetch('/catalog.json')])
+    if (!mRes.ok) throw new Error('manifest.json okunamadı')
+    const manifest = (await mRes.json()) as Manifest
+    const catalog = cRes.ok ? ((await cRes.json()) as Catalog) : { favoritesKey: FAV_KEY, items: [] }
+
+    groups = [...manifest.groups].sort((a, b) => a.order - b.order)
+    const local: Item[] = manifest.demos.map((d) => ({ ...d, kind: d.kind || 'local' }))
+    items = [...catalog.items, ...local]
+
+    if (!items.some((i) => i.group === activeGroup)) activeGroup = 'copy-paste'
+    activeId = filteredItems()[0]?.id ?? null
+    render()
   } catch (err) {
     app.innerHTML = `<div class="status-error">${esc(err instanceof Error ? err.message : 'Boot failed')}</div>`
   }
