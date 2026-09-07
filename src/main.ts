@@ -508,17 +508,30 @@ async function boot() {
   app.innerHTML = `<div class="empty">Katalog yükleniyor…</div>`
   loadFavorites()
   try {
-    const [mRes, cRes] = await Promise.all([fetch('/manifest.json'), fetch('/catalog.json')])
-    if (!mRes.ok) throw new Error('manifest.json okunamadı')
+    const bust = `?v=${Date.now()}`
+    const [mRes, cRes] = await Promise.all([
+      fetch(`/manifest.json${bust}`, { cache: 'no-store' }),
+      fetch(`/catalog.json${bust}`, { cache: 'no-store' }),
+    ])
+    if (!mRes.ok) throw new Error(`manifest.json okunamadı (${mRes.status})`)
     const manifest = (await mRes.json()) as Manifest
-    const catalog = cRes.ok ? ((await cRes.json()) as Catalog) : { favoritesKey: FAV_KEY, items: [] }
+    const catalog = cRes.ok
+      ? ((await cRes.json()) as Catalog & { meta?: { groups?: string[] } })
+      : { favoritesKey: FAV_KEY, items: [] }
 
-    groups = [
-      { id: 'all', label: 'Tümü', order: -1 },
-      ...manifest.groups,
-    ].sort((a, b) => a.order - b.order)
-    const local: Item[] = manifest.demos.map((d) => ({ ...d, kind: d.kind || 'local' }))
-    items = [...catalog.items, ...local]
+    const manifestGroups = Array.isArray(manifest.groups) ? manifest.groups : []
+    const manifestDemos = Array.isArray(manifest.demos) ? manifest.demos : []
+    const catalogItems = Array.isArray(catalog.items) ? catalog.items : []
+
+    if (!manifestGroups.length) {
+      throw new Error(
+        `manifest.groups yok (keys: ${Object.keys(manifest || {}).join(', ') || '—'}). Sayfayı hard-refresh dene.`,
+      )
+    }
+
+    groups = [{ id: 'all', label: 'Tümü', order: -1 }, ...manifestGroups].sort((a, b) => a.order - b.order)
+    const local: Item[] = manifestDemos.map((d) => ({ ...d, kind: d.kind || 'local' }))
+    items = [...catalogItems, ...local]
 
     if (!items.some((i) => i.group === activeGroup) && activeGroup !== 'all' && activeGroup !== 'favorites') {
       activeGroup = 'all'
