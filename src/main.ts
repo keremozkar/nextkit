@@ -48,6 +48,18 @@ type Tab = 'live' | 'html' | 'css' | 'js' | 'how'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 const FAV_KEY = 'pattern-lab-favorites-v1'
+/** Bust iframe caches when kits assets rebuild */
+const KITS_ASSET_V = '20260907d'
+
+function previewSrc(item: Item) {
+  const url = item.preview
+  if (url.includes('/kits/') || url.includes('/kits-next/')) {
+    const [path, hash = ''] = url.split('#')
+    const joiner = path.includes('?') ? '&' : '?'
+    return `${path}${joiner}v=${KITS_ASSET_V}${hash ? `#${hash}` : ''}`
+  }
+  return url
+}
 
 let items: Item[] = []
 let groups: Group[] = []
@@ -58,7 +70,7 @@ let activeCategory = 'all'
 let query = ''
 let favorites = new Set<string>()
 const codeCache = new Map<string, string>()
-const openGroups = new Set<string>(['all', 'favorites', 'copy-paste', 'premium-logins', 'mobile', 'flowbite', 'joe-reels'])
+const openGroups = new Set<string>(['all', 'favorites', 'copy-paste', 'premium-logins', 'mobile', 'joe-reels'])
 
 function esc(s: string) {
   return s
@@ -240,6 +252,8 @@ function render() {
   const item = activeItem()
   const cats = searching || activeGroup === 'all' ? [] : categoriesForGroup(activeGroup)
   const highlightGroup = searching ? 'all' : activeGroup
+  const sidebarEl = app.querySelector<HTMLElement>('.sidebar')
+  const sidebarScroll = sidebarEl?.scrollTop ?? 0
 
   app.innerHTML = `
   <div class="app-shell">
@@ -352,7 +366,7 @@ function render() {
           </div>
           <iframe
             title="${esc(item.title)}"
-            src="${esc(item.preview)}"
+            src="${esc(previewSrc(item))}"
             loading="eager"
             referrerpolicy="no-referrer-when-downgrade"
             allow="fullscreen; clipboard-read; clipboard-write"
@@ -372,6 +386,10 @@ function render() {
 
   bind()
   void fillPanel()
+  requestAnimationFrame(() => {
+    const nextSidebar = app.querySelector<HTMLElement>('.sidebar')
+    if (nextSidebar) nextSidebar.scrollTop = sidebarScroll
+  })
 }
 
 function bind() {
@@ -529,7 +547,12 @@ async function boot() {
       )
     }
 
-    groups = [{ id: 'all', label: 'Tümü', order: -1 }, ...manifestGroups].sort((a, b) => a.order - b.order)
+    groups = [
+      { id: 'all', label: 'Tümü', order: -1 },
+      ...manifestGroups,
+    ]
+      .filter((g) => g.id === 'all' || g.id === 'favorites' || countInGroup(g.id) > 0)
+      .sort((a, b) => a.order - b.order)
     const local: Item[] = manifestDemos.map((d) => ({ ...d, kind: d.kind || 'local' }))
     items = [...catalogItems, ...local]
 

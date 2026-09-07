@@ -26,11 +26,6 @@
       "order": 2
     },
     {
-      "id": "flowbite",
-      "label": "Flowbite · Tailwind",
-      "order": 3
-    },
-    {
       "id": "joe-reels",
       "label": "Joe · Instagram Reels",
       "order": 10
@@ -56,7 +51,7 @@
       "order": 60
     }
   ],
-  "count": 189,
+  "count": 183,
   "demos": [
     {
       "id": "reels--burgers-part-1",
@@ -5138,156 +5133,6 @@
       },
       "source": "https://github.com/frontend-joe/js-components",
       "stars": null
-    },
-    {
-      "id": "flowbite-demos--buttons",
-      "kind": "local",
-      "collection": "flowbite-demos",
-      "collectionLabel": "Flowbite · Tailwind",
-      "group": "flowbite",
-      "groupLabel": "Flowbite · Tailwind",
-      "groupOrder": 3,
-      "stack": "tailwind",
-      "category": "buttons",
-      "part": "buttons",
-      "path": "buttons",
-      "title": "Flowbite · Buttons",
-      "preview": "/flowbite-demos/buttons/index.html",
-      "previewMode": "iframe",
-      "files": {
-        "html": "/flowbite-demos/buttons/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
-      },
-      "source": "https://github.com/themesberg/flowbite",
-      "stars": 9329
-    },
-    {
-      "id": "flowbite-demos--navbar",
-      "kind": "local",
-      "collection": "flowbite-demos",
-      "collectionLabel": "Flowbite · Tailwind",
-      "group": "flowbite",
-      "groupLabel": "Flowbite · Tailwind",
-      "groupOrder": 3,
-      "stack": "tailwind",
-      "category": "navbar",
-      "part": "navbar",
-      "path": "navbar",
-      "title": "Flowbite · Navbar",
-      "preview": "/flowbite-demos/navbar/index.html",
-      "previewMode": "iframe",
-      "files": {
-        "html": "/flowbite-demos/navbar/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
-      },
-      "source": "https://github.com/themesberg/flowbite",
-      "stars": 9329
-    },
-    {
-      "id": "flowbite-demos--modal",
-      "kind": "local",
-      "collection": "flowbite-demos",
-      "collectionLabel": "Flowbite · Tailwind",
-      "group": "flowbite",
-      "groupLabel": "Flowbite · Tailwind",
-      "groupOrder": 3,
-      "stack": "tailwind",
-      "category": "modal",
-      "part": "modal",
-      "path": "modal",
-      "title": "Flowbite · Modal",
-      "preview": "/flowbite-demos/modal/index.html",
-      "previewMode": "iframe",
-      "files": {
-        "html": "/flowbite-demos/modal/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
-      },
-      "source": "https://github.com/themesberg/flowbite",
-      "stars": 9329
-    },
-    {
-      "id": "flowbite-demos--drawer",
-      "kind": "local",
-      "collection": "flowbite-demos",
-      "collectionLabel": "Flowbite · Tailwind",
-      "group": "flowbite",
-      "groupLabel": "Flowbite · Tailwind",
-      "groupOrder": 3,
-      "stack": "tailwind",
-      "category": "drawer",
-      "part": "drawer",
-      "path": "drawer",
-      "title": "Flowbite · Drawer",
-      "preview": "/flowbite-demos/drawer/index.html",
-      "previewMode": "iframe",
-      "files": {
-        "html": "/flowbite-demos/drawer/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
-      },
-      "source": "https://github.com/themesberg/flowbite",
-      "stars": 9329
-    },
-    {
-      "id": "flowbite-demos--cards",
-      "kind": "local",
-      "collection": "flowbite-demos",
-      "collectionLabel": "Flowbite · Tailwind",
-      "group": "flowbite",
-      "groupLabel": "Flowbite · Tailwind",
-      "groupOrder": 3,
-      "stack": "tailwind",
-      "category": "cards",
-      "part": "cards",
-      "path": "cards",
-      "title": "Flowbite · Cards",
-      "preview": "/flowbite-demos/cards/index.html",
-      "previewMode": "iframe",
-      "files": {
-        "html": "/flowbite-demos/cards/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
-      },
-      "source": "https://github.com/themesberg/flowbite",
-      "stars": 9329
-    },
-    {
-      "id": "flowbite-demos--forms",
-      "kind": "local",
-      "collection": "flowbite-demos",
-      "collectionLabel": "Flowbite · Tailwind",
-      "group": "flowbite",
-      "groupLabel": "Flowbite · Tailwind",
-      "groupOrder": 3,
-      "stack": "tailwind",
-      "category": "forms",
-      "part": "forms",
-      "path": "forms",
-      "title": "Flowbite · Forms",
-      "preview": "/flowbite-demos/forms/index.html",
-      "previewMode": "iframe",
-      "files": {
-        "html": "/flowbite-demos/forms/index.html",
-        "css": null,
-        "js": null,
-        "allCss": [],
-        "allJs": []
-      },
-      "source": "https://github.com/themesberg/flowbite",
-      "stars": 9329
     }
   ]
 }
