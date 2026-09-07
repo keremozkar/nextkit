@@ -1,0 +1,1 @@
+.dot-grid{justify-content:center;align-items:center;width:100%;height:100%;display:flex;position:relative}.dot-grid__wrap{width:100%;height:100%;position:relative}.dot-grid__canvas{pointer-events:none;width:100%;height:100%;position:absolute;inset:0}

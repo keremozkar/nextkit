@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Floating Labels</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0b0c0f;
+      --surface: #12141a;
+      --ink: #eef1f6;
+      --muted: #8b93a7;
+      --line: rgb(255 255 255 / 10%);
+      --accent: #3d6bff;
+      --accent-2: #6ee7b7;
+      --danger: #ff6b7a;
+      --radius: 18px;
+      --font: "Instrument Sans", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      font-family: var(--font);
+      color: var(--ink);
+      background:
+        radial-gradient(900px 500px at 10% -10%, rgb(61 107 255 / 28%), transparent 55%),
+        radial-gradient(700px 420px at 90% 0%, rgb(110 231 183 / 12%), transparent 50%),
+        var(--bg);
+      min-height: 100vh;
+    }
+    button, input { font: inherit; color: inherit; }
+    a { color: var(--accent-2); }
+    
+      .stage { min-height: 100vh; display: grid; place-items: center; padding: 24px; }
+      .card {
+        width: min(400px, 100%); background: #0e1016; border: 1px solid var(--line);
+        border-radius: 18px; padding: 28px; display: grid; gap: 18px;
+      }
+      h1 { margin: 0; font-size: 1.4rem; }
+      .field { position: relative; }
+      .field input {
+        width: 100%; border: 1px solid var(--line); background: transparent;
+        border-radius: 12px; padding: 18px 14px 10px; outline: none;
+      }
+      .field label {
+        position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+        color: var(--muted); pointer-events: none; transition: .18s ease;
+      }
+      .field input:focus, .field input:not(:placeholder-shown) { border-color: rgb(61 107 255 / 55%); }
+      .field input:focus + label,
+      .field input:not(:placeholder-shown) + label {
+        top: 10px; transform: none; font-size: .7rem; color: var(--accent-2);
+      }
+      button {
+        border: 0; border-radius: 12px; padding: 12px; background: white; color: #0b0c0f;
+        font-weight: 600; cursor: pointer;
+      }
+      
+  </style>
+</head>
+<body>
+
+      <div class="stage">
+        <div class="card">
+          <h1>Giriş</h1>
+          <div class="field">
+            <input id="email" placeholder=" " type="email" />
+            <label for="email">E-posta</label>
+          </div>
+          <div class="field">
+            <input id="pass" placeholder=" " type="password" />
+            <label for="pass">Şifre</label>
+          </div>
+          <button type="button">Devam</button>
+        </div>
+      </div>
+      
+<script>
+
+</script>
+</body>
+</html>

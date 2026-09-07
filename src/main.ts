@@ -58,7 +58,7 @@ let activeCategory = 'all'
 let query = ''
 let favorites = new Set<string>()
 const codeCache = new Map<string, string>()
-const openGroups = new Set<string>(['favorites', 'copy-paste', 'mobile', 'flowbite', 'joe-reels'])
+const openGroups = new Set<string>(['favorites', 'copy-paste', 'premium-logins', 'mobile', 'flowbite', 'joe-reels'])
 
 function esc(s: string) {
   return s
@@ -93,21 +93,31 @@ function starLabel(n?: number | null) {
   return `${n}★`
 }
 
+function matchesQuery(it: Item, q: string) {
+  if (!q) return true
+  const hay = [it.title, it.category, it.groupLabel, it.blurb, it.source, it.path, it.part, ...(it.tags ?? [])]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase()
+  return hay.includes(q)
+}
+
 function filteredItems(): Item[] {
   const q = query.trim().toLowerCase()
+  // Arama varken tüm gruplarda ara (favoriler hariç özel filtre yok)
+  const searching = q.length > 0
   return items.filter((it) => {
+    if (searching) {
+      if (activeGroup === 'favorites' && !favorites.has(it.id)) return false
+      return matchesQuery(it, q)
+    }
     if (activeGroup === 'favorites') {
       if (!favorites.has(it.id)) return false
     } else if (it.group !== activeGroup) {
       return false
     }
     if (activeCategory !== 'all' && it.category !== activeCategory) return false
-    if (!q) return true
-    const hay = [it.title, it.category, it.groupLabel, it.blurb, it.source, ...(it.tags ?? [])]
-      .filter(Boolean)
-      .join(' ')
-      .toLowerCase()
-    return hay.includes(q)
+    return true
   })
 }
 
@@ -223,12 +233,19 @@ function render() {
       </div>
       <div class="topbar-actions">
         <span class="chip">${favorites.size} favori</span>
+        <a class="ghost-btn" href="/kits/">React Bits (171)</a>
+        <a class="ghost-btn" href="/kits-next/">Next Bits</a>
         <a class="ghost-btn" href="/skills/frontendjoe-patterns/SKILL.md" target="_blank" rel="noreferrer">Skill</a>
       </div>
     </header>
 
     <aside class="sidebar">
-      <input class="search" type="search" placeholder="Ara…" value="${esc(query)}" />
+      <input class="search" type="search" placeholder="Tümünde ara… (login, dock…)" value="${esc(query)}" />
+      ${
+        query.trim()
+          ? `<p class="meta-line search-hint">Tüm katalogda “${esc(query.trim())}” · ${list.length} sonuç</p>`
+          : ''
+      }
 
       <div class="group-nav">
         ${groups
@@ -338,9 +355,23 @@ function render() {
 }
 
 function bind() {
-  app.querySelector<HTMLInputElement>('.search')?.addEventListener('input', (e) => {
-    query = (e.target as HTMLInputElement).value
+  const searchEl = app.querySelector<HTMLInputElement>('.search')
+  searchEl?.addEventListener('input', (e) => {
+    const el = e.target as HTMLInputElement
+    query = el.value
+    const pos = el.selectionStart ?? query.length
+    activeCategory = 'all'
     render()
+    requestAnimationFrame(() => {
+      const next = app.querySelector<HTMLInputElement>('.search')
+      if (!next) return
+      next.focus()
+      try {
+        next.setSelectionRange(pos, pos)
+      } catch {
+        /* type=search may restrict selection */
+      }
+    })
   })
 
   app.querySelectorAll<HTMLButtonElement>('[data-group]').forEach((btn) => {

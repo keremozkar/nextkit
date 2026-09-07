@@ -2,25 +2,16 @@
 
 Instagram [@frontendjoe](https://www.instagram.com/frontendjoe) + yüksek yıldızlı UI kit’lerini tek yerde toplar:
 
-- **Kategoriler:** Favoriler · Copy-paste Motion · Mobil · Flowbite · Joe Reels/CSS/Sidebar/ES6/JS
+- **React Bits** — 171 bileşen, 4 grup (Text Animations · Animations · Components · Backgrounds)
+  - React gallery: `/kits/`
+  - Next gallery: `/kits-next/`
+- **Premium Logins** — Joe Login 3/4 ruhunda 10 React/Next-uyumlu auth referansı (`/premium-logins/`)
 - ★ **Favoriler** (localStorage)
-- canlı **HTML/React önizleme** — kit bileşenleri yerelde kopyalanıp `/kits` altında render
-- harici site proxy yok; kaynak koddan örnekler
-- **Copy kod** / **Copy uyarla prompt** / **Copy hepsi**
+- Canlı önizleme + **Copy kod** / **Copy uyarla prompt**
+- Arama: **tüm katalogda** (ör. `login`)
 - Cursor **MD skill**
 
-> Instagram scrape yok. Joe zaten aynı “part”ları GitHub’da yayınlıyor (`css-reels` vb.).
-
-## Kaynak repolar
-
-| Koleksiyon | Repo |
-| --- | --- |
-| CSS Reels (Instagram) | https://github.com/frontend-joe/css-reels |
-| CSS Components | https://github.com/frontend-joe/css-components |
-| ES6 Components | https://github.com/frontend-joe/es6-components |
-| JS Components | https://github.com/frontend-joe/js-components |
-
-Toplam **~189** demo `public/` altında + `public/manifest.json`.
+> Instagram scrape yok. Kaynaklar GitHub’dan yerelleştirildi.
 
 ## Çalıştır
 
@@ -32,25 +23,21 @@ docker compose up --build -d
 
 Aç: [http://127.0.0.1:43127](http://127.0.0.1:43127)
 
-Durdur: `docker compose down`
-
 ### Lokal (Vite)
 
 ```bash
 npm install
+npm run build:kits   # React Bits
+npm run build:next   # Next Bits static export
 npm run dev
 ```
 
-Varsayılan port: **43127**
+Port: **43127**
 
 ## Ne için?
 
-Beğendiğin micro-interaction’ı **örnek alıp kendi markana uydurmak** için. Birebir kopya dump’ı değil.
+Beğendiğin micro-interaction’ı **örnek alıp kendi markana uydurmak** için. Birebir dump değil.
 
-1. Soldan demo seç → üstte canlı HTML
+1. Soldan demo seç → canlı önizleme
 2. **Copy uyarla prompt** → Cursor’a yapıştır
-3. Skill: `public/skills/frontendjoe-patterns/SKILL.md` (aynı içerik `.cursor/skills/…`)
-
-## Attribution
-
-UI demoları [Joe Harrison / frontendjoe](https://www.frontendjoe.com/) açık kaynak koleksiyonlarından. Bu lab yalnızca gezinme, önizleme ve uyarlama workflow’u ekler.
+3. Skill: `public/skills/frontendjoe-patterns/SKILL.md`

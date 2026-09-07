@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dual Slide Panels</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0b0c0f;
+      --surface: #12141a;
+      --ink: #eef1f6;
+      --muted: #8b93a7;
+      --line: rgb(255 255 255 / 10%);
+      --accent: #3d6bff;
+      --accent-2: #6ee7b7;
+      --danger: #ff6b7a;
+      --radius: 18px;
+      --font: "Instrument Sans", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      font-family: var(--font);
+      color: var(--ink);
+      background:
+        radial-gradient(900px 500px at 10% -10%, rgb(61 107 255 / 28%), transparent 55%),
+        radial-gradient(700px 420px at 90% 0%, rgb(110 231 183 / 12%), transparent 50%),
+        var(--bg);
+      min-height: 100vh;
+    }
+    button, input { font: inherit; color: inherit; }
+    a { color: var(--accent-2); }
+    
+      .stage { min-height: 100vh; display: grid; place-items: center; padding: 24px; }
+      .card {
+        position: relative; width: min(680px, 100%); height: 420px;
+        border-radius: var(--radius); overflow: hidden; background: #10131a;
+        border: 1px solid var(--line);
+      }
+      .bg {
+        position: absolute; inset: 0 auto 0 0; width: 50%;
+        background: linear-gradient(160deg, #1d4ed8, #0f172a);
+        transition: transform .55s cubic-bezier(.22,1,.36,1);
+      }
+      .bg.b2 { background: linear-gradient(160deg, #0f766e, #042f2e); opacity: .0; }
+      .card.signup .bg.b1 { transform: translateX(100%); }
+      .card.signup .bg.b2 { opacity: 1; transform: translateX(100%); }
+      .form {
+        position: absolute; top: 0; bottom: 0; width: 50%; padding: 40px 32px;
+        display: grid; align-content: center; gap: 10px;
+        transition: transform .55s cubic-bezier(.22,1,.36,1), opacity .35s;
+      }
+      .form.signin { left: 0; }
+      .form.signup { right: 0; opacity: .35; pointer-events: none; }
+      .card.signup .form.signin { opacity: .35; pointer-events: none; }
+      .card.signup .form.signup { opacity: 1; pointer-events: auto; }
+      h2 { margin: 0 0 8px; }
+      input, button {
+        width: 100%; border-radius: 12px; border: 1px solid var(--line);
+        background: rgb(255 255 255 / 4%); padding: 12px 14px;
+      }
+      button.primary {
+        background: linear-gradient(90deg, #3d6bff, #22c55e);
+        border: 0; font-weight: 600; cursor: pointer; margin-top: 6px;
+      }
+      .switch { color: var(--muted); font-size: .9rem; cursor: pointer; margin-top: 8px; }
+      .switch em { color: var(--ink); font-style: normal; font-weight: 600; }
+      @media (max-width: 680px) {
+        .card { height: auto; }
+        .bg { display: none; }
+        .form { position: relative; width: 100%; }
+        .form.signup { display: none; }
+        .card.signup .form.signin { display: none; }
+        .card.signup .form.signup { display: grid; opacity: 1; pointer-events: auto; }
+      }
+      
+  </style>
+</head>
+<body>
+
+      <div class="stage">
+        <div class="card" id="card">
+          <div class="bg b1"></div>
+          <div class="bg b2"></div>
+          <div class="form signin">
+            <h2>Login</h2>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button class="primary" type="button">Sign in</button>
+            <p class="switch" data-to="signup">Hesabın yok mu? <em>Sign up</em></p>
+          </div>
+          <div class="form signup">
+            <h2>Register</h2>
+            <input placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button class="primary" type="button">Create account</button>
+            <p class="switch" data-to="signin">Zaten üye misin? <em>Sign in</em></p>
+          </div>
+        </div>
+      </div>
+      
+<script>
+
+      const card = document.getElementById('card');
+      document.querySelectorAll('[data-to]').forEach((el) => {
+        el.addEventListener('click', () => {
+          card.classList.toggle('signup', el.dataset.to === 'signup');
+        });
+      });
+      
+</script>
+</body>
+</html>

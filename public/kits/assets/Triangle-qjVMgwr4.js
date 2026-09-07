@@ -1,0 +1,1 @@
+import{o as e}from"./Mesh-D48iXpEj.js";var t=class extends e{constructor(e,{attributes:t={}}={}){Object.assign(t,{position:{size:2,data:new Float32Array([-1,-1,3,-1,-1,3])},uv:{size:2,data:new Float32Array([0,0,2,0,0,2])}}),super(e,t)}};export{t};

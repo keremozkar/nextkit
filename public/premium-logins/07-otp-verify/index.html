@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OTP Verify</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0b0c0f;
+      --surface: #12141a;
+      --ink: #eef1f6;
+      --muted: #8b93a7;
+      --line: rgb(255 255 255 / 10%);
+      --accent: #3d6bff;
+      --accent-2: #6ee7b7;
+      --danger: #ff6b7a;
+      --radius: 18px;
+      --font: "Instrument Sans", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      font-family: var(--font);
+      color: var(--ink);
+      background:
+        radial-gradient(900px 500px at 10% -10%, rgb(61 107 255 / 28%), transparent 55%),
+        radial-gradient(700px 420px at 90% 0%, rgb(110 231 183 / 12%), transparent 50%),
+        var(--bg);
+      min-height: 100vh;
+    }
+    button, input { font: inherit; color: inherit; }
+    a { color: var(--accent-2); }
+    
+      .stage { min-height: 100vh; display: grid; place-items: center; padding: 24px; }
+      .card {
+        width: min(420px, 100%); background: var(--surface); border: 1px solid var(--line);
+        border-radius: 20px; padding: 30px; display: grid; gap: 16px; text-align: center;
+      }
+      h1 { margin: 0; }
+      p { margin: 0; color: var(--muted); }
+      .otp { display: flex; gap: 10px; justify-content: center; }
+      .otp input {
+        width: 48px; height: 56px; text-align: center; font-size: 1.35rem; font-weight: 600;
+        border-radius: 12px; border: 1px solid var(--line); background: #0b0c0f;
+      }
+      button {
+        border: 0; border-radius: 12px; padding: 12px; background: white; color: #0b0c0f;
+        font-weight: 600; cursor: pointer;
+      }
+      
+  </style>
+</head>
+<body>
+
+      <div class="stage">
+        <div class="card">
+          <h1>Kodu gir</h1>
+          <p>you@company.com adresine 6 haneli kod gönderdik</p>
+          <div class="otp" id="otp">
+            <input maxlength="1" inputmode="numeric" /><input maxlength="1" inputmode="numeric" />
+            <input maxlength="1" inputmode="numeric" /><input maxlength="1" inputmode="numeric" />
+            <input maxlength="1" inputmode="numeric" /><input maxlength="1" inputmode="numeric" />
+          </div>
+          <button type="button">Doğrula</button>
+          <p><a href="#">Tekrar gönder</a></p>
+        </div>
+      </div>
+      
+<script>
+
+      const inputs = [...document.querySelectorAll('#otp input')];
+      inputs.forEach((input, i) => {
+        input.addEventListener('input', () => {
+          if (input.value && inputs[i + 1]) inputs[i + 1].focus();
+        });
+        input.addEventListener('keydown', (e) => {
+          if (e.key === 'Backspace' && !input.value && inputs[i - 1]) inputs[i - 1].focus();
+        });
+      });
+      inputs[0]?.focus();
+      
+</script>
+</body>
+</html>

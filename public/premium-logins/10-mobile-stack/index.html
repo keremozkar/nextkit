@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mobile Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0b0c0f;
+      --surface: #12141a;
+      --ink: #eef1f6;
+      --muted: #8b93a7;
+      --line: rgb(255 255 255 / 10%);
+      --accent: #3d6bff;
+      --accent-2: #6ee7b7;
+      --danger: #ff6b7a;
+      --radius: 18px;
+      --font: "Instrument Sans", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      font-family: var(--font);
+      color: var(--ink);
+      background:
+        radial-gradient(900px 500px at 10% -10%, rgb(61 107 255 / 28%), transparent 55%),
+        radial-gradient(700px 420px at 90% 0%, rgb(110 231 183 / 12%), transparent 50%),
+        var(--bg);
+      min-height: 100vh;
+    }
+    button, input { font: inherit; color: inherit; }
+    a { color: var(--accent-2); }
+    
+      .phone {
+        min-height: 100vh; max-width: 420px; margin: 0 auto;
+        display: flex; flex-direction: column; padding: 28px 20px calc(20px + env(safe-area-inset-bottom));
+        background: #07080b;
+      }
+      .top { flex: 1; display: grid; align-content: end; gap: 10px; padding-bottom: 28px; }
+      h1 { margin: 0; font-size: 2rem; line-height: 1.1; }
+      p { margin: 0; color: var(--muted); }
+      .sheet {
+        display: grid; gap: 12px; padding-top: 8px;
+      }
+      input, button {
+        width: 100%; min-height: 52px; border-radius: 14px; border: 1px solid var(--line);
+        background: #12141a; padding: 14px 16px; font-size: 1rem;
+      }
+      button.primary {
+        background: var(--accent); border: 0; font-weight: 700; position: sticky; bottom: 0;
+      }
+      .links { display: flex; justify-content: space-between; color: var(--muted); font-size: .9rem; }
+      
+  </style>
+</head>
+<body>
+
+      <div class="phone">
+        <div class="top">
+          <h1>Merhaba<br/>tekrar</h1>
+          <p>Mobil-first auth — büyük dokunma alanları, sticky CTA.</p>
+        </div>
+        <div class="sheet">
+          <input type="email" placeholder="E-posta" />
+          <input type="password" placeholder="Şifre" />
+          <div class="links"><a href="#">Şifremi unuttum</a><a href="#">Kayıt</a></div>
+          <button class="primary" type="button">Giriş yap</button>
+        </div>
+      </div>
+      
+<script>
+
+</script>
+</body>
+</html>

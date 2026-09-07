@@ -1,0 +1,1 @@
+.magnetLines-container{grid-template-columns:repeat(var(--columns), 1fr);grid-template-rows:repeat(var(--rows), 1fr);place-items:center;width:80vmin;height:80vmin;display:grid}.magnetLines-container span{transform-origin:50%;will-change:transform;transform:rotate(var(--rotate));display:block}

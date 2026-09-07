@@ -1,20 +1,47 @@
-import { HashRouter, Routes, Route, Link, useParams } from 'react-router-dom'
-import SpotlightCard from './vendor/react-bits/SpotlightCard/SpotlightCard.jsx'
-import GlassIcons from './vendor/react-bits/GlassIcons/GlassIcons.jsx'
-import Folder from './vendor/react-bits/Folder/Folder.jsx'
-import BounceCards from './vendor/react-bits/BounceCards/BounceCards.jsx'
-import GradientText from './vendor/react-bits/GradientText/GradientText.jsx'
-import BlurText from './vendor/react-bits/BlurText/BlurText.jsx'
-import Dock from './vendor/react-bits/Dock/Dock.jsx'
-import { AnimatedShinyText } from './vendor/magicui/animated-shiny-text'
-import { InteractiveHoverButton } from './vendor/magicui/interactive-hover-button'
-import { Marquee } from './vendor/magicui/marquee'
-import { BorderBeam } from './vendor/magicui/border-beam'
-import { TextShimmer } from './vendor/motion/text-shimmer'
-import { Tilt } from './vendor/motion/tilt'
-import { Home, Settings, Search, User, Mail, File, Heart } from 'lucide-react'
+import { Component, Suspense, lazy, useMemo, type ReactNode } from 'react'
+import { HashRouter, Routes, Route, Link, useParams, useSearchParams } from 'react-router-dom'
+import registry from './react-bits-registry.json'
 
-function Shell({ title, children }: { title: string; children: React.ReactNode }) {
+type RegItem = {
+  id: string
+  name: string
+  title: string
+  group: string
+  groupLabel: string
+  importPath: string
+  file: string
+}
+
+const items = registry.items as RegItem[]
+
+/** Vite lazy modules for every component file */
+const modules = import.meta.glob('./vendor/react-bits/content/**/*.{jsx,tsx}')
+
+const GROUP_ORDER = ['TextAnimations', 'Animations', 'Components', 'Backgrounds'] as const
+
+function groupItems(group: string) {
+  return items.filter((i) => i.group === group)
+}
+
+class ErrorBox extends Component<{ name: string; children: ReactNode }, { err?: string }> {
+  state = { err: undefined as string | undefined }
+  static getDerivedStateFromError(e: Error) {
+    return { err: e?.message || String(e) }
+  }
+  render() {
+    if (this.state.err) {
+      return (
+        <div className="rounded-xl border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-200 max-w-lg">
+          <div className="font-semibold mb-1">{this.props.name} yüklenemedi</div>
+          <code className="text-xs opacity-80 break-all">{this.state.err}</code>
+        </div>
+      )
+    }
+    return this.props.children
+  }
+}
+
+function Shell({ title, children }: { title: string; children: ReactNode }) {
   return (
     <div className="demo-shell">
       <div className="demo-label">{title}</div>
@@ -23,295 +50,197 @@ function Shell({ title, children }: { title: string; children: React.ReactNode }
   )
 }
 
-function SpotlightDemo() {
+function resolveModule(item: RegItem) {
+  // importPath like ./vendor/... from src; glob keys are relative to this file (src/)
+  const key = item.importPath.startsWith('./') ? item.importPath : `./${item.importPath}`
+  const alt = `./${item.file}`
+  return modules[key] || modules[alt]
+}
+
+function DemoStage({ item }: { item: RegItem }) {
+  const loader = resolveModule(item)
+  if (!loader) {
+    return <div className="text-white/50 text-sm">Modül bulunamadı: {item.file}</div>
+  }
+
+  const Lazy = useMemo(
+    () =>
+      lazy(async () => {
+        const mod: any = await loader()
+        const Comp = mod.default || mod[item.name] || Object.values(mod)[0]
+        return {
+          default: function Wrapped() {
+            return <SmartPreview Comp={Comp} item={item} />
+          },
+        }
+      }),
+    [item.id],
+  )
+
+  const tall = item.group === 'Backgrounds'
   return (
-    <Shell title="React Bits · SpotlightCard">
-      <SpotlightCard className="max-w-md" spotlightColor="rgba(143, 68, 253, 0.35)">
-        <h2 style={{ margin: 0, fontSize: 28 }}>Spotlight Card</h2>
-        <p style={{ color: '#9aa3b2', marginTop: 12 }}>
-          Fareyi kartın üzerinde gezdir — spotlight efekti yerel kopyadan çalışıyor.
+    <Shell title={`React Bits · ${item.title}`}>
+      <div
+        className={
+          tall
+            ? 'relative w-full max-w-5xl h-[70vh] overflow-hidden rounded-2xl border border-white/10'
+            : 'relative w-full max-w-3xl min-h-[240px] grid place-items-center'
+        }
+      >
+        <ErrorBox name={item.title}>
+          <Suspense fallback={<div className="text-white/40 text-sm">Yükleniyor…</div>}>
+            <Lazy />
+          </Suspense>
+        </ErrorBox>
+      </div>
+    </Shell>
+  )
+}
+
+function SmartPreview({ Comp, item }: { Comp: any; item: RegItem }) {
+  const commonClass = 'w-full h-full'
+
+  if (item.group === 'Backgrounds') {
+    return (
+      <div className="absolute inset-0">
+        <Comp className={commonClass} />
+      </div>
+    )
+  }
+
+  if (item.group === 'TextAnimations') {
+    // Many accept `text` and/or children
+    try {
+      return (
+        <div className="text-center px-4">
+          <Comp text="React Bits" words={['React', 'Bits', 'Motion']} className="text-4xl font-semibold">
+            React Bits
+          </Comp>
+        </div>
+      )
+    } catch {
+      return <Comp>React Bits</Comp>
+    }
+  }
+
+  // Components + Animations — wrap with a simple stage
+  return (
+    <div className="p-6 grid place-items-center min-h-[280px]">
+      <Comp className="max-w-md">
+        <div style={{ padding: 12 }}>
+          <strong>{item.title}</strong>
+          <p style={{ opacity: 0.65, marginTop: 8, fontSize: 14 }}>Yerel demo sahnesi</p>
+        </div>
+      </Comp>
+    </div>
+  )
+}
+
+function Gallery() {
+  const [params, setParams] = useSearchParams()
+  const activeGroup = params.get('g') || 'all'
+  const q = (params.get('q') || '').toLowerCase()
+
+  const visible = items.filter((i) => {
+    const inGroup = activeGroup === 'all' || i.group === activeGroup
+    const inQuery = !q || i.title.toLowerCase().includes(q) || i.name.toLowerCase().includes(q) || i.groupLabel.toLowerCase().includes(q)
+    return inGroup && inQuery
+  })
+
+  return (
+    <div className="min-h-screen p-5 md:p-8">
+      <div className="max-w-5xl mx-auto">
+        <h1 className="text-3xl font-semibold m-0">React Bits · tüm bileşenler</h1>
+        <p className="text-white/55 mt-2 mb-5">
+          {registry.count} parça · 4 grup · kaynak koddan yerel render
         </p>
-      </SpotlightCard>
-    </Shell>
-  )
-}
 
-function GlassIconsDemo() {
-  const items = [
-    { icon: <Home size={22} />, color: 'blue', label: 'Home' },
-    { icon: <Settings size={22} />, color: 'purple', label: 'Settings' },
-    { icon: <Mail size={22} />, color: 'red', label: 'Mail' },
-    { icon: <Heart size={22} />, color: 'orange', label: 'Fav' },
-    { icon: <Search size={22} />, color: 'green', label: 'Search' },
-    { icon: <User size={22} />, color: 'indigo', label: 'Profile' },
-  ]
-  return (
-    <Shell title="React Bits · GlassIcons">
-      <GlassIcons items={items} className="grid" />
-    </Shell>
-  )
-}
-
-function FolderDemo() {
-  return (
-    <Shell title="React Bits · Folder">
-      <Folder
-        color="#8f44fd"
-        size={1.4}
-        items={[
-          <div key="1" style={{ padding: 8 }}>Docs</div>,
-          <div key="2" style={{ padding: 8 }}>Assets</div>,
-          <div key="3" style={{ padding: 8 }}>Code</div>,
-        ]}
-      />
-    </Shell>
-  )
-}
-
-function BounceDemo() {
-  const images = [
-    'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&q=80',
-    'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&q=80',
-    'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&q=80',
-    'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&q=80',
-    'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400&q=80',
-  ]
-  return (
-    <Shell title="React Bits · BounceCards">
-      <BounceCards images={images} containerWidth={500} containerHeight={280} enableHover />
-    </Shell>
-  )
-}
-
-function GradientDemo() {
-  return (
-    <Shell title="React Bits · GradientText">
-      <GradientText colors={['#5227FF', '#FF9FFC', '#8f44fd']} animationSpeed={6} showBorder>
-        Pattern Lab Motion
-      </GradientText>
-    </Shell>
-  )
-}
-
-function BlurDemo() {
-  return (
-    <Shell title="React Bits · BlurText">
-      <BlurText text="Blur in on scroll reveal" animateBy="words" direction="top" className="text-4xl font-semibold" />
-    </Shell>
-  )
-}
-
-function DockDemo() {
-  const items = [
-    { icon: <Home size={18} />, label: 'Home', onClick: () => undefined },
-    { icon: <Search size={18} />, label: 'Search', onClick: () => undefined },
-    { icon: <File size={18} />, label: 'Files', onClick: () => undefined },
-    { icon: <Settings size={18} />, label: 'Settings', onClick: () => undefined },
-  ]
-  return (
-    <Shell title="React Bits · Dock">
-      <div style={{ minHeight: 180, displayContent: 'end' }}>
-        <Dock items={items} />
-      </div>
-    </Shell>
-  )
-}
-
-function ShinyDemo() {
-  return (
-    <Shell title="Magic UI · Animated Shiny Text">
-      <AnimatedShinyText className="text-2xl">✨ Introducing Magic UI patterns</AnimatedShinyText>
-    </Shell>
-  )
-}
-
-function HoverBtnDemo() {
-  return (
-    <Shell title="Magic UI · Interactive Hover Button">
-      <InteractiveHoverButton className="bg-white text-black border-white/20">
-        Get Started
-      </InteractiveHoverButton>
-    </Shell>
-  )
-}
-
-function MarqueeDemo() {
-  const items = ['React', 'Next.js', 'Hono', 'Mobile', 'Tailwind', 'Motion']
-  return (
-    <Shell title="Magic UI · Marquee">
-      <div className="relative w-full max-w-2xl overflow-hidden">
-        <Marquee pauseOnHover className="[--duration:20s]">
-          {items.map((t) => (
-            <span key={t} className="mx-4 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm">
-              {t}
-            </span>
-          ))}
-        </Marquee>
-      </div>
-    </Shell>
-  )
-}
-
-function BorderBeamDemo() {
-  return (
-    <Shell title="Magic UI · Border Beam">
-      <div className="relative h-48 w-80 rounded-2xl border border-white/10 bg-[#14171a] p-6">
-        <BorderBeam size={80} duration={8} colorFrom="#8f44fd" colorTo="#ffaa40" />
-        <h3 className="m-0 text-xl">Border Beam</h3>
-        <p className="mt-3 text-sm text-white/60">Kenarda dolaşan ışık demeti — yerel kopya.</p>
-      </div>
-    </Shell>
-  )
-}
-
-function ShimmerDemo() {
-  return (
-    <Shell title="Motion Primitives · Text Shimmer">
-      <TextShimmer className="text-3xl font-semibold" duration={1.2}>
-        Shipping beautiful interfaces
-      </TextShimmer>
-    </Shell>
-  )
-}
-
-function TiltDemo() {
-  return (
-    <Shell title="Motion Primitives · Tilt">
-      <Tilt rotationFactor={12} className="rounded-2xl">
-        <div className="h-44 w-72 rounded-2xl border border-white/10 bg-gradient-to-br from-[#8f44fd]/40 to-[#14171a] p-6 shadow-2xl">
-          <h3 className="m-0 text-xl">Tilt card</h3>
-          <p className="mt-3 text-sm text-white/70">3D perspective on mouse move.</p>
+        <div className="flex flex-wrap gap-2 mb-4">
+          <button
+            type="button"
+            onClick={() => {
+              const next = new URLSearchParams(params)
+              next.set('g', 'all')
+              setParams(next)
+            }}
+            className={`rounded-full px-3 py-1.5 text-sm border cursor-pointer ${
+              activeGroup === 'all' ? 'bg-[#8f44fd]/25 border-[#8f44fd]/50 text-white' : 'bg-white/5 border-white/10 text-white/70'
+            }`}
+          >
+            Tümü ({items.length})
+          </button>
+          {GROUP_ORDER.map((g) => {
+            const label = items.find((i) => i.group === g)?.groupLabel || g
+            const count = groupItems(g).length
+            const on = activeGroup === g
+            return (
+              <button
+                key={g}
+                type="button"
+                onClick={() => {
+                  const next = new URLSearchParams(params)
+                  next.set('g', g)
+                  setParams(next)
+                }}
+                className={`rounded-full px-3 py-1.5 text-sm border cursor-pointer ${
+                  on ? 'bg-[#8f44fd]/25 border-[#8f44fd]/50 text-white' : 'bg-white/5 border-white/10 text-white/70'
+                }`}
+              >
+                {label} ({count})
+              </button>
+            )
+          })}
         </div>
-      </Tilt>
-    </Shell>
-  )
-}
 
-function MobileMock({ title, children }: { title: string; children: React.ReactNode }) {
-  return (
-    <Shell title={title}>
-      <div className="w-[280px] rounded-[2rem] border border-white/15 bg-black p-3 shadow-2xl">
-        <div className="overflow-hidden rounded-[1.5rem] bg-[#0f1115]">
-          <div className="flex items-center justify-between px-4 py-3 text-xs text-white/50">
-            <span>9:41</span>
-            <span>●●●</span>
-          </div>
-          {children}
-        </div>
-      </div>
-    </Shell>
-  )
-}
+        <input
+          value={params.get('q') || ''}
+          onChange={(e) => {
+            const next = new URLSearchParams(params)
+            if (e.target.value) next.set('q', e.target.value)
+            else next.delete('q')
+            setParams(next)
+          }}
+          placeholder="Tümünde ara…"
+          className="w-full max-w-md mb-5 rounded-xl border border-white/10 bg-black/30 px-3 py-2 text-sm outline-none focus:border-[#8f44fd]/50"
+        />
 
-function MobileReusables() {
-  return (
-    <MobileMock title="Mobile visual · RN Reusables style">
-      <div className="space-y-3 p-4">
-        <h2 className="m-0 text-lg">Components</h2>
-        <button className="w-full rounded-xl bg-[#8f44fd] py-3 text-sm font-semibold">Primary Button</button>
-        <button className="w-full rounded-xl border border-white/15 py-3 text-sm">Secondary</button>
-        <div className="rounded-xl border border-white/10 bg-white/5 p-3 text-sm text-white/70">Input / Form field</div>
-        <div className="flex items-center justify-between rounded-xl border border-white/10 p-3 text-sm">
-          <span>Notifications</span>
-          <span className="h-6 w-10 rounded-full bg-[#8f44fd] p-1"><span className="block h-4 w-4 translate-x-4 rounded-full bg-white" /></span>
-        </div>
-      </div>
-    </MobileMock>
-  )
-}
-
-function MobileGluestack() {
-  return (
-    <MobileMock title="Mobile visual · gluestack style">
-      <div className="space-y-3 p-4">
-        <div className="rounded-2xl bg-gradient-to-r from-emerald-500/30 to-cyan-500/20 p-4">
-          <div className="text-xs text-white/60">Balance</div>
-          <div className="mt-1 text-2xl font-semibold">$12,480</div>
-        </div>
-        <div className="grid grid-cols-2 gap-2">
-          {['Send', 'Request', 'Cards', 'More'].map((t) => (
-            <button key={t} className="rounded-xl border border-white/10 bg-white/5 py-4 text-sm">{t}</button>
+        <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">
+          {visible.map((i) => (
+            <Link
+              key={i.id}
+              to={`/demo/${i.id}`}
+              className="rounded-xl border border-white/10 bg-white/[0.04] px-4 py-3 text-sm text-white no-underline hover:border-[#8f44fd]/45"
+            >
+              <div className="font-medium">{i.title}</div>
+              <div className="text-xs text-white/40 mt-1">{i.groupLabel}</div>
+            </Link>
           ))}
         </div>
       </div>
-    </MobileMock>
+    </div>
   )
-}
-
-function MobileNativeBase() {
-  return (
-    <MobileMock title="Mobile visual · NativeBase style">
-      <div className="p-4">
-        <div className="mb-3 text-sm text-white/50">Feed</div>
-        {[1, 2, 3].map((i) => (
-          <div key={i} className="mb-3 rounded-xl border border-white/10 p-3">
-            <div className="mb-2 flex items-center gap-2">
-              <div className="h-8 w-8 rounded-full bg-[#8f44fd]/50" />
-              <div className="text-sm">User {i}</div>
-            </div>
-            <div className="h-20 rounded-lg bg-white/5" />
-          </div>
-        ))}
-      </div>
-    </MobileMock>
-  )
-}
-
-const demos: Record<string, { title: string; el: React.ReactNode }> = {
-  'react-bits-spotlight': { title: 'SpotlightCard', el: <SpotlightDemo /> },
-  'react-bits-glass-icons': { title: 'GlassIcons', el: <GlassIconsDemo /> },
-  'react-bits-folder': { title: 'Folder', el: <FolderDemo /> },
-  'react-bits-bounce': { title: 'BounceCards', el: <BounceDemo /> },
-  'react-bits-gradient': { title: 'GradientText', el: <GradientDemo /> },
-  'react-bits-blur': { title: 'BlurText', el: <BlurDemo /> },
-  'react-bits-dock': { title: 'Dock', el: <DockDemo /> },
-  'magicui-shiny': { title: 'Shiny Text', el: <ShinyDemo /> },
-  'magicui-hover-btn': { title: 'Hover Button', el: <HoverBtnDemo /> },
-  'magicui-marquee': { title: 'Marquee', el: <MarqueeDemo /> },
-  'magicui-border-beam': { title: 'Border Beam', el: <BorderBeamDemo /> },
-  'motion-shimmer': { title: 'Text Shimmer', el: <ShimmerDemo /> },
-  'motion-tilt': { title: 'Tilt', el: <TiltDemo /> },
-  'mobile-reusables': { title: 'RN Reusables look', el: <MobileReusables /> },
-  'mobile-gluestack': { title: 'gluestack look', el: <MobileGluestack /> },
-  'mobile-nativebase': { title: 'NativeBase look', el: <MobileNativeBase /> },
 }
 
 function DemoRoute() {
   const { id } = useParams()
-  const demo = id ? demos[id] : null
-  if (!demo) {
+  const item = items.find((i) => i.id === id)
+  if (!item) {
     return (
-      <Shell title="Not found">
-        <p>Demo yok: {id}</p>
+      <Shell title="Bulunamadı">
         <Link to="/" className="text-[#8f44fd]">
           Gallery
         </Link>
       </Shell>
     )
   }
-  return <>{demo.el}</>
-}
-
-function Gallery() {
   return (
-    <div className="demo-shell" style={{ alignContent: 'start', gap: 16 }}>
-      <div className="demo-label">Local kit visuals</div>
-      <h1 className="m-0 text-3xl font-semibold">Yerel görsel demolar</h1>
-      <p className="m-0 max-w-xl text-center text-white/60">
-        Kaynak kitlerden kopyalanmış bileşenler — proxy yok, burada render.
-      </p>
-      <div className="mt-4 grid w-full max-w-3xl gap-2 sm:grid-cols-2">
-        {Object.entries(demos).map(([id, d]) => (
-          <Link
-            key={id}
-            to={`/demo/${id}`}
-            className="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white no-underline hover:border-[#8f44fd]/50"
-          >
-            {d.title}
-            <div className="text-xs text-white/40">{id}</div>
-          </Link>
-        ))}
+    <div>
+      <div className="fixed top-3 right-3 z-30 flex gap-2">
+        <Link to={`/?g=${item.group}`} className="demo-label no-underline">
+          ← {item.groupLabel}
+        </Link>
       </div>
+      <DemoStage item={item} />
     </div>
   )
 }

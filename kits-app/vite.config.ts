@@ -10,10 +10,12 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  assetsInclude: ['**/*.glb', '**/*.gltf', '**/*.hdr'],
   base: '/kits/',
   build: {
     outDir: path.resolve(__dirname, '../public/kits'),
     emptyOutDir: true,
+    chunkSizeWarningLimit: 4000,
   },
   server: {
     host: '0.0.0.0',

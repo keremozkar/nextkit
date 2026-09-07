@@ -1,0 +1,1 @@
+.circular-text{color:#fff;text-align:center;cursor:pointer;transform-origin:50%;border-radius:50%;width:200px;height:200px;margin:0 auto;font-weight:900;position:relative}.circular-text span{font-size:24px;transition:all .5s cubic-bezier(0,0,0,1);display:inline-block;position:absolute;inset:0}

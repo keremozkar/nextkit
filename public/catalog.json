@@ -1,23 +1,27 @@
 {
-  "version": 3,
+  "version": 4,
   "favoritesKey": "pattern-lab-favorites-v1",
   "items": [
     {
-      "id": "ext-react-bits",
+      "id": "rb-textanimations-asciitext",
       "kind": "local",
       "group": "copy-paste",
       "groupLabel": "Copy-paste · Motion UI",
       "groupOrder": 1,
       "stack": "react/next",
-      "category": "react-bits",
-      "title": "React Bits · SpotlightCard",
-      "blurb": "Kaynaktan kopyalanmış SpotlightCard — yerel React render.",
-      "preview": "/kits/index.html#/demo/react-bits-spotlight",
+      "category": "Text Animations",
+      "title": "React Bits · ASCIIText",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-asciitext",
       "previewMode": "iframe",
-      "liveUrl": "https://reactbits.dev",
+      "liveUrl": "/kits-next/demo/textanimations-asciitext",
       "source": "https://github.com/DavidHDev/react-bits",
       "stars": 46849,
-      "tags": ["react", "animation"],
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
       "files": {
         "html": "/kits/index.html",
         "css": null,
@@ -27,298 +31,5098 @@
       }
     },
     {
-      "id": "kit-rb-glass",
+      "id": "rb-textanimations-blur-text",
       "kind": "local",
       "group": "copy-paste",
       "groupLabel": "Copy-paste · Motion UI",
       "groupOrder": 1,
       "stack": "react/next",
-      "category": "react-bits",
-      "title": "React Bits · GlassIcons",
-      "blurb": "Cam ikon butonları — hover lift.",
-      "preview": "/kits/index.html#/demo/react-bits-glass-icons",
+      "category": "Text Animations",
+      "title": "React Bits · Blur Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-blur-text",
       "previewMode": "iframe",
-      "liveUrl": "https://reactbits.dev",
+      "liveUrl": "/kits-next/demo/textanimations-blur-text",
       "source": "https://github.com/DavidHDev/react-bits",
       "stars": 46849,
-      "tags": ["react"],
-      "files": { "html": "/kits/index.html", "css": null, "js": null, "allCss": [], "allJs": [] }
-    },
-    {
-      "id": "kit-rb-folder",
-      "kind": "local",
-      "group": "copy-paste",
-      "groupLabel": "Copy-paste · Motion UI",
-      "groupOrder": 1,
-      "stack": "react/next",
-      "category": "react-bits",
-      "title": "React Bits · Folder",
-      "blurb": "Açılır klasör etkileşimi.",
-      "preview": "/kits/index.html#/demo/react-bits-folder",
-      "previewMode": "iframe",
-      "liveUrl": "https://reactbits.dev",
-      "source": "https://github.com/DavidHDev/react-bits",
-      "stars": 46849,
-      "tags": ["react"],
-      "files": { "html": "/kits/index.html", "css": null, "js": null, "allCss": [], "allJs": [] }
-    },
-    {
-      "id": "kit-rb-bounce",
-      "kind": "local",
-      "group": "copy-paste",
-      "groupLabel": "Copy-paste · Motion UI",
-      "groupOrder": 1,
-      "stack": "react/next",
-      "category": "react-bits",
-      "title": "React Bits · BounceCards",
-      "blurb": "GSAP ile zıplayan kartlar.",
-      "preview": "/kits/index.html#/demo/react-bits-bounce",
-      "previewMode": "iframe",
-      "liveUrl": "https://reactbits.dev",
-      "source": "https://github.com/DavidHDev/react-bits",
-      "stars": 46849,
-      "tags": ["react", "gsap"],
-      "files": { "html": "/kits/index.html", "css": null, "js": null, "allCss": [], "allJs": [] }
-    },
-    {
-      "id": "kit-rb-gradient",
-      "kind": "local",
-      "group": "copy-paste",
-      "groupLabel": "Copy-paste · Motion UI",
-      "groupOrder": 1,
-      "stack": "react/next",
-      "category": "react-bits",
-      "title": "React Bits · GradientText",
-      "blurb": "Animasyonlu gradient yazı.",
-      "preview": "/kits/index.html#/demo/react-bits-gradient",
-      "previewMode": "iframe",
-      "liveUrl": "https://reactbits.dev",
-      "source": "https://github.com/DavidHDev/react-bits",
-      "stars": 46849,
-      "tags": ["react", "motion"],
-      "files": { "html": "/kits/index.html", "css": null, "js": null, "allCss": [], "allJs": [] }
-    },
-    {
-      "id": "kit-rb-blur",
-      "kind": "local",
-      "group": "copy-paste",
-      "groupLabel": "Copy-paste · Motion UI",
-      "groupOrder": 1,
-      "stack": "react/next",
-      "category": "react-bits",
-      "title": "React Bits · BlurText",
-      "blurb": "Kelime kelime blur reveal.",
-      "preview": "/kits/index.html#/demo/react-bits-blur",
-      "previewMode": "iframe",
-      "liveUrl": "https://reactbits.dev",
-      "source": "https://github.com/DavidHDev/react-bits",
-      "stars": 46849,
-      "tags": ["react", "motion"],
-      "files": { "html": "/kits/index.html", "css": null, "js": null, "allCss": [], "allJs": [] }
-    },
-    {
-      "id": "kit-rb-dock",
-      "kind": "local",
-      "group": "copy-paste",
-      "groupLabel": "Copy-paste · Motion UI",
-      "groupOrder": 1,
-      "stack": "react/next",
-      "category": "react-bits",
-      "title": "React Bits · Dock",
-      "blurb": "macOS tarzı büyüyen dock.",
-      "preview": "/kits/index.html#/demo/react-bits-dock",
-      "previewMode": "iframe",
-      "liveUrl": "https://reactbits.dev",
-      "source": "https://github.com/DavidHDev/react-bits",
-      "stars": 46849,
-      "tags": ["react", "motion"],
-      "files": { "html": "/kits/index.html", "css": null, "js": null, "allCss": [], "allJs": [] }
-    },
-    {
-      "id": "ext-magicui",
-      "kind": "local",
-      "group": "copy-paste",
-      "groupLabel": "Copy-paste · Motion UI",
-      "groupOrder": 1,
-      "stack": "react/next",
-      "category": "magicui",
-      "title": "Magic UI · Shiny Text",
-      "blurb": "Kopyalanmış animated shiny text.",
-      "preview": "/kits/index.html#/demo/magicui-shiny",
-      "previewMode": "iframe",
-      "liveUrl": "https://magicui.design",
-      "source": "https://github.com/magicuidesign/magicui",
-      "stars": 22189,
-      "tags": ["next", "tailwind"],
-      "files": { "html": "/kits/index.html", "css": null, "js": null, "allCss": [], "allJs": [] }
-    },
-    {
-      "id": "kit-magic-hover",
-      "kind": "local",
-      "group": "copy-paste",
-      "groupLabel": "Copy-paste · Motion UI",
-      "groupOrder": 1,
-      "stack": "react/next",
-      "category": "magicui",
-      "title": "Magic UI · Hover Button",
-      "blurb": "Interactive hover button.",
-      "preview": "/kits/index.html#/demo/magicui-hover-btn",
-      "previewMode": "iframe",
-      "liveUrl": "https://magicui.design",
-      "source": "https://github.com/magicuidesign/magicui",
-      "stars": 22189,
-      "tags": ["tailwind"],
-      "files": { "html": "/kits/index.html", "css": null, "js": null, "allCss": [], "allJs": [] }
-    },
-    {
-      "id": "kit-magic-marquee",
-      "kind": "local",
-      "group": "copy-paste",
-      "groupLabel": "Copy-paste · Motion UI",
-      "groupOrder": 1,
-      "stack": "react/next",
-      "category": "magicui",
-      "title": "Magic UI · Marquee",
-      "blurb": "Sonsuz kayan satır.",
-      "preview": "/kits/index.html#/demo/magicui-marquee",
-      "previewMode": "iframe",
-      "liveUrl": "https://magicui.design",
-      "source": "https://github.com/magicuidesign/magicui",
-      "stars": 22189,
-      "tags": ["tailwind"],
-      "files": { "html": "/kits/index.html", "css": null, "js": null, "allCss": [], "allJs": [] }
-    },
-    {
-      "id": "kit-magic-beam",
-      "kind": "local",
-      "group": "copy-paste",
-      "groupLabel": "Copy-paste · Motion UI",
-      "groupOrder": 1,
-      "stack": "react/next",
-      "category": "magicui",
-      "title": "Magic UI · Border Beam",
-      "blurb": "Kenar ışık demeti.",
-      "preview": "/kits/index.html#/demo/magicui-border-beam",
-      "previewMode": "iframe",
-      "liveUrl": "https://magicui.design",
-      "source": "https://github.com/magicuidesign/magicui",
-      "stars": 22189,
-      "tags": ["motion"],
-      "files": { "html": "/kits/index.html", "css": null, "js": null, "allCss": [], "allJs": [] }
-    },
-    {
-      "id": "ext-motion-primitives",
-      "kind": "local",
-      "group": "copy-paste",
-      "groupLabel": "Copy-paste · Motion UI",
-      "groupOrder": 1,
-      "stack": "react/next",
-      "category": "motion-primitives",
-      "title": "Motion Primitives · Text Shimmer",
-      "blurb": "Kopyalanmış text shimmer.",
-      "preview": "/kits/index.html#/demo/motion-shimmer",
-      "previewMode": "iframe",
-      "liveUrl": "https://motion-primitives.com",
-      "source": "https://github.com/ibelick/motion-primitives",
-      "stars": 6222,
-      "tags": ["motion"],
-      "files": { "html": "/kits/index.html", "css": null, "js": null, "allCss": [], "allJs": [] }
-    },
-    {
-      "id": "kit-motion-tilt",
-      "kind": "local",
-      "group": "copy-paste",
-      "groupLabel": "Copy-paste · Motion UI",
-      "groupOrder": 1,
-      "stack": "react/next",
-      "category": "motion-primitives",
-      "title": "Motion Primitives · Tilt",
-      "blurb": "3D tilt kart.",
-      "preview": "/kits/index.html#/demo/motion-tilt",
-      "previewMode": "iframe",
-      "liveUrl": "https://motion-primitives.com",
-      "source": "https://github.com/ibelick/motion-primitives",
-      "stars": 6222,
-      "tags": ["motion"],
-      "files": { "html": "/kits/index.html", "css": null, "js": null, "allCss": [], "allJs": [] }
-    },
-    {
-      "id": "ext-rn-reusables",
-      "kind": "local",
-      "group": "mobile",
-      "groupLabel": "Mobil · React Native",
-      "groupOrder": 2,
-      "stack": "mobile",
-      "category": "react-native",
-      "title": "RN Reusables · görsel mock",
-      "blurb": "Mobil UI görünümü (web mock) — pattern referansı.",
-      "preview": "/kits/index.html#/demo/mobile-reusables",
-      "previewMode": "iframe",
-      "liveUrl": "https://reactnativereusables.com",
-      "source": "https://github.com/founded-labs/react-native-reusables",
-      "stars": 8641,
-      "tags": ["react-native"],
-      "files": { "html": "/kits/index.html", "css": null, "js": null, "allCss": [], "allJs": [] }
-    },
-    {
-      "id": "ext-gluestack",
-      "kind": "local",
-      "group": "mobile",
-      "groupLabel": "Mobil · React Native",
-      "groupOrder": 2,
-      "stack": "mobile",
-      "category": "react-native",
-      "title": "gluestack · görsel mock",
-      "blurb": "Mobil dashboard görünümü.",
-      "preview": "/kits/index.html#/demo/mobile-gluestack",
-      "previewMode": "iframe",
-      "liveUrl": "https://gluestack.io/",
-      "source": "https://github.com/gluestack/gluestack-ui",
-      "stars": 5290,
-      "tags": ["react-native"],
-      "files": { "html": "/kits/index.html", "css": null, "js": null, "allCss": [], "allJs": [] }
-    },
-    {
-      "id": "ext-nativebase",
-      "kind": "local",
-      "group": "mobile",
-      "groupLabel": "Mobil · React Native",
-      "groupOrder": 2,
-      "stack": "mobile",
-      "category": "react-native",
-      "title": "NativeBase · görsel mock",
-      "blurb": "Feed kartları mobil mock.",
-      "preview": "/kits/index.html#/demo/mobile-nativebase",
-      "previewMode": "iframe",
-      "liveUrl": "https://nativebase.io/",
-      "source": "https://github.com/GeekyAnts/NativeBase",
-      "stars": 20379,
-      "tags": ["react-native"],
-      "files": { "html": "/kits/index.html", "css": null, "js": null, "allCss": [], "allJs": [] }
-    },
-    {
-      "id": "ext-flowbite",
-      "kind": "local",
-      "group": "flowbite",
-      "groupLabel": "Flowbite · Tailwind",
-      "groupOrder": 3,
-      "stack": "tailwind",
-      "category": "docs",
-      "title": "Flowbite · Buttons (yerel)",
-      "blurb": "CDN ile yerel Flowbite örnekleri — sol menüden diğerleri.",
-      "preview": "/flowbite-demos/buttons/index.html",
-      "previewMode": "iframe",
-      "liveUrl": "https://flowbite.com",
-      "source": "https://github.com/themesberg/flowbite",
-      "stars": 9329,
-      "tags": ["tailwind", "html"],
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
       "files": {
-        "html": "/flowbite-demos/buttons/index.html",
+        "html": "/kits/index.html",
         "css": null,
         "js": null,
         "allCss": [],
         "allJs": []
       }
+    },
+    {
+      "id": "rb-textanimations-circular-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Circular Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-circular-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-circular-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-count-up",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Count Up",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-count-up",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-count-up",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-curved-loop",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Curved Loop",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-curved-loop",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-curved-loop",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-decrypted-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Decrypted Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-decrypted-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-decrypted-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-depth-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Depth Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-depth-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-depth-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-echo-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Echo Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-echo-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-echo-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-falling-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Falling Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-falling-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-falling-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-fold-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Fold Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-fold-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-fold-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-fuzzy-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Fuzzy Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-fuzzy-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-fuzzy-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-glitch-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Glitch Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-glitch-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-glitch-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-gradient-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Gradient Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-gradient-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-gradient-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-masked-heading",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Masked Heading",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-masked-heading",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-masked-heading",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-particle-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Particle Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-particle-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-particle-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-rotating-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Rotating Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-rotating-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-rotating-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-scrambled-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Scrambled Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-scrambled-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-scrambled-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-scroll-float",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Scroll Float",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-scroll-float",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-scroll-float",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-scroll-reveal",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Scroll Reveal",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-scroll-reveal",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-scroll-reveal",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-scroll-velocity",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Scroll Velocity",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-scroll-velocity",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-scroll-velocity",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-shiny-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Shiny Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-shiny-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-shiny-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-shuffle",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Shuffle",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-shuffle",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-shuffle",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-split-flap-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Split Flap Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-split-flap-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-split-flap-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-split-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Split Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-split-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-split-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-stroke-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Stroke Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-stroke-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-stroke-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-text-cursor",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Text Cursor",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-text-cursor",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-text-cursor",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-text-loop",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Text Loop",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-text-loop",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-text-loop",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-text-pressure",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Text Pressure",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-text-pressure",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-text-pressure",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-text-type",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Text Type",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-text-type",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-text-type",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-true-focus",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · True Focus",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-true-focus",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-true-focus",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-variable-proximity",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Variable Proximity",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-variable-proximity",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-variable-proximity",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-textanimations-warp-text",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Text Animations",
+      "title": "React Bits · Warp Text",
+      "blurb": "Text Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/textanimations-warp-text",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/textanimations-warp-text",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "TextAnimations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-animated-content",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Animated Content",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-animated-content",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-animated-content",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-antigravity",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Antigravity",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-antigravity",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-antigravity",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-blob-cursor",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Blob Cursor",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-blob-cursor",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-blob-cursor",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-click-spark",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Click Spark",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-click-spark",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-click-spark",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-crosshair",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Crosshair",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-crosshair",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-crosshair",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-cubes",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Cubes",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-cubes",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-cubes",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-cursor-grid",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Cursor Grid",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-cursor-grid",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-cursor-grid",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-elastic-mesh",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Elastic Mesh",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-elastic-mesh",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-elastic-mesh",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-electric-border",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Electric Border",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-electric-border",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-electric-border",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-fade-content",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Fade Content",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-fade-content",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-fade-content",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-ghost-cursor",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Ghost Cursor",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-ghost-cursor",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-ghost-cursor",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-glare-hover",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Glare Hover",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-glare-hover",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-glare-hover",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-glow-cursor",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Glow Cursor",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-glow-cursor",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-glow-cursor",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-gradual-blur",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Gradual Blur",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-gradual-blur",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-gradual-blur",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-halftone-reveal",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Halftone Reveal",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-halftone-reveal",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-halftone-reveal",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-image-trail",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Image Trail",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-image-trail",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-image-trail",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-laser-flow",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Laser Flow",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-laser-flow",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-laser-flow",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-logo-loop",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Logo Loop",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-logo-loop",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-logo-loop",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-magic-rings",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Magic Rings",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-magic-rings",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-magic-rings",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-magnet",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Magnet",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-magnet",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-magnet",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-magnet-lines",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Magnet Lines",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-magnet-lines",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-magnet-lines",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-meta-balls",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Meta Balls",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-meta-balls",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-meta-balls",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-metallic-paint",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Metallic Paint",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-metallic-paint",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-metallic-paint",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-noise",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Noise",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-noise",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-noise",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-orbit-images",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Orbit Images",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-orbit-images",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-orbit-images",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-pixel-swap",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Pixel Swap",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-pixel-swap",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-pixel-swap",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-pixel-trail",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Pixel Trail",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-pixel-trail",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-pixel-trail",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-pixel-transition",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Pixel Transition",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-pixel-transition",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-pixel-transition",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-ribbons",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Ribbons",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-ribbons",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-ribbons",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-ripple-distortion",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Ripple Distortion",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-ripple-distortion",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-ripple-distortion",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-scroll-expand",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Scroll Expand",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-scroll-expand",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-scroll-expand",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-shape-blur",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Shape Blur",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-shape-blur",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-shape-blur",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-splash-cursor",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Splash Cursor",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-splash-cursor",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-splash-cursor",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-star-border",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Star Border",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-star-border",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-star-border",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-sticker-peel",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Sticker Peel",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-sticker-peel",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-sticker-peel",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-strands",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Strands",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-strands",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-strands",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-swarm-cursor",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Swarm Cursor",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-swarm-cursor",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-swarm-cursor",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-animations-target-cursor",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Animations",
+      "title": "React Bits · Target Cursor",
+      "blurb": "Animations — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/animations-target-cursor",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/animations-target-cursor",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Animations"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-accordion-gallery",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Accordion Gallery",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-accordion-gallery",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-accordion-gallery",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-animated-list",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Animated List",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-animated-list",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-animated-list",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-border-glow",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Border Glow",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-border-glow",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-border-glow",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-bounce-cards",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Bounce Cards",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-bounce-cards",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-bounce-cards",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-bubble-menu",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Bubble Menu",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-bubble-menu",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-bubble-menu",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-card-nav",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Card Nav",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-card-nav",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-card-nav",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-card-swap",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Card Swap",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-card-swap",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-card-swap",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-carousel",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Carousel",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-carousel",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-carousel",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-chroma-grid",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Chroma Grid",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-chroma-grid",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-chroma-grid",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-circular-gallery",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Circular Gallery",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-circular-gallery",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-circular-gallery",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-counter",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Counter",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-counter",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-counter",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-curved-input",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Curved Input",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-curved-input",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-curved-input",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-decay-card",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Decay Card",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-decay-card",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-decay-card",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-depth-carousel",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Depth Carousel",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-depth-carousel",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-depth-carousel",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-dock",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Dock",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-dock",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-dock",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-dome-gallery",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Dome Gallery",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-dome-gallery",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-dome-gallery",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-drift-wall",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Drift Wall",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-drift-wall",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-drift-wall",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-elastic-slider",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Elastic Slider",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-elastic-slider",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-elastic-slider",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-flowing-menu",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Flowing Menu",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-flowing-menu",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-flowing-menu",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-fluid-glass",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Fluid Glass",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-fluid-glass",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-fluid-glass",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-flying-posters",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Flying Posters",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-flying-posters",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-flying-posters",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-folder",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Folder",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-folder",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-folder",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-glass-icons",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Glass Icons",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-glass-icons",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-glass-icons",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-glass-surface",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Glass Surface",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-glass-surface",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-glass-surface",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-gooey-nav",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Gooey Nav",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-gooey-nav",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-gooey-nav",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-infinite-menu",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Infinite Menu",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-infinite-menu",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-infinite-menu",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-infinite-spiral",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Infinite Spiral",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-infinite-spiral",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-infinite-spiral",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-lanyard",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Lanyard",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-lanyard",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-lanyard",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-line-sidebar",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Line Sidebar",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-line-sidebar",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-line-sidebar",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-magic-bento",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Magic Bento",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-magic-bento",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-magic-bento",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-masonry",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Masonry",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-masonry",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-masonry",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-model-viewer",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Model Viewer",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-model-viewer",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-model-viewer",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-morph-slider",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Morph Slider",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-morph-slider",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-morph-slider",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-option-wheel",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Option Wheel",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-option-wheel",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-option-wheel",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-pill-nav",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Pill Nav",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-pill-nav",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-pill-nav",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-pixel-card",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Pixel Card",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-pixel-card",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-pixel-card",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-profile-card",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Profile Card",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-profile-card",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-profile-card",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-reflective-card",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Reflective Card",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-reflective-card",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-reflective-card",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-scroll-stack",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Scroll Stack",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-scroll-stack",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-scroll-stack",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-specular-button",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Specular Button",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-specular-button",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-specular-button",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-spotlight-card",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Spotlight Card",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-spotlight-card",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-spotlight-card",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-stack",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Stack",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-stack",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-stack",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-staggered-menu",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Staggered Menu",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-staggered-menu",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-staggered-menu",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-stepper",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Stepper",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-stepper",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-stepper",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-components-tilted-card",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Components",
+      "title": "React Bits · Tilted Card",
+      "blurb": "Components — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/components-tilted-card",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/components-tilted-card",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Components"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-acid-squares",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Acid Squares",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-acid-squares",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-acid-squares",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-aero-shards",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Aero Shards",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-aero-shards",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-aero-shards",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-aurora",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Aurora",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-aurora",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-aurora",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-balatro",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Balatro",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-balatro",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-balatro",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-ballpit",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Ballpit",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-ballpit",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-ballpit",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-beams",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Beams",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-beams",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-beams",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-crtwarp",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · CRTWarp",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-crtwarp",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-crtwarp",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-color-bends",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Color Bends",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-color-bends",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-color-bends",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-dark-veil",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Dark Veil",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-dark-veil",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-dark-veil",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-dither",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Dither",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-dither",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-dither",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-dot-field",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Dot Field",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-dot-field",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-dot-field",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-dot-grid",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Dot Grid",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-dot-grid",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-dot-grid",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-evil-eye",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Evil Eye",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-evil-eye",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-evil-eye",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-faulty-terminal",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Faulty Terminal",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-faulty-terminal",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-faulty-terminal",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-ferrofluid",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Ferrofluid",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-ferrofluid",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-ferrofluid",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-floating-lines",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Floating Lines",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-floating-lines",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-floating-lines",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-galaxy",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Galaxy",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-galaxy",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-galaxy",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-ghost-fibers",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Ghost Fibers",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-ghost-fibers",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-ghost-fibers",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-gradient-blinds",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Gradient Blinds",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-gradient-blinds",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-gradient-blinds",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-gradient-waves",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Gradient Waves",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-gradient-waves",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-gradient-waves",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-grainient",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Grainient",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-grainient",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-grainient",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-grid-distortion",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Grid Distortion",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-grid-distortion",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-grid-distortion",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-grid-motion",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Grid Motion",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-grid-motion",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-grid-motion",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-grid-scan",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Grid Scan",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-grid-scan",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-grid-scan",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-hyperspeed",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Hyperspeed",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-hyperspeed",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-hyperspeed",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-iridescence",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Iridescence",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-iridescence",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-iridescence",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-letter-glitch",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Letter Glitch",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-letter-glitch",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-letter-glitch",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-light-pillar",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Light Pillar",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-light-pillar",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-light-pillar",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-light-rays",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Light Rays",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-light-rays",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-light-rays",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-light-tunnel",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Light Tunnel",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-light-tunnel",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-light-tunnel",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-lightfall",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Lightfall",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-lightfall",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-lightfall",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-lightning",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Lightning",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-lightning",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-lightning",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-line-waves",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Line Waves",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-line-waves",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-line-waves",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-liquid-chrome",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Liquid Chrome",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-liquid-chrome",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-liquid-chrome",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-liquid-ether",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Liquid Ether",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-liquid-ether",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-liquid-ether",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-molten-metal",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Molten Metal",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-molten-metal",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-molten-metal",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-orb",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Orb",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-orb",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-orb",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-particles",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Particles",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-particles",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-particles",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-pixel-blast",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Pixel Blast",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-pixel-blast",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-pixel-blast",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-pixel-snow",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Pixel Snow",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-pixel-snow",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-pixel-snow",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-plasma",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Plasma",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-plasma",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-plasma",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-plasma-wave",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Plasma Wave",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-plasma-wave",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-plasma-wave",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-prism",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Prism",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-prism",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-prism",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-prismatic-burst",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Prismatic Burst",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-prismatic-burst",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-prismatic-burst",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-radar",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Radar",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-radar",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-radar",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-ripple-grid",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Ripple Grid",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-ripple-grid",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-ripple-grid",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-scanner",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Scanner",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-scanner",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-scanner",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-shape-grid",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Shape Grid",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-shape-grid",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-shape-grid",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-side-rays",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Side Rays",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-side-rays",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-side-rays",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-silk",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Silk",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-silk",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-silk",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-sliced-waves",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Sliced Waves",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-sliced-waves",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-sliced-waves",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-soft-aurora",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Soft Aurora",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-soft-aurora",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-soft-aurora",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-threads",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Threads",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-threads",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-threads",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-topography",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Topography",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-topography",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-topography",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-waves",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Waves",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-waves",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-waves",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "rb-backgrounds-web-threads",
+      "kind": "local",
+      "group": "copy-paste",
+      "groupLabel": "Copy-paste · Motion UI",
+      "groupOrder": 1,
+      "stack": "react/next",
+      "category": "Backgrounds",
+      "title": "React Bits · Web Threads",
+      "blurb": "Backgrounds — yerel React + Next demoları",
+      "preview": "/kits/index.html#/demo/backgrounds-web-threads",
+      "previewMode": "iframe",
+      "liveUrl": "/kits-next/demo/backgrounds-web-threads",
+      "source": "https://github.com/DavidHDev/react-bits",
+      "stars": 46849,
+      "tags": [
+        "react",
+        "next",
+        "Backgrounds"
+      ],
+      "files": {
+        "html": "/kits/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "premium-login-01-split-flip-glass",
+      "kind": "local",
+      "group": "premium-logins",
+      "groupLabel": "Premium · Logins (React/Next)",
+      "groupOrder": 1.5,
+      "stack": "react/next",
+      "category": "Logins",
+      "title": "Premium Login · Split Flip Glass",
+      "blurb": "Joe Login 3’ün modern cam/gradient versiyonu — kayan hero + form flip. React/Next’e kolay uyarlanır.",
+      "preview": "/premium-logins/01-split-flip-glass/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/premium-logins/01-split-flip-glass/index.html",
+      "source": "https://ui.shadcn.com/blocks/authentication + Joe Login 3/4 patterns",
+      "stars": null,
+      "tags": [
+        "login",
+        "split",
+        "flip",
+        "glass",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/premium-logins/01-split-flip-glass/index.html",
+        "css": null,
+        "js": "/premium-logins/01-split-flip-glass/react-adapt.tsx",
+        "allCss": [],
+        "allJs": [
+          "/premium-logins/01-split-flip-glass/react-adapt.tsx"
+        ]
+      }
+    },
+    {
+      "id": "premium-login-02-dual-slide-panels",
+      "kind": "local",
+      "group": "premium-logins",
+      "groupLabel": "Premium · Logins (React/Next)",
+      "groupOrder": 1.5,
+      "stack": "react/next",
+      "category": "Logins",
+      "title": "Premium Login · Dual Slide Panels",
+      "blurb": "Joe Login 4 ruhu: iki form paneli + kayan arka plan katmanları. Sign in / Sign up geçişi.",
+      "preview": "/premium-logins/02-dual-slide-panels/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/premium-logins/02-dual-slide-panels/index.html",
+      "source": "https://ui.shadcn.com/blocks/authentication + Joe Login 3/4 patterns",
+      "stars": null,
+      "tags": [
+        "login",
+        "slide",
+        "register",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/premium-logins/02-dual-slide-panels/index.html",
+        "css": null,
+        "js": "/premium-logins/02-dual-slide-panels/react-adapt.tsx",
+        "allCss": [],
+        "allJs": [
+          "/premium-logins/02-dual-slide-panels/react-adapt.tsx"
+        ]
+      }
+    },
+    {
+      "id": "premium-login-03-shadcn-centered",
+      "kind": "local",
+      "group": "premium-logins",
+      "groupLabel": "Premium · Logins (React/Next)",
+      "groupOrder": 1.5,
+      "stack": "react/next",
+      "category": "Logins",
+      "title": "Premium Login · Centered Card",
+      "blurb": "shadcn login-01 tarzı ortalanmış kart — email/şifre + sosyal. Next App Router’a birebir uyar.",
+      "preview": "/premium-logins/03-shadcn-centered/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/premium-logins/03-shadcn-centered/index.html",
+      "source": "https://ui.shadcn.com/blocks/authentication + Joe Login 3/4 patterns",
+      "stars": null,
+      "tags": [
+        "login",
+        "shadcn",
+        "card",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/premium-logins/03-shadcn-centered/index.html",
+        "css": null,
+        "js": "/premium-logins/03-shadcn-centered/react-adapt.tsx",
+        "allCss": [],
+        "allJs": [
+          "/premium-logins/03-shadcn-centered/react-adapt.tsx"
+        ]
+      }
+    },
+    {
+      "id": "premium-login-04-cover-split",
+      "kind": "local",
+      "group": "premium-logins",
+      "groupLabel": "Premium · Logins (React/Next)",
+      "groupOrder": 1.5,
+      "stack": "react/next",
+      "category": "Logins",
+      "title": "Premium Login · Cover Split",
+      "blurb": "shadcn login-02: sol marka paneli + sağ form. B2B SaaS’ın klasik premium auth düzeni.",
+      "preview": "/premium-logins/04-cover-split/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/premium-logins/04-cover-split/index.html",
+      "source": "https://ui.shadcn.com/blocks/authentication + Joe Login 3/4 patterns",
+      "stars": null,
+      "tags": [
+        "login",
+        "split",
+        "saas",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/premium-logins/04-cover-split/index.html",
+        "css": null,
+        "js": "/premium-logins/04-cover-split/react-adapt.tsx",
+        "allCss": [],
+        "allJs": [
+          "/premium-logins/04-cover-split/react-adapt.tsx"
+        ]
+      }
+    },
+    {
+      "id": "premium-login-05-social-first",
+      "kind": "local",
+      "group": "premium-logins",
+      "groupLabel": "Premium · Logins (React/Next)",
+      "groupOrder": 1.5,
+      "stack": "react/next",
+      "category": "Logins",
+      "title": "Premium Login · Social First",
+      "blurb": "OAuth öncelikli — Google/GitHub/Apple + “email ile devam”. Minimal, yüksek dönüşüm.",
+      "preview": "/premium-logins/05-social-first/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/premium-logins/05-social-first/index.html",
+      "source": "https://ui.shadcn.com/blocks/authentication + Joe Login 3/4 patterns",
+      "stars": null,
+      "tags": [
+        "login",
+        "oauth",
+        "social",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/premium-logins/05-social-first/index.html",
+        "css": null,
+        "js": "/premium-logins/05-social-first/react-adapt.tsx",
+        "allCss": [],
+        "allJs": [
+          "/premium-logins/05-social-first/react-adapt.tsx"
+        ]
+      }
+    },
+    {
+      "id": "premium-login-06-magic-link",
+      "kind": "local",
+      "group": "premium-logins",
+      "groupLabel": "Premium · Logins (React/Next)",
+      "groupOrder": 1.5,
+      "stack": "react/next",
+      "category": "Logins",
+      "title": "Premium Login · Magic Link",
+      "blurb": "Şifresiz magic link / OTP akışı. Better Auth / Auth.js ile Next’te yaygın pattern.",
+      "preview": "/premium-logins/06-magic-link/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/premium-logins/06-magic-link/index.html",
+      "source": "https://ui.shadcn.com/blocks/authentication + Joe Login 3/4 patterns",
+      "stars": null,
+      "tags": [
+        "login",
+        "magic-link",
+        "otp",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/premium-logins/06-magic-link/index.html",
+        "css": null,
+        "js": "/premium-logins/06-magic-link/react-adapt.tsx",
+        "allCss": [],
+        "allJs": [
+          "/premium-logins/06-magic-link/react-adapt.tsx"
+        ]
+      }
+    },
+    {
+      "id": "premium-login-07-otp-verify",
+      "kind": "local",
+      "group": "premium-logins",
+      "groupLabel": "Premium · Logins (React/Next)",
+      "groupOrder": 1.5,
+      "stack": "react/next",
+      "category": "Logins",
+      "title": "Premium Login · OTP Verify",
+      "blurb": "6 haneli OTP doğrulama ekranı — premium spacing, otomatik odak geçişi.",
+      "preview": "/premium-logins/07-otp-verify/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/premium-logins/07-otp-verify/index.html",
+      "source": "https://ui.shadcn.com/blocks/authentication + Joe Login 3/4 patterns",
+      "stars": null,
+      "tags": [
+        "login",
+        "otp",
+        "verify",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/premium-logins/07-otp-verify/index.html",
+        "css": null,
+        "js": "/premium-logins/07-otp-verify/react-adapt.tsx",
+        "allCss": [],
+        "allJs": [
+          "/premium-logins/07-otp-verify/react-adapt.tsx"
+        ]
+      }
+    },
+    {
+      "id": "premium-login-08-brand-bleed",
+      "kind": "local",
+      "group": "premium-logins",
+      "groupLabel": "Premium · Logins (React/Next)",
+      "groupOrder": 1.5,
+      "stack": "react/next",
+      "category": "Logins",
+      "title": "Premium Login · Brand Bleed",
+      "blurb": "Tam yükseklik marka görseli + yüzen form kartı. Landing ↔ auth geçişi için.",
+      "preview": "/premium-logins/08-brand-bleed/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/premium-logins/08-brand-bleed/index.html",
+      "source": "https://ui.shadcn.com/blocks/authentication + Joe Login 3/4 patterns",
+      "stars": null,
+      "tags": [
+        "login",
+        "brand",
+        "hero",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/premium-logins/08-brand-bleed/index.html",
+        "css": null,
+        "js": "/premium-logins/08-brand-bleed/react-adapt.tsx",
+        "allCss": [],
+        "allJs": [
+          "/premium-logins/08-brand-bleed/react-adapt.tsx"
+        ]
+      }
+    },
+    {
+      "id": "premium-login-09-floating-labels",
+      "kind": "local",
+      "group": "premium-logins",
+      "groupLabel": "Premium · Logins (React/Next)",
+      "groupOrder": 1.5,
+      "stack": "react/next",
+      "category": "Logins",
+      "title": "Premium Login · Floating Labels",
+      "blurb": "Floating label input’lar, soft motion, dark luxury yüzey. React controlled input’lara map edilir.",
+      "preview": "/premium-logins/09-floating-labels/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/premium-logins/09-floating-labels/index.html",
+      "source": "https://ui.shadcn.com/blocks/authentication + Joe Login 3/4 patterns",
+      "stars": null,
+      "tags": [
+        "login",
+        "form",
+        "a11y",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/premium-logins/09-floating-labels/index.html",
+        "css": null,
+        "js": "/premium-logins/09-floating-labels/react-adapt.tsx",
+        "allCss": [],
+        "allJs": [
+          "/premium-logins/09-floating-labels/react-adapt.tsx"
+        ]
+      }
+    },
+    {
+      "id": "premium-login-10-mobile-stack",
+      "kind": "local",
+      "group": "premium-logins",
+      "groupLabel": "Premium · Logins (React/Next)",
+      "groupOrder": 1.5,
+      "stack": "react/next",
+      "category": "Logins",
+      "title": "Premium Login · Mobile Stack",
+      "blurb": "Mobil-first dikey auth: büyük dokunma alanları, sticky CTA, safe-area. RN Web / Next mobile için.",
+      "preview": "/premium-logins/10-mobile-stack/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/premium-logins/10-mobile-stack/index.html",
+      "source": "https://ui.shadcn.com/blocks/authentication + Joe Login 3/4 patterns",
+      "stars": null,
+      "tags": [
+        "login",
+        "mobile",
+        "responsive",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/premium-logins/10-mobile-stack/index.html",
+        "css": null,
+        "js": "/premium-logins/10-mobile-stack/react-adapt.tsx",
+        "allCss": [],
+        "allJs": [
+          "/premium-logins/10-mobile-stack/react-adapt.tsx"
+        ]
+      }
     }
-  ]
+  ],
+  "meta": {
+    "reactGallery": "/kits/",
+    "nextGallery": "/kits-next/",
+    "reactBitsCount": 171,
+    "groups": [
+      "Text Animations",
+      "Animations",
+      "Components",
+      "Backgrounds"
+    ],
+    "premiumLogins": 10,
+    "premiumLoginsPath": "/premium-logins/"
+  }
 }

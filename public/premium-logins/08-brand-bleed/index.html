@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brand Bleed</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0b0c0f;
+      --surface: #12141a;
+      --ink: #eef1f6;
+      --muted: #8b93a7;
+      --line: rgb(255 255 255 / 10%);
+      --accent: #3d6bff;
+      --accent-2: #6ee7b7;
+      --danger: #ff6b7a;
+      --radius: 18px;
+      --font: "Instrument Sans", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      font-family: var(--font);
+      color: var(--ink);
+      background:
+        radial-gradient(900px 500px at 10% -10%, rgb(61 107 255 / 28%), transparent 55%),
+        radial-gradient(700px 420px at 90% 0%, rgb(110 231 183 / 12%), transparent 50%),
+        var(--bg);
+      min-height: 100vh;
+    }
+    button, input { font: inherit; color: inherit; }
+    a { color: var(--accent-2); }
+    
+      .stage {
+        min-height: 100vh; display: grid; place-items: center; padding: 24px;
+        background:
+          linear-gradient(120deg, rgb(11 12 15 / 55%), rgb(11 12 15 / 85%)),
+          radial-gradient(circle at 20% 30%, #2563eb, transparent 35%),
+          radial-gradient(circle at 80% 20%, #14b8a6, transparent 30%),
+          #020617;
+      }
+      .card {
+        width: min(400px, 100%); border-radius: 24px; padding: 28px;
+        background: rgb(12 14 20 / 78%); border: 1px solid rgb(255 255 255 / 14%);
+        backdrop-filter: blur(20px); display: grid; gap: 12px;
+        box-shadow: 0 40px 100px rgb(0 0 0 / 45%);
+      }
+      .eyebrow { letter-spacing: .14em; text-transform: uppercase; font-size: .72rem; color: var(--accent-2); }
+      h1 { margin: 0; font-size: 1.7rem; }
+      p { margin: 0; color: var(--muted); }
+      input, button { border-radius: 12px; padding: 12px; border: 1px solid var(--line); background: rgb(0 0 0 / 35%); }
+      button { background: linear-gradient(90deg, #3d6bff, #14b8a6); border: 0; font-weight: 600; cursor: pointer; }
+      
+  </style>
+</head>
+<body>
+
+      <div class="stage">
+        <div class="card">
+          <div class="eyebrow">Atlas</div>
+          <h1>Markanı taşıyan auth</h1>
+          <p>Full-bleed atmosfer + yüzen form — landing’den auth’a soft geçiş.</p>
+          <input type="email" placeholder="E-posta" />
+          <input type="password" placeholder="Şifre" />
+          <button type="button">Workspace’e gir</button>
+        </div>
+      </div>
+      
+<script>
+
+</script>
+</body>
+</html>

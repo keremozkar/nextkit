@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cover Split</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0b0c0f;
+      --surface: #12141a;
+      --ink: #eef1f6;
+      --muted: #8b93a7;
+      --line: rgb(255 255 255 / 10%);
+      --accent: #3d6bff;
+      --accent-2: #6ee7b7;
+      --danger: #ff6b7a;
+      --radius: 18px;
+      --font: "Instrument Sans", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      font-family: var(--font);
+      color: var(--ink);
+      background:
+        radial-gradient(900px 500px at 10% -10%, rgb(61 107 255 / 28%), transparent 55%),
+        radial-gradient(700px 420px at 90% 0%, rgb(110 231 183 / 12%), transparent 50%),
+        var(--bg);
+      min-height: 100vh;
+    }
+    button, input { font: inherit; color: inherit; }
+    a { color: var(--accent-2); }
+    
+      .layout {
+        min-height: 100vh; display: grid; grid-template-columns: 1.05fr 1fr;
+      }
+      .cover {
+        position: relative; overflow: hidden;
+        background:
+          linear-gradient(160deg, rgb(15 23 42 / 40%), rgb(2 6 23 / 85%)),
+          radial-gradient(circle at 30% 20%, #60a5fa, transparent 45%),
+          radial-gradient(circle at 70% 70%, #34d399, transparent 40%),
+          #0f172a;
+        padding: 40px; display: flex; flex-direction: column; justify-content: space-between;
+      }
+      .cover h2 { font-size: clamp(1.8rem, 3vw, 2.6rem); margin: 0; max-width: 12ch; line-height: 1.1; }
+      .cover p { color: rgb(255 255 255 / 72%); max-width: 36ch; }
+      .panel { display: grid; place-items: center; padding: 32px; background: #0b0c0f; }
+      .card { width: min(360px, 100%); display: grid; gap: 12px; }
+      h1 { margin: 0; font-size: 1.5rem; }
+      .muted { color: var(--muted); margin: 0 0 8px; }
+      input, button {
+        width: 100%; border-radius: 11px; border: 1px solid var(--line);
+        background: var(--surface); padding: 12px; 
+      }
+      button.primary { background: var(--accent); border: 0; font-weight: 600; cursor: pointer; }
+      @media (max-width: 860px) {
+        .layout { grid-template-columns: 1fr; }
+        .cover { min-height: 220px; }
+      }
+      
+  </style>
+</head>
+<body>
+
+      <div class="layout">
+        <aside class="cover">
+          <div class="brand">◆ Nova</div>
+          <div>
+            <h2>Ship auth that feels expensive</h2>
+            <p>Split cover + form — shadcn login-02 / B2B SaaS classic.</p>
+          </div>
+          <p style="opacity:.55;font-size:.85rem">React · Next · Hono UI</p>
+        </aside>
+        <section class="panel">
+          <div class="card">
+            <h1>Welcome back</h1>
+            <p class="muted">Sign in to your workspace</p>
+            <input type="email" placeholder="Work email" />
+            <input type="password" placeholder="Password" />
+            <button class="primary" type="button">Continue</button>
+            <p class="muted" style="text-align:center">or <a href="#">create an account</a></p>
+          </div>
+        </section>
+      </div>
+      
+<script>
+
+</script>
+</body>
+</html>

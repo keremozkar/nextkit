@@ -22,3 +22,6 @@ lerna-debug.log*
 *.njsproj
 *.sln
 *.sw?
+kits-next/node_modules
+kits-next/.next
+kits-next/out

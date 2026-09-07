@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 43127",
     "build:kits": "npm run build --prefix kits-app",
-    "build": "npm run build:kits && tsc && vite build",
+    "build:next": "npm run build --prefix kits-next && rm -rf public/kits-next && cp -a kits-next/out public/kits-next",
+    "build": "npm run build:kits && npm run build:next && tsc && vite build",
     "preview": "vite preview --host 0.0.0.0 --port 43127",
     "docker:up": "docker compose up --build -d",
     "docker:down": "docker compose down",

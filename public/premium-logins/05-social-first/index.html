@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Social First</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0b0c0f;
+      --surface: #12141a;
+      --ink: #eef1f6;
+      --muted: #8b93a7;
+      --line: rgb(255 255 255 / 10%);
+      --accent: #3d6bff;
+      --accent-2: #6ee7b7;
+      --danger: #ff6b7a;
+      --radius: 18px;
+      --font: "Instrument Sans", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      font-family: var(--font);
+      color: var(--ink);
+      background:
+        radial-gradient(900px 500px at 10% -10%, rgb(61 107 255 / 28%), transparent 55%),
+        radial-gradient(700px 420px at 90% 0%, rgb(110 231 183 / 12%), transparent 50%),
+        var(--bg);
+      min-height: 100vh;
+    }
+    button, input { font: inherit; color: inherit; }
+    a { color: var(--accent-2); }
+    
+      .stage { min-height: 100vh; display: grid; place-items: center; padding: 24px; }
+      .card {
+        width: min(400px, 100%); background: var(--surface); border: 1px solid var(--line);
+        border-radius: 20px; padding: 28px; display: grid; gap: 12px; text-align: center;
+      }
+      h1 { margin: 0; font-size: 1.45rem; }
+      p { margin: 0; color: var(--muted); }
+      .providers { display: grid; gap: 10px; margin-top: 8px; }
+      .providers button {
+        border: 1px solid var(--line); border-radius: 12px; background: #0b0c0f;
+        padding: 12px; cursor: pointer; font-weight: 500;
+      }
+      .or { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: center; color: var(--muted); font-size: .8rem; }
+      .or::before, .or::after { content: ""; height: 1px; background: var(--line); }
+      input { border: 1px solid var(--line); border-radius: 12px; background: #0b0c0f; padding: 12px; text-align: left; }
+      .primary { border: 0; border-radius: 12px; padding: 12px; background: white; color: #0b0c0f; font-weight: 600; cursor: pointer; }
+      
+  </style>
+</head>
+<body>
+
+      <div class="stage">
+        <div class="card">
+          <h1>Devam et</h1>
+          <p>Tercih ettiğin hesapla saniyeler içinde giriş</p>
+          <div class="providers">
+            <button type="button">Google ile devam</button>
+            <button type="button">GitHub ile devam</button>
+            <button type="button">Apple ile devam</button>
+          </div>
+          <div class="or">veya e-posta</div>
+          <input type="email" placeholder="you@email.com" />
+          <button class="primary" type="button">E-posta ile devam</button>
+        </div>
+      </div>
+      
+<script>
+
+</script>
+</body>
+</html>
