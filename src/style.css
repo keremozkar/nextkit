@@ -194,6 +194,22 @@ a:hover {
   margin-bottom: 14px;
 }
 
+.nav-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.nav-section__label {
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 8px 4px 2px;
+  font-weight: 600;
+}
+
 .group-block {
   border: 1px solid var(--line);
   border-radius: 12px;

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>OTP Glass</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+:root{--bg:#07080b;--ink:#eef1f6;--muted:#8b93a7;--line:rgb(255 255 255/.1);--a:#3d6bff;--b:#6ee7b7;--font:"Instrument Sans",system-ui,sans-serif}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:var(--font);color:var(--ink);background:radial-gradient(800px 420px at 15% -10%,rgb(61 107 255/.28),transparent 55%),radial-gradient(700px 400px at 90% 0,rgb(110 231 183/.12),transparent 50%),var(--bg)}
+button,input{font:inherit;color:inherit}
+.stage{min-height:100vh;display:grid;place-items:center;padding:24px}
+.card{width:min(400px,100%);border-radius:20px;padding:28px;background:rgb(16 18 24/.75);border:1px solid rgb(255 255 255/.14);backdrop-filter:blur(16px);text-align:center;display:grid;gap:14px}
+.otp{display:flex;gap:8px;justify-content:center}
+.otp input{width:44px;height:52px;text-align:center;font-size:1.25rem;font-weight:700;border-radius:12px;border:1px solid var(--line);background:#0b0c0f}
+button{border:0;border-radius:12px;padding:12px;background:#fff;color:#07080b;font-weight:700;cursor:pointer}
+</style>
+</head>
+<body><div class="stage"><div class="card"><h2 style="margin:0">Verify email</h2><p style="margin:0;color:var(--muted)">6 haneli kod</p><div class="otp" id="o"><input maxlength="1"/><input maxlength="1"/><input maxlength="1"/><input maxlength="1"/><input maxlength="1"/><input maxlength="1"/></div><button type="button">Confirm</button></div></div>
+<script>const is=[...document.querySelectorAll('#o input')];is.forEach((el,i)=>{el.addEventListener('input',()=>{if(el.value&&is[i+1])is[i+1].focus()});el.addEventListener('keydown',e=>{if(e.key==='Backspace'&&!el.value&&is[i-1])is[i-1].focus()})});is[0].focus()</script></body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Split Auth Pro</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+:root{--bg:#07080b;--ink:#eef1f6;--muted:#8b93a7;--line:rgb(255 255 255/.1);--a:#3d6bff;--b:#6ee7b7;--font:"Instrument Sans",system-ui,sans-serif}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:var(--font);color:var(--ink);background:radial-gradient(800px 420px at 15% -10%,rgb(61 107 255/.28),transparent 55%),radial-gradient(700px 400px at 90% 0,rgb(110 231 183/.12),transparent 50%),var(--bg)}
+button,input{font:inherit;color:inherit}
+.layout{min-height:100vh;display:grid;grid-template-columns:1.05fr 1fr}
+.cover{padding:40px;background:linear-gradient(160deg,#1d4ed8,#0f172a 55%,#042f2e);display:flex;flex-direction:column;justify-content:space-between}
+.cover h1{font-size:clamp(1.8rem,3vw,2.6rem);margin:0;max-width:11ch;line-height:1.08}
+.panel{display:grid;place-items:center;padding:28px}
+.card{width:min(360px,100%);display:grid;gap:10px}
+input,button{width:100%;border-radius:12px;border:1px solid var(--line);background:#10131a;padding:12px}
+button{background:linear-gradient(90deg,var(--a),#14b8a6);border:0;font-weight:700;cursor:pointer}
+@media(max-width:800px){.layout{grid-template-columns:1fr}.cover{min-height:180px}}
+</style>
+</head>
+<body><div class="layout"><aside class="cover"><div>◆ Nova</div><div><h1>Auth that feels expensive</h1><p style="opacity:.75">Joe Login 3/4 → React/Next premium split.</p></div><p style="opacity:.5;font-size:.85rem">shadcn · Better Auth</p></aside>
+<section class="panel"><div class="card"><h2 style="margin:0">Sign in</h2><input placeholder="Email"/><input type="password" placeholder="Password"/><button type="button">Continue</button></div></section></div></body>
+</html>

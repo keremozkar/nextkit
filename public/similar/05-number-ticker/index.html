@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Number Ticker</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+:root{--bg:#07080b;--ink:#eef1f6;--muted:#8b93a7;--line:rgb(255 255 255/.1);--a:#3d6bff;--b:#6ee7b7;--font:"Instrument Sans",system-ui,sans-serif}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:var(--font);color:var(--ink);background:radial-gradient(800px 420px at 15% -10%,rgb(61 107 255/.28),transparent 55%),radial-gradient(700px 400px at 90% 0,rgb(110 231 183/.12),transparent 50%),var(--bg)}
+button,input{font:inherit;color:inherit}
+.stage{min-height:100vh;display:grid;place-items:center;text-align:center}
+.n{font-size:clamp(3rem,10vw,5.5rem);font-weight:700;letter-spacing:-.04em}
+.l{color:var(--muted);margin-top:8px}
+</style>
+</head>
+<body><div class="stage"><div class="n" id="n">0</div><div class="l">Active users · Number Ticker</div></div>
+<script>const el=document.getElementById('n');const to=12840;const t0=performance.now();function frame(t){const p=Math.min(1,(t-t0)/1800);el.textContent=Math.floor(to*(1-Math.pow(1-p,3))).toLocaleString('en-US');if(p<1)requestAnimationFrame(frame)}requestAnimationFrame(frame)</script></body>
+</html>

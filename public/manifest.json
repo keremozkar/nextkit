@@ -16,6 +16,11 @@
       "order": 1
     },
     {
+      "id": "similar",
+      "label": "Benzer · Önerilen",
+      "order": 1.2
+    },
+    {
       "id": "premium-logins",
       "label": "Premium · Logins (React/Next)",
       "order": 1.5

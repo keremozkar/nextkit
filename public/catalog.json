@@ -6097,6 +6097,450 @@
           "/premium-logins/10-mobile-stack/react-adapt.tsx"
         ]
       }
+    },
+    {
+      "id": "similar-01-magic-shimmer-cta",
+      "kind": "local",
+      "group": "similar",
+      "groupLabel": "Benzer · Önerilen",
+      "groupOrder": 1.2,
+      "stack": "react/next",
+      "category": "Buttons",
+      "title": "Similar · Magic UI Shimmer CTA",
+      "blurb": "Magic UI shimmer button ruhu — premium CTA, React/Next copy-paste.",
+      "preview": "/similar/01-magic-shimmer-cta/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/similar/01-magic-shimmer-cta/index.html",
+      "source": "https://github.com/magicuidesign/magicui",
+      "stars": 22000,
+      "tags": [
+        "magic-ui",
+        "button",
+        "motion",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/similar/01-magic-shimmer-cta/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "similar-02-aceternity-spotlight-card",
+      "kind": "local",
+      "group": "similar",
+      "groupLabel": "Benzer · Önerilen",
+      "groupOrder": 1.2,
+      "stack": "react/next",
+      "category": "Cards",
+      "title": "Similar · Aceternity Spotlight Card",
+      "blurb": "Aceternity tarzı spotlight/hover kart — SaaS landing premiumluğu.",
+      "preview": "/similar/02-aceternity-spotlight-card/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/similar/02-aceternity-spotlight-card/index.html",
+      "source": "https://ui.aceternity.com/",
+      "stars": 28000,
+      "tags": [
+        "aceternity",
+        "card",
+        "spotlight",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/similar/02-aceternity-spotlight-card/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "similar-03-cult-tilt-card",
+      "kind": "local",
+      "group": "similar",
+      "groupLabel": "Benzer · Önerilen",
+      "groupOrder": 1.2,
+      "stack": "react/next",
+      "category": "Cards",
+      "title": "Similar · Cult UI Tilt Card",
+      "blurb": "Cult UI / design-engineer tilt kart — soft 3D, marka paneli.",
+      "preview": "/similar/03-cult-tilt-card/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/similar/03-cult-tilt-card/index.html",
+      "source": "https://github.com/nolly-studio/cult-ui",
+      "stars": 5800,
+      "tags": [
+        "cult-ui",
+        "tilt",
+        "card",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/similar/03-cult-tilt-card/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "similar-04-split-auth-pro",
+      "kind": "local",
+      "group": "similar",
+      "groupLabel": "Benzer · Önerilen",
+      "groupOrder": 1.2,
+      "stack": "react/next",
+      "category": "Auth",
+      "title": "Similar · Split Auth Pro",
+      "blurb": "Joe Login 3/4’ün üst seviye hali: split flip + glass + SSO.",
+      "preview": "/similar/04-split-auth-pro/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/similar/04-split-auth-pro/index.html",
+      "source": "https://ui.shadcn.com/blocks/authentication",
+      "stars": 88000,
+      "tags": [
+        "login",
+        "auth",
+        "shadcn",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/similar/04-split-auth-pro/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "similar-05-number-ticker",
+      "kind": "local",
+      "group": "similar",
+      "groupLabel": "Benzer · Önerilen",
+      "groupOrder": 1.2,
+      "stack": "react/next",
+      "category": "Motion",
+      "title": "Similar · Number Ticker",
+      "blurb": "Magic UI Number Ticker / CountUp benzeri — metrik vitrinleri için.",
+      "preview": "/similar/05-number-ticker/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/similar/05-number-ticker/index.html",
+      "source": "https://magicui.design",
+      "stars": 22000,
+      "tags": [
+        "countup",
+        "ticker",
+        "motion",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/similar/05-number-ticker/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "similar-06-beam-border",
+      "kind": "local",
+      "group": "similar",
+      "groupLabel": "Benzer · Önerilen",
+      "groupOrder": 1.2,
+      "stack": "react/next",
+      "category": "Effects",
+      "title": "Similar · Border Beam",
+      "blurb": "Dönen ışık kenar (Border Beam) — kart/CTA vurgusu.",
+      "preview": "/similar/06-beam-border/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/similar/06-beam-border/index.html",
+      "source": "https://magicui.design",
+      "stars": 22000,
+      "tags": [
+        "beam",
+        "border",
+        "effect",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/similar/06-beam-border/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "similar-07-marquee-row",
+      "kind": "local",
+      "group": "similar",
+      "groupLabel": "Benzer · Önerilen",
+      "groupOrder": 1.2,
+      "stack": "react/next",
+      "category": "Motion",
+      "title": "Similar · Logo Marquee",
+      "blurb": "Sonsuz marquee satırı — social proof / logo cloud.",
+      "preview": "/similar/07-marquee-row/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/similar/07-marquee-row/index.html",
+      "source": "https://magicui.design",
+      "stars": 22000,
+      "tags": [
+        "marquee",
+        "logo",
+        "motion",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/similar/07-marquee-row/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "similar-08-bento-glow",
+      "kind": "local",
+      "group": "similar",
+      "groupLabel": "Benzer · Önerilen",
+      "groupOrder": 1.2,
+      "stack": "react/next",
+      "category": "Cards",
+      "title": "Similar · Bento Glow",
+      "blurb": "Bento grid + glow hover — modern SaaS feature paneli.",
+      "preview": "/similar/08-bento-glow/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/similar/08-bento-glow/index.html",
+      "source": "https://ui.aceternity.com/",
+      "stars": 28000,
+      "tags": [
+        "bento",
+        "grid",
+        "aceternity",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/similar/08-bento-glow/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "similar-09-otp-glass",
+      "kind": "local",
+      "group": "similar",
+      "groupLabel": "Benzer · Önerilen",
+      "groupOrder": 1.2,
+      "stack": "react/next",
+      "category": "Auth",
+      "title": "Similar · OTP Glass Auth",
+      "blurb": "Cam yüzey OTP — Better Auth / Auth.js UI’ya yakın premium verify.",
+      "preview": "/similar/09-otp-glass/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/similar/09-otp-glass/index.html",
+      "source": "https://www.better-auth.com/",
+      "stars": 15000,
+      "tags": [
+        "otp",
+        "auth",
+        "login",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/similar/09-otp-glass/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "similar-10-mobile-auth-sheet",
+      "kind": "local",
+      "group": "similar",
+      "groupLabel": "Benzer · Önerilen",
+      "groupOrder": 1.2,
+      "stack": "react/next",
+      "category": "Auth",
+      "title": "Similar · Mobile Auth Sheet",
+      "blurb": "Mobil bottom-sheet auth — RN Web / Next mobile-first.",
+      "preview": "/similar/10-mobile-auth-sheet/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/similar/10-mobile-auth-sheet/index.html",
+      "source": "https://github.com/rnr-org/react-native-reusables",
+      "stars": 5000,
+      "tags": [
+        "mobile",
+        "auth",
+        "sheet",
+        "react-native",
+        "next"
+      ],
+      "files": {
+        "html": "/similar/10-mobile-auth-sheet/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "similar-11-gradient-text",
+      "kind": "local",
+      "group": "similar",
+      "groupLabel": "Benzer · Önerilen",
+      "groupOrder": 1.2,
+      "stack": "react/next",
+      "category": "Motion",
+      "title": "Similar · Gradient Text",
+      "blurb": "Animasyonlu gradient yazı — hero headline premiumluğu.",
+      "preview": "/similar/11-gradient-text/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/similar/11-gradient-text/index.html",
+      "source": "https://magicui.design",
+      "stars": 22000,
+      "tags": [
+        "text",
+        "gradient",
+        "motion",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/similar/11-gradient-text/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "similar-12-social-oauth-stack",
+      "kind": "local",
+      "group": "similar",
+      "groupLabel": "Benzer · Önerilen",
+      "groupOrder": 1.2,
+      "stack": "react/next",
+      "category": "Auth",
+      "title": "Similar · Social OAuth Stack",
+      "blurb": "Social-first auth stack — Google/GitHub/Apple, SaaS onboarding.",
+      "preview": "/similar/12-social-oauth-stack/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/similar/12-social-oauth-stack/index.html",
+      "source": "https://ui.shadcn.com/blocks/authentication",
+      "stars": 88000,
+      "tags": [
+        "oauth",
+        "social",
+        "login",
+        "react",
+        "next"
+      ],
+      "files": {
+        "html": "/similar/12-social-oauth-stack/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "mobile-rn-reusables-auth",
+      "kind": "local",
+      "group": "mobile",
+      "groupLabel": "Mobil · React Native",
+      "groupOrder": 2,
+      "stack": "react-native",
+      "category": "Auth",
+      "title": "Mobile · RN Reusables Auth",
+      "blurb": "react-native-reusables tarzı mobil auth — shadcn ruhu RN’de.",
+      "preview": "/mobile-kits/rn-reusables-auth/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/mobile-kits/rn-reusables-auth/index.html",
+      "source": "https://github.com/rnr-org/react-native-reusables",
+      "stars": 5000,
+      "tags": [
+        "mobile",
+        "react-native",
+        "auth"
+      ],
+      "files": {
+        "html": "/mobile-kits/rn-reusables-auth/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "mobile-gluestack-form",
+      "kind": "local",
+      "group": "mobile",
+      "groupLabel": "Mobil · React Native",
+      "groupOrder": 2,
+      "stack": "react-native",
+      "category": "Forms",
+      "title": "Mobile · gluestack Form",
+      "blurb": "gluestack-ui form / input stack — erişilebilir mobil form.",
+      "preview": "/mobile-kits/gluestack-form/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/mobile-kits/gluestack-form/index.html",
+      "source": "https://github.com/gluestack/gluestack-ui",
+      "stars": 4000,
+      "tags": [
+        "mobile",
+        "react-native",
+        "forms"
+      ],
+      "files": {
+        "html": "/mobile-kits/gluestack-form/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
+    },
+    {
+      "id": "mobile-nativewind-sheet",
+      "kind": "local",
+      "group": "mobile",
+      "groupLabel": "Mobil · React Native",
+      "groupOrder": 2,
+      "stack": "react-native",
+      "category": "Sheets",
+      "title": "Mobile · NativeWind Sheet",
+      "blurb": "NativeWind + bottom sheet pattern — Tailwind RN.",
+      "preview": "/mobile-kits/nativewind-sheet/index.html",
+      "previewMode": "iframe",
+      "liveUrl": "/mobile-kits/nativewind-sheet/index.html",
+      "source": "https://www.nativewind.dev/",
+      "stars": 6000,
+      "tags": [
+        "mobile",
+        "react-native",
+        "sheets"
+      ],
+      "files": {
+        "html": "/mobile-kits/nativewind-sheet/index.html",
+        "css": null,
+        "js": null,
+        "allCss": [],
+        "allJs": []
+      }
     }
   ],
   "meta": {
@@ -6111,6 +6555,8 @@
     ],
     "premiumLogins": 10,
     "premiumLoginsPath": "/premium-logins/",
-    "reactBitsSource": "/react-bits-src/"
+    "reactBitsSource": "/react-bits-src/",
+    "similarCount": 12,
+    "mobileCount": 3
   }
 }

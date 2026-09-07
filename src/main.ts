@@ -1,5 +1,6 @@
 import './style.css'
 import { howItWorksFor } from './howItWorks'
+import { GROUP_SECTIONS, catLabel } from './sidebarMeta'
 
 type DemoFiles = {
   html: string
@@ -70,7 +71,7 @@ let activeCategory = 'all'
 let query = ''
 let favorites = new Set<string>()
 const codeCache = new Map<string, string>()
-const openGroups = new Set<string>(['all', 'favorites', 'copy-paste', 'premium-logins', 'mobile', 'joe-reels'])
+const openGroups = new Set<string>(['all', 'favorites', 'copy-paste', 'premium-logins', 'similar', 'joe-reels'])
 
 function esc(s: string) {
   return s
@@ -279,11 +280,17 @@ function render() {
       }
 
       <div class="group-nav">
-        ${groups
-          .map((g) => {
-            const count = countInGroup(g.id)
-            const isActive = highlightGroup === g.id
-            return `
+        ${GROUP_SECTIONS.map((section) => {
+          const sectionGroups = groups.filter((g) => section.groupIds.includes(g.id))
+          if (!sectionGroups.length) return ''
+          return `
+          <div class="nav-section">
+            <div class="nav-section__label">${esc(section.label)}</div>
+            ${sectionGroups
+              .map((g) => {
+                const count = countInGroup(g.id)
+                const isActive = highlightGroup === g.id
+                return `
             <div class="group-block ${isActive ? 'active' : ''}">
               <button type="button" class="group-head" data-group="${esc(g.id)}" data-toggle-group="${esc(g.id)}">
                 <span>${esc(g.label)}</span>
@@ -296,15 +303,17 @@ function render() {
                       ${cats
                         .map(
                           (c) =>
-                            `<button type="button" class="cat-btn ${activeCategory === c ? 'active' : ''}" data-cat="${esc(c)}">${esc(c)}</button>`,
+                            `<button type="button" class="cat-btn ${activeCategory === c ? 'active' : ''}" data-cat="${esc(c)}">${esc(catLabel(c))}</button>`,
                         )
                         .join('')}
                     </div>`
                   : ''
               }
             </div>`
-          })
-          .join('')}
+              })
+              .join('')}
+          </div>`
+        }).join('')}
       </div>
 
       <p class="meta-line">${list.length} öğe</p>
@@ -315,8 +324,8 @@ function render() {
                 .map((it) => {
                   const fav = favorites.has(it.id)
                   const sub = searching
-                    ? `${it.groupLabel} · ${it.category}`
-                    : `${it.category}${it.stars ? ` · ${starLabel(it.stars)}` : ''}${it.kind === 'external' ? ' · external' : ''}`
+                    ? `${it.groupLabel} · ${catLabel(it.category)}`
+                    : `${catLabel(it.category)}${it.stars ? ` · ${starLabel(it.stars)}` : ''}${it.kind === 'external' ? ' · external' : ''}`
                   return `
               <div class="demo-row ${item?.id === it.id ? 'active' : ''}">
                 <button type="button" class="star-btn ${fav ? 'on' : ''}" data-star="${esc(it.id)}" title="Favorilere ekle/çıkar">${fav ? '★' : '☆'}</button>
@@ -546,14 +555,15 @@ async function boot() {
       )
     }
 
+    const local: Item[] = manifestDemos.map((d) => ({ ...d, kind: d.kind || 'local' }))
+    items = [...catalogItems, ...local]
+
     groups = [
       { id: 'all', label: 'Tümü', order: -1 },
       ...manifestGroups,
     ]
       .filter((g) => g.id === 'all' || g.id === 'favorites' || countInGroup(g.id) > 0)
       .sort((a, b) => a.order - b.order)
-    const local: Item[] = manifestDemos.map((d) => ({ ...d, kind: d.kind || 'local' }))
-    items = [...catalogItems, ...local]
 
     if (!items.some((i) => i.group === activeGroup) && activeGroup !== 'all' && activeGroup !== 'favorites') {
       activeGroup = 'all'

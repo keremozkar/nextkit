@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Shimmer CTA</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+:root{--bg:#07080b;--ink:#eef1f6;--muted:#8b93a7;--line:rgb(255 255 255/.1);--a:#3d6bff;--b:#6ee7b7;--font:"Instrument Sans",system-ui,sans-serif}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:var(--font);color:var(--ink);background:radial-gradient(800px 420px at 15% -10%,rgb(61 107 255/.28),transparent 55%),radial-gradient(700px 400px at 90% 0,rgb(110 231 183/.12),transparent 50%),var(--bg)}
+button,input{font:inherit;color:inherit}
+.stage{min-height:100vh;display:grid;place-items:center;padding:24px}
+.btn{position:relative;overflow:hidden;border:0;border-radius:999px;padding:14px 28px;font-weight:700;background:#0a0a0a;cursor:pointer}
+.btn::before{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgb(255 255 255/.55),transparent 70%);transform:translateX(-120%);animation:shimmer 2.4s infinite}
+@keyframes shimmer{to{transform:translateX(120%)}}
+.btn span{position:relative;z-index:1}
+</style>
+</head>
+<body><div class="stage"><button class="btn" type="button"><span>Get started — Magic style</span></button></div></body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tilt Card</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+:root{--bg:#07080b;--ink:#eef1f6;--muted:#8b93a7;--line:rgb(255 255 255/.1);--a:#3d6bff;--b:#6ee7b7;--font:"Instrument Sans",system-ui,sans-serif}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:var(--font);color:var(--ink);background:radial-gradient(800px 420px at 15% -10%,rgb(61 107 255/.28),transparent 55%),radial-gradient(700px 400px at 90% 0,rgb(110 231 183/.12),transparent 50%),var(--bg)}
+button,input{font:inherit;color:inherit}
+.stage{min-height:100vh;display:grid;place-items:center;perspective:900px;padding:24px}
+.card{width:min(320px,100%);height:200px;border-radius:18px;border:1px solid var(--line);background:linear-gradient(145deg,#12141a,#1a1030);padding:22px;transform-style:preserve-3d;transition:transform .12s ease-out}
+h2{margin:0 0 8px}p{margin:0;color:var(--muted)}
+</style>
+</head>
+<body><div class="stage"><div class="card" id="t"><h2>Cult Tilt</h2><p>Soft 3D tilt — design-engineer kartı.</p></div></div>
+<script>const t=document.getElementById('t');t.onmousemove=e=>{const r=t.getBoundingClientRect();const x=(e.clientX-r.left)/r.width-.5;const y=(e.clientY-r.top)/r.height-.5;t.style.transform=`rotateX(${(-y*10).toFixed(2)}deg) rotateY(${(x*12).toFixed(2)}deg)`};t.onmouseleave=()=>t.style.transform='rotateX(0) rotateY(0)'</script></body>
+</html>

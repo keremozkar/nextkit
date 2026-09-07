@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Border Beam</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+:root{--bg:#07080b;--ink:#eef1f6;--muted:#8b93a7;--line:rgb(255 255 255/.1);--a:#3d6bff;--b:#6ee7b7;--font:"Instrument Sans",system-ui,sans-serif}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:var(--font);color:var(--ink);background:radial-gradient(800px 420px at 15% -10%,rgb(61 107 255/.28),transparent 55%),radial-gradient(700px 400px at 90% 0,rgb(110 231 183/.12),transparent 50%),var(--bg)}
+button,input{font:inherit;color:inherit}
+.stage{min-height:100vh;display:grid;place-items:center;padding:24px}
+.wrap{position:relative;width:min(380px,100%);border-radius:18px;padding:1.5px;overflow:hidden}
+.wrap::before{content:"";position:absolute;inset:-40%;background:conic-gradient(from var(--a,0deg),transparent,#3d6bff,transparent 30%);animation:spin 3s linear infinite}
+@keyframes spin{to{--a:360deg}}@property --a{syntax:'<angle>';inherits:false;initial-value:0deg}
+.inner{position:relative;border-radius:17px;background:#0e1016;padding:28px}
+h2{margin:0 0 8px}p{margin:0;color:var(--muted)}
+</style>
+</head>
+<body><div class="stage"><div class="wrap"><div class="inner"><h2>Border Beam</h2><p>Dönen ışık kenar — Magic UI Border Beam referansı.</p></div></div></div></body>
+</html>
