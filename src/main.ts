@@ -121,25 +121,25 @@ function filteredItems(): Item[] {
   const searching = q.length > 0
   return items.filter((it) => {
     if (searching) {
-      // Arama = her zaman tüm katalog (favoriler seçiliyse sadece favoriler)
-      if (activeGroup === 'favorites') return favorites.has(it.id) && matchesQuery(it, q)
-      return matchesQuery(it, q)
+      if (activeGroup === 'favorites' && !favorites.has(it.id)) return false
+      if (!matchesQuery(it, q)) return false
+    } else if (activeGroup === 'favorites') {
+      if (!favorites.has(it.id)) return false
+    } else if (activeGroup !== 'all' && it.group !== activeGroup) {
+      return false
     }
-    if (activeGroup === 'all') return true
-    if (activeGroup === 'favorites') return favorites.has(it.id)
-    if (it.group !== activeGroup) return false
     if (activeCategory !== 'all' && it.category !== activeCategory) return false
     return true
   })
 }
 
 function categoriesForGroup(groupId: string): string[] {
-  if (groupId === 'all') return [...new Set(items.map((i) => i.category))].sort()
-  const pool =
-    groupId === 'favorites'
-      ? items.filter((i) => favorites.has(i.id))
-      : items.filter((i) => i.group === groupId)
-  return [...new Set(pool.map((i) => i.category))].sort()
+  const q = query.trim().toLowerCase()
+  let pool = items
+  if (groupId === 'favorites') pool = items.filter((i) => favorites.has(i.id))
+  else if (groupId !== 'all') pool = items.filter((i) => i.group === groupId)
+  if (q) pool = pool.filter((i) => matchesQuery(i, q))
+  return [...new Set(pool.map((i) => i.category).filter(Boolean))].sort()
 }
 
 function activeItem(): Item | null {
@@ -250,8 +250,8 @@ function render() {
   const searching = query.trim().length > 0
   const list = filteredItems()
   const item = activeItem()
-  const cats = searching || activeGroup === 'all' ? [] : categoriesForGroup(activeGroup)
-  const highlightGroup = searching ? 'all' : activeGroup
+  const highlightGroup = searching && activeGroup !== 'favorites' ? 'all' : activeGroup
+  const cats = categoriesForGroup(highlightGroup)
   const sidebarEl = app.querySelector<HTMLElement>('.sidebar')
   const sidebarScroll = sidebarEl?.scrollTop ?? 0
 
@@ -281,7 +281,6 @@ function render() {
       <div class="group-nav">
         ${groups
           .map((g) => {
-            const open = openGroups.has(g.id) || highlightGroup === g.id
             const count = countInGroup(g.id)
             const isActive = highlightGroup === g.id
             return `
@@ -291,7 +290,7 @@ function render() {
                 <span class="count">${count}</span>
               </button>
               ${
-                open && isActive && cats.length
+                isActive && cats.length
                   ? `<div class="cat-list">
                       <button type="button" class="cat-btn ${activeCategory === 'all' ? 'active' : ''}" data-cat="all">Tümü</button>
                       ${cats
