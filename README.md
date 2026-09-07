@@ -2,7 +2,7 @@
 
 Instagram [@frontendjoe](https://www.instagram.com/frontendjoe) + yüksek yıldızlı UI kit’lerini tek yerde toplar:
 
-- **Kategoriler:** Favoriler · Copy-paste Motion · Mobil · Flowbite · Joe Reels/CSS/Nav/Sidebar/ES6/JS
+- **Kategoriler:** Favoriler · Copy-paste Motion · Mobil · Flowbite · Joe Reels/CSS/Sidebar/ES6/JS
 - ★ **Favoriler** (localStorage)
 - canlı **HTML önizleme** (yerel demolar) + harici demo linkleri
 - **Copy kod** / **Copy uyarla prompt** / **Copy hepsi**
