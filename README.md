@@ -13,6 +13,21 @@ Instagram [@frontendjoe](https://www.instagram.com/frontendjoe) + yüksek yıld�
 
 > Instagram scrape yok. Kaynaklar GitHub’dan yerelleştirildi.
 
+## Bilgisayarına al
+
+1. Cursor’da **Create repo** ile gerçek bir GitHub/GitLab reposu oluştur.
+2. Sonra kendi makinenizde:
+
+```bash
+git clone <repo-url>
+cd <repo-klasoru>
+docker compose up --build -d
+# veya:
+npm install && npm run build:kits && npm run build:next && npm run dev
+```
+
+Aç: http://127.0.0.1:43127
+
 ## Çalıştır
 
 ### Docker (önerilen)
