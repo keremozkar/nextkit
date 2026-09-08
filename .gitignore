@@ -25,3 +25,4 @@ lerna-debug.log*
 kits-next/node_modules
 kits-next/.next
 kits-next/out
+pattern-lab-local.zip
