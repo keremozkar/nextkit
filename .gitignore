@@ -29,3 +29,7 @@ pattern-lab-local.zip
 pattern-lab.zip
 public/pattern-lab.zip
 pattern-lab-local.zip
+
+public/download/
+public/pattern-lab.zip
+pattern-lab*.zip
